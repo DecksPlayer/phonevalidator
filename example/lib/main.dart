@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<String> languages = ['ar','hi','id','it','ja','pt','en', 'es', 'fr','ko','de','ru', 'ur']; // Add more languages as needed
   List<Country> countries = [];
 
-  PhoneValidator phoneValidatorEn = PhoneValidator(lang: 'en');
+  PhoneValidator phoneValidatorEn = PhoneValidator(lang: 'ur');
   PhoneValidator phoneValidatorEs = PhoneValidator(lang: 'es');
 
   @override
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             FractionallySizedBox(
-                widthFactor: 0.7,
+                widthFactor: 1,
                 child: PhoneInputSelectorView(phoneValidator: phoneValidator.value!)),
             ListenableBuilder(
                 listenable: phoneValidator!.value.isValidPhoneNotifier,
