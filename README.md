@@ -222,6 +222,29 @@ You can listen to the `isValidPhoneNotifier` within the controller to react to c
 | +226         | 61234567     | Valid               | Burkina Faso |
 | +257         | 61234567     | Valid               | Burundi   |
 | +237         | 61234567     | Valid               | Cameroon  |
+| +238         | 61234567     | Valid               | Cape Verde |
+| +242         | 2221234567   | Valid               | Congo     |
+| +243         | 81234567     | Valid               | Congo - Kinshasa |
+| +253         | 61234567     | Valid               | Djibouti  |
+| +236         | 61234567     | Valid               | Central African Republic |
+| +240         | 91234567     | Valid               | Equatorial Guinea |
+| +291         | 61234567     | Valid               | Eritrea   |
+| +251         | 91234567     | Valid               | Ethiopia  |
+| +220         | 91234567     | Valid               | Gambia    |
+| +233         | 201234567    | Valid               | Ghana     |
+| +241         | 61234567     | Valid               | Gabon     |
+| +224         | 61234567     | Valid               | Guinea    |
+| +245         | 61234567     | Valid               | Guinea-Bissau |
+| +254         | 71234567     | Valid               | Kenya     |
+| +269         | 61234567     | Valid               | Comoros   |
+| +225         | 61234567     | Valid               | Chad      |
+| +266         | 61234567     | Valid               | Lesotho   |
+| +231         | 61234567     | Valid               | Liberia   |
+| +218         | 61234567     | Valid               | Libya     |
+| +232         | 61234567     | Valid               | Malawi    |
+| +261         | 61234567     | Valid               | Madagascar |
+| +265         | 61234567     | Valid               | Maldives  |
+| +223         | 61234567     | Valid               | Mali      |
 
 
 

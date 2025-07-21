@@ -85,3 +85,7 @@
 ## 2.0.0
 - fix documentation
 - add support for the countries.
+
+## 2.0.1
+- Test all Countries
+- Fixed Countries mask

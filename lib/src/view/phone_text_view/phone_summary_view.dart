@@ -75,7 +75,6 @@ class _PhoneSummaryView extends State<PhoneSummaryView> {
                 builder: (context, isValid, _) {
                   String aux = widget.fullPhoneNumber.replaceFirst(country!.dialCode, '');
                   _phoneEditingController.text = aux;
-
                   return  Padding(
                           padding:
                           const EdgeInsets.only(left: 15, right: 15, bottom: 15),
