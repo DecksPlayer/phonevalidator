@@ -262,3 +262,7 @@ You can listen to the `isValidPhoneNotifier` within the controller to react to c
 If you find this package helpful and want to support its development, consider making a donation. Thank you for your support!
 
 [![Support via PayPal](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png)](https://www.paypal.com/paypalme/gonojuarez)
+
+### Badges
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/DecksPlayer/phonevalidator)
