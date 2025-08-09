@@ -91,4 +91,8 @@
 - Fixed Countries mask
 
 ## 2.0.2
- - Save Country in PhoneValidator when it is a valid number in PhoneAutoDetectView
+- Save Country in PhoneValidator when it is a valid number in PhoneAutoDetectView
+
+## 2.0.3
+- Fixed a Production bug
+

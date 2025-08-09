@@ -61,7 +61,8 @@ class _PhoneAutoDetectView extends State<PhoneAutoDetectView> {
             valueListenable: widget.phoneValidator.isValidPhoneNotifier,
             builder: (context, isValid, _) {
               Country? country = widget.phoneValidator.getCountryByPhone(countries,_phoneEditingController.value.text);
-              widget.phoneValidator.setCountry(country!);
+              if(country!=null)
+                widget.phoneValidator.setCountry(country!);
               return  Padding(
                   padding:
                   const EdgeInsets.only(left: 15, right: 15, bottom: 15),
