@@ -89,3 +89,6 @@
 ## 2.0.1
 - Test all Countries
 - Fixed Countries mask
+
+## 2.0.2
+ - Save Country in PhoneValidator when it is a valid number in PhoneAutoDetectView

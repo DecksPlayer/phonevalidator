@@ -1,6 +1,6 @@
 name: cellphone_validator
 description: "A widget and helper for validation internation phone numbers"
-version: 2.0.1
+version: 2.0.2
 homepage: https://github.com/Decksplayer/phonevalidator
 repository: https://github.com/Decksplayer/phonevalidator
 
