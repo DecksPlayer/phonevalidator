@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_ur = [
   {
     "countryName": "زمبابوے",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "جزیرہ اسینشن",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "امریکی ساموا",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "اروبا",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "جزائر اولانڈ",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "سینٹ بارتھیلمی",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "برمودا",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "کیریبین نیدرلینڈز",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "کوکوس (کیلنگ) جزائر",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "کوٹ ڈی آئیوری",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "جزائر کک",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "کیوراساؤ",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "جزیرہ کرسمس",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "مغربی صحرا",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "جزائر فاک لینڈ",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "جزائر فارو",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "فرانسیسی گیانا",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "گرنزی",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "جبرالٹر",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "گواڈيلوپ",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "گوام",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "آئل آف مین",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "برطانوی مقبوضہ بحر ہند",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "جرسی",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "جزائر کیمین",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "سینٹ مارٹن",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "مکاؤ ایس اے آر چین",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "شمالی ماریانا جزائر",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "مارٹینیک",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "مونٹسیراٹ",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "نیو کیلیڈونیا",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "نارک جزیرہ",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "نیووے",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "فرانسیسی پولینیشیا",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "سینٹ پیئر اور میکیلون",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "پورٹو ریکو",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "ری یونین",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "سینٹ ہیلینا",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "سوالبارڈ اور جان میئن",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "سنٹ مارٹن",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "ترستان دا کونہا",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "ٹرکس اور کائکوس جزائر",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "ٹوکیلاؤ",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "برطانوی جزائر ورجن",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "امریکی جزائر ورجن",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "والس اور فیوٹونا",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "مایوٹ",
+    "isoCode": "YT",
   }
 ];

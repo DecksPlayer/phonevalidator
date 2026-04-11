@@ -660,8 +660,8 @@ List<Map<String, dynamic>> countries_en = [
     "isoCode": "KR",
   },
   {
-    "country_name": "South Sudan",
-    "iso_code": "SS",
+    "countryName": "South Sudan",
+    "isoCode": "SS",
   },
   {
     "countryName": "Spain",
@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_en = [
   {
     "countryName": "Zimbabwe",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "Ascension Island",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "American Samoa",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "Aruba",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "Åland Islands",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "Saint Barthélemy",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "Bermuda",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "Caribbean Netherlands",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "Cocos (Keeling) Islands",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "Côte d’Ivoire",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "Cook Islands",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "Curaçao",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "Christmas Island",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "Western Sahara",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "Falkland Islands",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "Faroe Islands",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "French Guiana",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "Guernsey",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "Gibraltar",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "Guadeloupe",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "Guam",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "Isle of Man",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "British Indian Ocean Territory",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "Jersey",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "Cayman Islands",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "Saint Martin",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "Macao SAR China",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "Northern Mariana Islands",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "Martinique",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "Montserrat",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "New Caledonia",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "Norfolk Island",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "Niue",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "French Polynesia",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "Saint Pierre and Miquelon",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "Puerto Rico",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "Réunion",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "Saint Helena",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "Svalbard and Jan Mayen",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "Sint Maarten",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "Tristan da Cunha",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "Turks and Caicos Islands",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "Tokelau",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "British Virgin Islands",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "U.S. Virgin Islands",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "Wallis and Futuna",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "Mayotte",
+    "isoCode": "YT",
   }
 ];

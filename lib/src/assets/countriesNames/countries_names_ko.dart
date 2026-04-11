@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_ko = [
   {
     "countryName": "짐바브웨",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "어센션섬",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "아메리칸 사모아",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "아루바",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "올란드 제도",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "생바르텔레미",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "버뮤다",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "카리브 네덜란드",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "코코스(킬링) 제도",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "코트디부아르",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "쿡 제도",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "퀴라소",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "크리스마스섬",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "서사하라",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "포클랜드 제도",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "페로 제도",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "프랑스령 기아나",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "건지",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "지브롤터",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "과들루프",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "괌",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "맨섬",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "영국령 인도양 지역",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "저지",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "케이먼 제도",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "생마르탱",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "중국 마카오 특별행정구",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "북마리아나 제도",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "마르티니크",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "몬세라트",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "뉴칼레도니아",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "노퍽섬",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "니우에",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "프랑스령 폴리네시아",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "생피에르 미클롱",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "푸에르토리코",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "레위니옹",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "세인트헬레나",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "스발바르 및 얀마옌 제도",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "신트마르턴",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "트리스탄다쿠냐",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "터크스 케이커스 제도",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "토켈라우",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "영국령 버진아일랜드",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "미국령 버진아일랜드",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "왈리스 푸투나",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "마요트",
+    "isoCode": "YT",
   }
 ];

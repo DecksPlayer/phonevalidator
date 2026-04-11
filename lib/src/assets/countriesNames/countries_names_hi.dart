@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_hi = [
   {
     "countryName": "ज़िम्बाब्वे",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "असेंशन द्वीप",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "अमेरिकी समोआ",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "अरूबा",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "ऑलैंड द्वीपसमूह",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "सेंट बार्थेलेमी",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "बरमूडा",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "कैरेबियाई नीदरलैंड",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "कोकोस (कीलिंग) द्वीपसमूह",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "कोटे डी आइवर",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "कुक द्वीपसमूह",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "कुराकाओ",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "क्रिसमस द्वीप",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "पश्चिमी सहारा",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "फ़ॉकलैंड द्वीपसमूह",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "फ़रो द्वीपसमूह",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "फ़्रेंच गयाना",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "ग्वेर्नसे",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "जिब्राल्टर",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "गुआदेलूप",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "गुआम",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "आइल ऑफ मैन",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "ब्रिटिश हिंद महासागर क्षेत्र",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "जर्सी",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "केमैन द्वीपसमूह",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "सेंट मार्टिन",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "मकाऊ एसएआर चीन",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "उत्तरी मारियाना द्वीपसमूह",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "मार्टीनिक",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "मोंटसेराट",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "न्यू कैलेडोनिया",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "नॉरफ़ॉक द्वीप",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "नियू",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "फ़्रेंच पोलिनेशिया",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "सेंट पियरे और मिकेलन",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "प्यूर्टो रिको",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "रियूनियन",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "सेंट हेलेना",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "स्वालबार्ड और जान मायेन",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "सिंट मार्टेन",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "ट्रिस्टन दा कुन्हा",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "तुर्क और कैकोस द्वीपसमूह",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "टोकेलौ",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "ब्रिटिश वर्जिन द्वीपसमूह",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "यूएस वर्जिन द्वीपसमूह",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "वालिस और फ़्यूचूना",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "मायोटे",
+    "isoCode": "YT",
   }
 ];

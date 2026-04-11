@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_ja = [
   {
     "countryName": "ジンバブエ",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "アセンション島",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "米領サモア",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "アルバ",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "オーランド諸島",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "サン・バルテルミー島",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "バミューダ",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "オランダ領カリブ",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "ココス（キーリング）諸島",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "コートジボワール",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "クック諸島",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "キュラソー",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "クリスマス島",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "西サハラ",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "フォークランド諸島",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "フェロー諸島",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "仏領ギアナ",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "ガーンジー",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "ジブラルタル",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "グアドループ",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "グアム",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "マン島",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "英領インド洋地域",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "ジャージー",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "ケイマン諸島",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "サン・マルタン",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "中華人民共和国マカオ特別行政区",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "北マリアナ諸島",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "マルティニーク",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "モントセラト",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "ニューカレドニア",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "ノーフォーク島",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "ニウエ",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "仏領ポリネシア",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "サンピエール島・ミクロン島",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "プエルトリコ",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "レユニオン",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "セントヘレナ",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "スヴァールバル諸島およびヤンマイエン島",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "シント・マールテン",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "トリスタンダクーニャ",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "タークス・カイコス諸島",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "トケラウ",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "英領ヴァージン諸島",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "米領ヴァージン諸島",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "ウォリス・フツナ",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "マヨット",
+    "isoCode": "YT",
   }
 ];

@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_zh= [
   {
     "countryName": "津巴布韦",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "阿森松岛",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "美属萨摩亚",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "阿鲁巴",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "奥兰群岛",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "圣巴泰勒米",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "百慕大",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "荷属加勒比区",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "科科斯（基林）群岛",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "科特迪瓦",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "库克群岛",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "库拉索",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "圣诞岛",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "西撒哈拉",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "福克兰群岛",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "法罗群岛",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "法属圭亚那",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "根西岛",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "直布罗陀",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "瓜德罗普",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "关岛",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "马恩岛",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "英属印度洋领地",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "泽西岛",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "开曼群岛",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "法属圣马丁",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "中国澳门特别行政区",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "北马里亚纳群岛",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "马提尼克",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "蒙特塞拉特",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "新喀里多尼亚",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "诺福克岛",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "纽埃",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "法属波利尼西亚",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "圣皮埃尔和密克隆群岛",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "波多黎各",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "留尼汪",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "圣赫勒拿",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "斯瓦巴及延马恩岛",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "荷属圣马丁",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "特里斯坦-达库尼亚群岛",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "特克斯和凯科斯群岛",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "托克劳",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "英属维尔京群岛",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "美属维尔京群岛",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "瓦利斯和富图纳",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "马约特",
+    "isoCode": "YT",
   }
 ];

@@ -28,6 +28,10 @@ List<Map<String, dynamic>> countries_it = [
     "isoCode": "AG",
   },
   {
+    "countryName": "Arabia Saudita",
+    "isoCode": "SA",
+  },
+  {
     "countryName": "Argentina",
     "isoCode": "AR",
   },
@@ -790,5 +794,189 @@ List<Map<String, dynamic>> countries_it = [
   {
     "countryName": "Zimbabwe",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "Isola di Ascensione",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "Samoa americane",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "Aruba",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "Isole Åland",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "San Bartolomeo",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "Bermuda",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "Paesi Bassi caraibici",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "Isole Cocos (Keeling)",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "Costa d’Avorio",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "Isole Cook",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "Curaçao",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "Isola di Natale",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "Sahara occidentale",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "Isole Falkland",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "Isole Fær Øer",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "Guyana francese",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "Guernsey",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "Gibilterra",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "Guadalupa",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "Guam",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "Isola di Man",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "Territorio britannico dell'Oceano Indiano",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "Jersey",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "Isole Cayman",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "San Martino",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "RAE di Macao (Cina)",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "Isole Marianne Settentrionali",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "Martinica",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "Montserrat",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "Nuova Caledonia",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "Isola Norfolk",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "Niue",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "Polinesia francese",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "Saint-Pierre e Miquelon",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "Porto Rico",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "Riunione",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "Sant'Elena",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "Svalbard e Jan Mayen",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "Sint Maarten",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "Tristan da Cunha",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "Isole Turks e Caicos",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "Tokelau",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "Isole Vergini britanniche",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "Isole Vergini americane",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "Wallis e Futuna",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "Mayotte",
+    "isoCode": "YT",
   }
 ];

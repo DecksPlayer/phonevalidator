@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_ru = [
   {
     "countryName": "Зимбабве",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "Остров Вознесения",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "Американское Самоа",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "Аруба",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "Аландские острова",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "Сен-Бартелеми",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "Бермудские острова",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "Бонайре, Синт-Эстатиус и Саба",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "Кокосовые острова",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "Кот-д’Ивуар",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "Острова Кука",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "Кюрасао",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "Остров Рождества",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "Западная Сахара",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "Фолклендские острова",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "Фарерские острова",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "Французская Гвиана",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "Гернси",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "Гибралтар",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "Гваделупа",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "Гуам",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "Остров Мэн",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "Британская территория в Индийском океане",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "Джерси",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "Каймановы острова",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "Сен-Мартен",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "ОАР Макао (Китай)",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "Северные Марианские острова",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "Мартиника",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "Монтсеррат",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "Новая Каледония",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "Остров Норфолк",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "Ниуэ",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "Французская Полинезия",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "Сен-Пьер и Микелон",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "Пуэрто-Рико",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "Реюньон",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "Остров Святой Елены",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "Шпицберген и Ян-Майен",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "Синт-Мартен",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "Тристан-да-Кунья",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "Теркс и Кайкос",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "Токелау",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "Британские Виргинские острова",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "Виргинские острова (США)",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "Уоллис и Футуна",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "Майотта",
+    "isoCode": "YT",
   }
 ];

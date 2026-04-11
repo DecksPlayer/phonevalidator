@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_id = [
   {
     "countryName": "Zimbabwe",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "Pulau Kenaikan",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "Samoa Amerika",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "Aruba",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "Kepulauan Åland",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "Saint Barthélemy",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "Bermuda",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "Bonaire, Sint Eustatius, dan Saba",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "Kepulauan Cocos (Keeling)",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "Pantai Gading",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "Kepulauan Cook",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "Curaçao",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "Pulau Natal",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "Sahara Barat",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "Kepulauan Falkland",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "Kepulauan Faroe",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "Guyana Prancis",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "Guernsey",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "Gibraltar",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "Guadeloupe",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "Guam",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "Pulau Man",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "Wilayah Samudra Hindia Britania",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "Jersey",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "Kepulauan Cayman",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "Saint Martin",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "Makau SAR Tiongkok",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "Kepulauan Mariana Utara",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "Martinik",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "Montserrat",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "Kaledonia Baru",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "Pulau Norfolk",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "Niue",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "Polinesia Prancis",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "Saint Pierre dan Miquelon",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "Puerto Riko",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "Réunion",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "Saint Helena",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "Svalbard dan Jan Mayen",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "Sint Maarten",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "Tristan da Cunha",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "Kepulauan Turks dan Caicos",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "Tokelau",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "Kepulauan Virgin Britania",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "Kepulauan Virgin AS",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "Wallis dan Futuna",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "Mayotte",
+    "isoCode": "YT",
   }
 ];

@@ -28,7 +28,7 @@ void main() async {
 
   buffer.writeln('];');
 
-  final outputFile = File('../../lib/src/assets/supported_countries.dart');
+  final outputFile = File('lib/src/assets/supported_countries.dart');
   await outputFile.writeAsString(buffer.toString());
 
   print('✅ supported_countries.dart generated successfully.');

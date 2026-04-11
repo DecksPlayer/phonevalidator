@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_ar = [
   {
     "countryName": "زيمبابوي",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "جزيرة أسينشين",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "ساموا الأمريكية",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "أروبا",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "جزر أولاند",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "سان بارتولومي",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "برمودا",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "جزر الكاريبي الهولندية",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "جزر كوكوس (كيلينغ)",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "كوت ديفوار",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "جزر كوك",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "كوراساو",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "جزيرة كريسماس",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "الصحراء الغربية",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "جزر فوكلاند",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "جزر فارو",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "غيانا الفرنسية",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "غيرنزي",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "جبل طارق",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "غوادلوب",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "غوام",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "جزيرة مان",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "إقليم المحيط الهندي البريطاني",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "جيرزي",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "جزر كايمان",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "سان مارتن",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "ماكاو منطقة إدارية خاصة",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "جزر ماريانا الشمالية",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "مارتينيك",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "مونتسرات",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "كاليدونيا الجديدة",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "جزيرة نورفولك",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "نيوي",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "بولينيزيا الفرنسية",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "سان بيير وميكلون",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "بورتوريكو",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "ريونيون",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "سانت هيلانة",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "سفالبارد ويان ماين",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "سينت مارتن",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "تريستان دا كونا",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "جزر تركس وكايكوس",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "توكيلاو",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "جزر فيرجن البريطانية",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "جزر فيرجن الأمريكية",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "واليس وفوتونا",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "مايوت",
+    "isoCode": "YT",
   }
 ];

@@ -794,5 +794,189 @@ List<Map<String, dynamic>> countries_tr = [
   {
     "countryName": "Zimbabve",
     "isoCode": "ZW",
+  },
+  {
+    "countryName": "Ascension Adası",
+    "isoCode": "AC",
+  },
+  {
+    "countryName": "Amerikan Samoası",
+    "isoCode": "AS",
+  },
+  {
+    "countryName": "Aruba",
+    "isoCode": "AW",
+  },
+  {
+    "countryName": "Åland Adaları",
+    "isoCode": "AX",
+  },
+  {
+    "countryName": "Saint Barthélemy",
+    "isoCode": "BL",
+  },
+  {
+    "countryName": "Bermuda",
+    "isoCode": "BM",
+  },
+  {
+    "countryName": "Karayip Hollandası",
+    "isoCode": "BQ",
+  },
+  {
+    "countryName": "Cocos (Keeling) Adaları",
+    "isoCode": "CC",
+  },
+  {
+    "countryName": "Fildişi Sahili",
+    "isoCode": "CI",
+  },
+  {
+    "countryName": "Cook Adaları",
+    "isoCode": "CK",
+  },
+  {
+    "countryName": "Curaçao",
+    "isoCode": "CW",
+  },
+  {
+    "countryName": "Noel Adası",
+    "isoCode": "CX",
+  },
+  {
+    "countryName": "Batı Sahra",
+    "isoCode": "EH",
+  },
+  {
+    "countryName": "Falkland Adaları",
+    "isoCode": "FK",
+  },
+  {
+    "countryName": "Faroe Adaları",
+    "isoCode": "FO",
+  },
+  {
+    "countryName": "Fransız Guyanası",
+    "isoCode": "GF",
+  },
+  {
+    "countryName": "Guernsey",
+    "isoCode": "GG",
+  },
+  {
+    "countryName": "Cebelitarık",
+    "isoCode": "GI",
+  },
+  {
+    "countryName": "Guadeloupe",
+    "isoCode": "GP",
+  },
+  {
+    "countryName": "Guam",
+    "isoCode": "GU",
+  },
+  {
+    "countryName": "Man Adası",
+    "isoCode": "IM",
+  },
+  {
+    "countryName": "Britanya Hint Okyanusu Toprakları",
+    "isoCode": "IO",
+  },
+  {
+    "countryName": "Jersey",
+    "isoCode": "JE",
+  },
+  {
+    "countryName": "Cayman Adaları",
+    "isoCode": "KY",
+  },
+  {
+    "countryName": "Saint Martin",
+    "isoCode": "MF",
+  },
+  {
+    "countryName": "Makao ÖİB Çin",
+    "isoCode": "MO",
+  },
+  {
+    "countryName": "Kuzey Mariana Adaları",
+    "isoCode": "MP",
+  },
+  {
+    "countryName": "Martinik",
+    "isoCode": "MQ",
+  },
+  {
+    "countryName": "Montserrat",
+    "isoCode": "MS",
+  },
+  {
+    "countryName": "Yeni Kaledonya",
+    "isoCode": "NC",
+  },
+  {
+    "countryName": "Norfolk Adası",
+    "isoCode": "NF",
+  },
+  {
+    "countryName": "Niue",
+    "isoCode": "NU",
+  },
+  {
+    "countryName": "Fransız Polinezyası",
+    "isoCode": "PF",
+  },
+  {
+    "countryName": "Saint Pierre ve Miquelon",
+    "isoCode": "PM",
+  },
+  {
+    "countryName": "Porto Riko",
+    "isoCode": "PR",
+  },
+  {
+    "countryName": "Réunion",
+    "isoCode": "RE",
+  },
+  {
+    "countryName": "Saint Helena",
+    "isoCode": "SH",
+  },
+  {
+    "countryName": "Svalbard ve Jan Mayen",
+    "isoCode": "SJ",
+  },
+  {
+    "countryName": "Sint Maarten",
+    "isoCode": "SX",
+  },
+  {
+    "countryName": "Tristan da Cunha",
+    "isoCode": "TA",
+  },
+  {
+    "countryName": "Turks ve Caicos Adaları",
+    "isoCode": "TC",
+  },
+  {
+    "countryName": "Tokelau",
+    "isoCode": "TK",
+  },
+  {
+    "countryName": "Britanya Virjin Adaları",
+    "isoCode": "VG",
+  },
+  {
+    "countryName": "ABD Virjin Adaları",
+    "isoCode": "VI",
+  },
+  {
+    "countryName": "Wallis ve Futuna",
+    "isoCode": "WF",
+  },
+  {
+    "countryName": "Mayotte",
+    "isoCode": "YT",
   }
 ];
