@@ -40,8 +40,10 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<String> languages = ['ar','hi','id','it','ja','pt','en', 'es', 'fr','ko','de','ru', 'ur']; // Add more languages as needed
   List<Country> countries = [];
 
-  PhoneValidator phoneValidatorEn = PhoneValidator(lang: 'ur');
+  PhoneValidator phoneValidatorEn = PhoneValidator(lang: 'en');
   PhoneValidator phoneValidatorEs = PhoneValidator(lang: 'es');
+  PhoneValidator phoneValidatorUr = PhoneValidator(lang: 'ur');
+
 
   @override
   void initState() {
@@ -82,6 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
               phoneValidator: phoneValidatorEs,
               fullPhoneNumber: '34612345678',),
             PhoneAutoDetectView(phoneValidator: phoneValidatorEn, fullPhoneNumber: '',)
+
           ],
 
         ),

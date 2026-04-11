@@ -5,7 +5,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "93",
     "visualText": "+93",
     "pattern": "^\\+93\\d{9}\$",
-    "mask": " ## ### ####",
+    "mask": "### ### ####",
     "emoji": "🇦🇫",
     "areaCodes": [
       20,
@@ -49,8 +49,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "AL",
     "dialCode": "355",
     "visualText": "+355",
-    "pattern": "^\\+355\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+355\\d{8}\$",
+    "mask": "### ### ###",
     "emoji": "🇦🇱",
     "areaCodes": [
       4,
@@ -280,8 +280,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "DZ",
     "dialCode": "213",
     "visualText": "+213",
-    "pattern": "^\\+213\\d{9}\$",
-    "mask": " ## ## ## ##",
+    "pattern": "^\\+213\\d{8}\$",
+    "mask": "### ## ## ##",
     "emoji": "🇩🇿",
     "areaCodes": [
       10,
@@ -328,27 +328,17 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "376",
     "visualText": "+376",
     "pattern": "^\\+376\\d{6}\$",
-    "mask": "(###) ###-####",
+    "mask": "### ###",
     "emoji": "🇦🇩",
     "areaCodes": [3, 6, 73, 74, 8, 9]
-  },
-  {
-    "countryName": "Anguilla",
-    "isoCode": "AI",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1(264)\\d{7}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇦🇮",
-    "areaCodes": [264]
   },
   {
     "countryName": "Angola",
     "isoCode": "AO",
     "dialCode": "244",
     "visualText": "+244",
-    "pattern": "^\\+244\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+244\\d{9}\$",
+    "mask": "### ### ###",
     "emoji": "🇦🇴",
     "areaCodes": [
       222,
@@ -370,11 +360,21 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Anguilla",
+    "isoCode": "AI",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1264\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇦🇮",
+    "areaCodes": [264]
+  },
+  {
     "countryName": "Antigua and Barbuda",
     "isoCode": "AG",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1268\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇦🇬",
     "areaCodes": [268]
@@ -384,8 +384,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "AR",
     "dialCode": "54",
     "visualText": "+54",
-    "pattern": "^\\+54\\d{10,11}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+54\\d{10}\$",
+    "mask": "### ####-####",
     "emoji": "🇦🇷",
     "areaCodes": [
       11,
@@ -1006,8 +1006,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "AM",
     "dialCode": "374",
     "visualText": "+374",
-    "pattern": "^\\+374\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+374\\d{8}\$",
+    "mask": "(###) ######",
     "emoji": "🇦🇲",
     "areaCodes": [
       10,
@@ -1060,12 +1060,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Aruba",
+    "isoCode": "AW",
+    "dialCode": "297",
+    "visualText": "+297",
+    "pattern": "^\\+297\\d{7}\$",
+    "mask": "### ####",
+    "emoji": "🇦🇼",
+    "areaCodes": []
+  },
+  {
     "countryName": "Australia",
     "isoCode": "AU",
     "dialCode": "61",
     "visualText": "+61",
-    "pattern": "^\\+61\\d{8,12}\$",
-    "mask": "(###) ###-###",
+    "pattern": "^\\+61212\\d{6}\$",
+    "mask": "(##) #### ####",
     "emoji": "🇦🇺",
     "areaCodes": [2, 3, 7, 8]
   },
@@ -1074,8 +1084,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "AT",
     "dialCode": "43",
     "visualText": "+43",
-    "pattern": "^\\+43\\d{7,11}\$",
-    "mask": " ### ### ####",
+    "pattern": "^\\+43\\d{10}\$",
+    "mask": "## #########",
     "emoji": "🇦🇹",
     "areaCodes": [
       1,
@@ -2563,7 +2573,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "994",
     "visualText": "+994",
     "pattern": "^\\+994\\d{9}\$",
-    "mask": "(###) ###-####",
+    "mask": "(###) ### ## ##",
     "emoji": "🇦🇿",
     "areaCodes": [12, 18, 20, 21, 22, 23, 24, 25, 26, 36, 46]
   },
@@ -2572,7 +2582,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BS",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1242\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇧🇸",
     "areaCodes": [242]
@@ -2583,7 +2593,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "973",
     "visualText": "+973",
     "pattern": "^\\+973\\d{8}\$",
-    "mask": " ####-####",
+    "mask": "#### ####",
     "emoji": "🇧🇭",
     "areaCodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 36, 37, 38, 39]
   },
@@ -2592,8 +2602,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BD",
     "dialCode": "880",
     "visualText": "+880",
-    "pattern": "^\\+880\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+880\\d{8}\$",
+    "mask": "##-#######",
     "emoji": "🇧🇩",
     "areaCodes": [
       2,
@@ -2741,7 +2751,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BB",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1246\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇧🇧",
     "areaCodes": [246]
@@ -2751,8 +2761,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BY",
     "dialCode": "375",
     "visualText": "+375",
-    "pattern": "^\\+375\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+375\\d{9}\$",
+    "mask": "# #### ##-##-##",
     "emoji": "🇧🇾",
     "areaCodes": [
       17,
@@ -2882,8 +2892,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BE",
     "dialCode": "32",
     "visualText": "+32",
-    "pattern": "^\\+32\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+32\\d{8}\$",
+    "mask": "### ## ## ##",
     "emoji": "🇧🇪",
     "areaCodes": [
       2,
@@ -2934,7 +2944,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "501",
     "visualText": "+501",
     "pattern": "^\\+501\\d{7}\$",
-    "mask": " ###-####",
+    "mask": "###-####",
     "emoji": "🇧🇿",
     "areaCodes": [
       22,
@@ -2988,8 +2998,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BJ",
     "dialCode": "229",
     "visualText": "+229",
-    "pattern": "^\\+229\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+229\\d{10}\$",
+    "mask": "## ## ## ## ##",
     "emoji": "🇧🇯",
     "areaCodes": [
       20,
@@ -3075,12 +3085,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Bermudas",
+    "isoCode": "BM",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1441\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇧🇲",
+    "areaCodes": [441]
+  },
+  {
     "countryName": "Bhutan",
     "isoCode": "BT",
     "dialCode": "975",
     "visualText": "+975",
-    "pattern": "^\\+975\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+975\\d{7}\$",
+    "mask": "# ### ###",
     "emoji": "🇧🇹",
     "areaCodes": [
       2,
@@ -3114,7 +3134,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "591",
     "visualText": "+591",
     "pattern": "^\\+591\\d{8}\$",
-    "mask": " ####-####",
+    "mask": "# #######",
     "emoji": "🇧🇴",
     "areaCodes": [2, 3, 4]
   },
@@ -3123,8 +3143,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BA",
     "dialCode": "387",
     "visualText": "+387",
-    "pattern": "^\\+387\\d{8,12}\$",
-    "mask": " ## ### ####",
+    "pattern": "^\\+387\\d{8}\$",
+    "mask": "### ###-###",
     "emoji": "🇧🇦",
     "areaCodes": [
       30,
@@ -3155,8 +3175,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BW",
     "dialCode": "267",
     "visualText": "+267",
-    "pattern": "^\\+267\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+267\\d{7}\$",
+    "mask": "### ####",
     "emoji": "🇧🇼",
     "areaCodes": [
       10,
@@ -3255,7 +3275,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BR",
     "dialCode": "55",
     "visualText": "+55",
-    "pattern": "^\\+55\\d{10,11}\$",
+    "pattern": "^\\+55\\d{10}\$",
     "mask": "(##) ####-####",
     "emoji": "🇧🇷",
     "areaCodes": [
@@ -3333,8 +3353,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BN",
     "dialCode": "673",
     "visualText": "+673",
-    "pattern": "^\\+673\\d{7,8}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+673\\d{7}\$",
+    "mask": "### ####",
     "emoji": "🇧🇳",
     "areaCodes": [2, 3, 4, 5, 6, 7, 8, 9]
   },
@@ -3343,8 +3363,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BG",
     "dialCode": "359",
     "visualText": "+359",
-    "pattern": "^\\+359\\d{8,12}\$",
-    "mask": " ### ### ###",
+    "pattern": "^\\+359\\d{7}\$",
+    "mask": "## ### ###",
     "emoji": "🇧🇬",
     "areaCodes": [
       2,
@@ -3427,8 +3447,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BF",
     "dialCode": "226",
     "visualText": "+226",
-    "pattern": "^\\+226\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+226\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇧🇫",
     "areaCodes": [
       10,
@@ -3528,8 +3548,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "BI",
     "dialCode": "257",
     "visualText": "+257",
-    "pattern": "^\\+257\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+257\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇧🇮",
     "areaCodes": [
       22,
@@ -3617,8 +3637,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "KH",
     "dialCode": "855",
     "visualText": "+855",
-    "pattern": "^\\+855\\d{8,9}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+855\\d{8}\$",
+    "mask": "### ### ###",
     "emoji": "🇰🇭",
     "areaCodes": [
       23,
@@ -3652,8 +3672,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "CM",
     "dialCode": "237",
     "visualText": "+237",
-    "pattern": "^\\+237\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+237\\d{9}\$",
+    "mask": "# ## ## ## ##",
     "emoji": "🇨🇲",
     "areaCodes": [
       2,
@@ -3688,7 +3708,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "CA",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1506\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇨🇦",
     "areaCodes": [
@@ -3755,17 +3775,27 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "238",
     "visualText": "+238",
     "pattern": "^\\+238\\d{7}\$",
-    "mask": " ### #####",
+    "mask": "### ## ##",
     "emoji": "🇨🇻",
     "areaCodes": [22, 23, 24, 25, 26, 27, 28, 8, 9, 59, 33]
+  },
+  {
+    "countryName": "Caribe neerlandés",
+    "isoCode": "BQ",
+    "dialCode": "599",
+    "visualText": "+599",
+    "pattern": "^\\+599715\\d{4}\$",
+    "mask": "### ####",
+    "emoji": "🌐",
+    "areaCodes": [717]
   },
   {
     "countryName": "Central African Republic",
     "isoCode": "CF",
     "dialCode": "236",
     "visualText": "+236",
-    "pattern": "^\\+236\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+236\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇨🇫",
     "areaCodes": [
       70,
@@ -3801,8 +3831,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TD",
     "dialCode": "235",
     "visualText": "+235",
-    "pattern": "^\\+235\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+235\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇹🇩",
     "areaCodes": [
       22,
@@ -3835,8 +3865,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "CL",
     "dialCode": "56",
     "visualText": "+56",
-    "pattern": "^\\+56\\d{8,12}\$",
-    "mask": "(#) ####-####",
+    "pattern": "^\\+56\\d{9}\$",
+    "mask": "### ### ###",
     "emoji": "🇨🇱",
     "areaCodes": [
       2,
@@ -3915,8 +3945,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "CN",
     "dialCode": "86",
     "visualText": "+86",
-    "pattern": "^\\+86\\d{11}\$",
-    "mask": "(###) ####-####",
+    "pattern": "^\\+86\\d{10}\$",
+    "mask": "### #### ####",
     "emoji": "🇨🇳",
     "areaCodes": [
       10,
@@ -4214,8 +4244,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "CO",
     "dialCode": "57",
     "visualText": "+57",
-    "pattern": "^\\+57\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+57\\d{10}\$",
+    "mask": "(###) #######",
     "emoji": "🇨🇴",
     "areaCodes": [601, 602, 604, 605, 606, 607, 608]
   },
@@ -4225,7 +4255,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "269",
     "visualText": "+269",
     "pattern": "^\\+269\\d{7}\$",
-    "mask": " #######",
+    "mask": "### ## ##",
     "emoji": "🇰🇲",
     "areaCodes": [7, 3]
   },
@@ -4234,109 +4264,18 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "CG",
     "dialCode": "242",
     "visualText": "+242",
-    "pattern": "^\\+242\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+242\\d{9}\$",
+    "mask": "## ### ####",
     "emoji": "🇨🇬",
     "areaCodes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-  },
-  {
-    "countryName": "Costa Rica",
-    "isoCode": "CR",
-    "dialCode": "506",
-    "visualText": "+506",
-    "pattern": "^\\+506\\d{8}\$",
-    "mask": " ####-####",
-    "emoji": "🇨🇷",
-    "areaCodes": [2, 3, 4, 5, 6, 7, 8, 9]
-  },
-  {
-    "countryName": "Croatia",
-    "isoCode": "HR",
-    "dialCode": "385",
-    "visualText": "+385",
-    "pattern": "^\\+385\\d{9}\$",
-    "mask": " ### ### ###",
-    "emoji": "🇭🇷",
-    "areaCodes": [
-      1,
-      20,
-      21,
-      22,
-      23,
-      31,
-      32,
-      33,
-      34,
-      35,
-      40,
-      42,
-      43,
-      44,
-      47,
-      48,
-      49,
-      51,
-      52,
-      53
-    ]
-  },
-  {
-    "countryName": "Cuba",
-    "isoCode": "CU",
-    "dialCode": "53",
-    "visualText": "+53",
-    "pattern": "^\\+53\\d{8}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇨🇺",
-    "areaCodes": [7, 21, 22, 23, 24, 31, 32, 33, 41, 42, 43, 45, 46, 47, 48, 49]
-  },
-  {
-    "countryName": "Cyprus",
-    "isoCode": "CY",
-    "dialCode": "357",
-    "visualText": "+357",
-    "pattern": "^\\+357\\d{8}\$",
-    "mask": "(##) ###-####",
-    "emoji": "🇨🇾",
-    "areaCodes": [
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      9
-    ]
-  },
-  {
-    "countryName": "Czech Republic",
-    "isoCode": "CZ",
-    "dialCode": "420",
-    "visualText": "+420",
-    "pattern": "^\\+420\\d{8,12}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇨🇿",
-    "areaCodes": [2, 3, 4, 5, 6, 7, 8, 9]
   },
   {
     "countryName": "Congo - Kinshasa",
     "isoCode": "CD",
     "dialCode": "243",
     "visualText": "+243",
-    "pattern": "^\\+243\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+243\\d{7}\$",
+    "mask": "### #####",
     "emoji": "🇨🇩",
     "areaCodes": [
       10,
@@ -4402,12 +4341,123 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Costa Rica",
+    "isoCode": "CR",
+    "dialCode": "506",
+    "visualText": "+506",
+    "pattern": "^\\+506\\d{8}\$",
+    "mask": "#### ####",
+    "emoji": "🇨🇷",
+    "areaCodes": [2, 3, 4, 5, 6, 7, 8, 9]
+  },
+  {
+    "countryName": "Côte d’Ivoire",
+    "isoCode": "CI",
+    "dialCode": "225",
+    "visualText": "+225",
+    "pattern": "^\\+225\\d{10}\$",
+    "mask": "## ## # #####",
+    "emoji": "🇨🇮",
+    "areaCodes": []
+  },
+  {
+    "countryName": "Croatia",
+    "isoCode": "HR",
+    "dialCode": "385",
+    "visualText": "+385",
+    "pattern": "^\\+385\\d{8}\$",
+    "mask": "## #### ###",
+    "emoji": "🇭🇷",
+    "areaCodes": [
+      1,
+      20,
+      21,
+      22,
+      23,
+      31,
+      32,
+      33,
+      34,
+      35,
+      40,
+      42,
+      43,
+      44,
+      47,
+      48,
+      49,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "countryName": "Cuba",
+    "isoCode": "CU",
+    "dialCode": "53",
+    "visualText": "+53",
+    "pattern": "^\\+53\\d{8}\$",
+    "mask": "(##) #######",
+    "emoji": "🇨🇺",
+    "areaCodes": [7, 21, 22, 23, 24, 31, 32, 33, 41, 42, 43, 45, 46, 47, 48, 49]
+  },
+  {
+    "countryName": "Curazao",
+    "isoCode": "CW",
+    "dialCode": "599",
+    "visualText": "+599",
+    "pattern": "^\\+599943\\d{5}\$",
+    "mask": "# ### ####",
+    "emoji": "🌐",
+    "areaCodes": [9]
+  },
+  {
+    "countryName": "Cyprus",
+    "isoCode": "CY",
+    "dialCode": "357",
+    "visualText": "+357",
+    "pattern": "^\\+357\\d{8}\$",
+    "mask": "## ######",
+    "emoji": "🇨🇾",
+    "areaCodes": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      9
+    ]
+  },
+  {
+    "countryName": "Czech Republic",
+    "isoCode": "CZ",
+    "dialCode": "420",
+    "visualText": "+420",
+    "pattern": "^\\+420\\d{9}\$",
+    "mask": "### ### ###",
+    "emoji": "🇨🇿",
+    "areaCodes": [2, 3, 4, 5, 6, 7, 8, 9]
+  },
+  {
     "countryName": "Denmark",
     "isoCode": "DK",
     "dialCode": "45",
     "visualText": "+45",
-    "pattern": "^\\+45\\d{8,12}\$",
-    "mask": " ## ## ## ##",
+    "pattern": "^\\+45\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇩🇰",
     "areaCodes": [2, 3, 4, 5, 6, 7, 8, 9]
   },
@@ -4416,8 +4466,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "DJ",
     "dialCode": "253",
     "visualText": "+253",
-    "pattern": "^\\+253\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+253\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇩🇯",
     "areaCodes": [
       21,
@@ -4501,7 +4551,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "DM",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1767\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇩🇲",
     "areaCodes": [767]
@@ -4511,7 +4561,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "DO",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1809\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇩🇴",
     "areaCodes": [809, 829, 849]
@@ -4521,7 +4571,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "EC",
     "dialCode": "593",
     "visualText": "+593",
-    "pattern": "^\\+593\\d{8,12}\$",
+    "pattern": "^\\+593\\d{8}\$",
     "mask": "(##) ###-####",
     "emoji": "🇪🇨",
     "areaCodes": [2, 3, 4, 5, 6, 7]
@@ -4531,8 +4581,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "EG",
     "dialCode": "20",
     "visualText": "+20",
-    "pattern": "^\\+20\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+20\\d{9}\$",
+    "mask": "## ########",
     "emoji": "🇪🇬",
     "areaCodes": [
       2,
@@ -4568,8 +4618,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SV",
     "dialCode": "503",
     "visualText": "+503",
-    "pattern": "^\\+503\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+503\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇸🇻",
     "areaCodes": [
       2,
@@ -4602,8 +4652,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "GQ",
     "dialCode": "240",
     "visualText": "+240",
-    "pattern": "^\\+240\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+240\\d{9}\$",
+    "mask": "### ### ###",
     "emoji": "🇬🇶",
     "areaCodes": [
       222,
@@ -4624,7 +4674,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
       236,
       237,
       238,
-      239,
+      239
     ]
   },
   {
@@ -4632,8 +4682,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "ER",
     "dialCode": "291",
     "visualText": "+291",
-    "pattern": "^\\+291[1-7]\\d{6}\$",
-    "mask": " # ######",
+    "pattern": "^\\+291\\d{7}\$",
+    "mask": "## ### ###",
     "emoji": "🇪🇷",
     "areaCodes": [1, 8]
   },
@@ -4642,8 +4692,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "EE",
     "dialCode": "372",
     "visualText": "+372",
-    "pattern": "^\\+372\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+372\\d{7}\$",
+    "mask": "### ####",
     "emoji": "🇪🇪",
     "areaCodes": [
       1,
@@ -4677,8 +4727,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SZ",
     "dialCode": "268",
     "visualText": "+268",
-    "pattern": "^\\+268\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+268\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇸🇿",
     "areaCodes": [2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
   },
@@ -4687,8 +4737,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "ET",
     "dialCode": "251",
     "visualText": "+251",
-    "pattern": "^\\+251\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+251\\d{9}\$",
+    "mask": "### ### ####",
     "emoji": "🇪🇹",
     "areaCodes": [11, 22, 25, 33, 34, 46, 47, 57, 58]
   },
@@ -4697,8 +4747,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "FJ",
     "dialCode": "679",
     "visualText": "+679",
-    "pattern": "^\\+679\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+679\\d{7}\$",
+    "mask": "### ####",
     "emoji": "🇫🇯",
     "areaCodes": [
       2,
@@ -4732,8 +4782,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "FI",
     "dialCode": "358",
     "visualText": "+358",
-    "pattern": "^\\+358\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+358131\\d{6}\$",
+    "mask": "### #######",
     "emoji": "🇫🇮",
     "areaCodes": [2, 3, 5, 6, 8, 9, 13, 14, 15, 16, 17, 19]
   },
@@ -4743,7 +4793,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "33",
     "visualText": "+33",
     "pattern": "^\\+33\\d{9}\$",
-    "mask": "(#) ## ## ## ##",
+    "mask": "## ## ## ## ##",
     "emoji": "🇫🇷",
     "areaCodes": [1, 2, 3, 4, 5]
   },
@@ -4752,8 +4802,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "GA",
     "dialCode": "241",
     "visualText": "+241",
-    "pattern": "^\\+241\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+241\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇬🇦",
     "areaCodes": [
       0,
@@ -4864,27 +4914,17 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "220",
     "visualText": "+220",
     "pattern": "^\\+220\\d{7}\$",
-    "mask": "(###) ###-####",
+    "mask": "### ####",
     "emoji": "🇬🇲",
-    "areaCodes": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-    ]
+    "areaCodes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   {
     "countryName": "Georgia",
     "isoCode": "GE",
     "dialCode": "995",
     "visualText": "+995",
-    "pattern": "^\\+995\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+995\\d{9}\$",
+    "mask": "### ### ## ##",
     "emoji": "🇬🇪",
     "areaCodes": [
       32,
@@ -4969,8 +5009,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "DE",
     "dialCode": "49",
     "visualText": "+49",
-    "pattern": "^\\+49\\d{10,11}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+49\\d{8}\$",
+    "mask": "### ######",
     "emoji": "🇩🇪",
     "areaCodes": [
       30,
@@ -10797,18 +10837,28 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "GH",
     "dialCode": "233",
     "visualText": "+233",
-    "pattern": "^\\+233\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+233\\d{9}\$",
+    "mask": "### ### ####",
     "emoji": "🇬🇭",
     "areaCodes": [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+  },
+  {
+    "countryName": "Gibraltar",
+    "isoCode": "GI",
+    "dialCode": "350",
+    "visualText": "+350",
+    "pattern": "^\\+350\\d{8}\$",
+    "mask": "### #####",
+    "emoji": "🇬🇮",
+    "areaCodes": []
   },
   {
     "countryName": "Greece",
     "isoCode": "GR",
     "dialCode": "30",
     "visualText": "+30",
-    "pattern": "^\\+30\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+30\\d{10}\$",
+    "mask": "## #### ####",
     "emoji": "🇬🇷",
     "areaCodes": [
       2,
@@ -10839,22 +10889,52 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Greenland",
+    "isoCode": "GL",
+    "dialCode": "299",
+    "visualText": "+299",
+    "pattern": "^\\+299\\d{6}\$",
+    "mask": "## ## ##",
+    "emoji": "🇬🇱",
+    "areaCodes": [2, 3, 4, 5, 6, 8, 9]
+  },
+  {
     "countryName": "Grenada",
     "isoCode": "GD",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1473\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇬🇩",
     "areaCodes": [473]
+  },
+  {
+    "countryName": "Guadalupe",
+    "isoCode": "GP",
+    "dialCode": "590",
+    "visualText": "+590",
+    "pattern": "^\\+590\\d{9}\$",
+    "mask": "#### ## ## ##",
+    "emoji": "🇬🇵",
+    "areaCodes": [590]
+  },
+  {
+    "countryName": "Guam",
+    "isoCode": "GU",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1671\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇬🇺",
+    "areaCodes": [671]
   },
   {
     "countryName": "Guatemala",
     "isoCode": "GT",
     "dialCode": "502",
     "visualText": "+502",
-    "pattern": "^\\+502\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+502\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇬🇹",
     "areaCodes": [
       2,
@@ -10885,12 +10965,32 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Guayana Francesa",
+    "isoCode": "GF",
+    "dialCode": "594",
+    "visualText": "+594",
+    "pattern": "^\\+594\\d{9}\$",
+    "mask": "#### ## ## ##",
+    "emoji": "🇬🇫",
+    "areaCodes": [594]
+  },
+  {
+    "countryName": "Guernesey",
+    "isoCode": "GG",
+    "dialCode": "44",
+    "visualText": "+44",
+    "pattern": "^\\+44148\\d{7}\$",
+    "mask": "##### ######",
+    "emoji": "🇬🇬",
+    "areaCodes": [1481]
+  },
+  {
     "countryName": "Guinea",
     "isoCode": "GN",
     "dialCode": "224",
     "visualText": "+224",
-    "pattern": "^\\+224\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+224\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇬🇳",
     "areaCodes": [
       20,
@@ -10937,8 +11037,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "GW",
     "dialCode": "245",
     "visualText": "+245",
-    "pattern": "^\\+245\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+245\\d{9}\$",
+    "mask": "### ### ###",
     "emoji": "🇬🇼",
     "areaCodes": [
       20,
@@ -11029,7 +11129,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "592",
     "visualText": "+592",
     "pattern": "^\\+592\\d{7}\$",
-    "mask": " ###-####",
+    "mask": "### ####",
     "emoji": "🇬🇾",
     "areaCodes": [
       226,
@@ -11163,7 +11263,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "509",
     "visualText": "+509",
     "pattern": "^\\+509\\d{8}\$",
-    "mask": " ####-####",
+    "mask": "## ## ####",
     "emoji": "🇭🇹",
     "areaCodes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
@@ -11172,8 +11272,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "HN",
     "dialCode": "504",
     "visualText": "+504",
-    "pattern": "^\\+504\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+504\\d{8}\$",
+    "mask": "####-####",
     "emoji": "🇭🇳",
     "areaCodes": [
       2,
@@ -11208,8 +11308,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "HK",
     "dialCode": "852",
     "visualText": "+852",
-    "pattern": "^\\+852\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+852\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇭🇰",
     "areaCodes": [
       2,
@@ -11244,8 +11344,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "HU",
     "dialCode": "36",
     "visualText": "+36",
-    "pattern": "^\\+36\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+36\\d{8}\$",
+    "mask": "(## #) ### ####",
     "emoji": "🇭🇺",
     "areaCodes": [
       1,
@@ -11311,7 +11411,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "354",
     "visualText": "+354",
     "pattern": "^\\+354\\d{7}\$",
-    "mask": " ### ####",
+    "mask": "### ####",
     "emoji": "🇮🇸",
     "areaCodes": [
       41,
@@ -11371,7 +11471,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "91",
     "visualText": "+91",
     "pattern": "^\\+91\\d{10}\$",
-    "mask": "(####) ###-###",
+    "mask": "###### #####",
     "emoji": "🇮🇳",
     "areaCodes": [
       11,
@@ -15303,8 +15403,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "ID",
     "dialCode": "62",
     "visualText": "+62",
-    "pattern": "^\\+62\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+62\\d{9}\$",
+    "mask": "(###) #######",
     "emoji": "🇮🇩",
     "areaCodes": [
       21,
@@ -15628,8 +15728,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "IR",
     "dialCode": "98",
     "visualText": "+98",
-    "pattern": "^\\+98\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+98\\d{10}\$",
+    "mask": "### #### ####",
     "emoji": "🇮🇷",
     "areaCodes": [
       11,
@@ -15671,8 +15771,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "IQ",
     "dialCode": "964",
     "visualText": "+964",
-    "pattern": "^\\+964\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+964\\d{8}\$",
+    "mask": "## ### ####",
     "emoji": "🇮🇶",
     "areaCodes": [
       1,
@@ -15700,8 +15800,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "IE",
     "dialCode": "353",
     "visualText": "+353",
-    "pattern": "^\\+353\\d{8,12}\$",
-    "mask": " ### ### ####",
+    "pattern": "^\\+353\\d{7}\$",
+    "mask": "(###) #####",
     "emoji": "🇮🇪",
     "areaCodes": [
       22,
@@ -15728,12 +15828,152 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Isla de la Ascensión",
+    "isoCode": "AC",
+    "dialCode": "247",
+    "visualText": "+247",
+    "pattern": "^\\+247\\d{5}\$",
+    "mask": "#####",
+    "emoji": "🌐",
+    "areaCodes": []
+  },
+  {
+    "countryName": "Isla de Man",
+    "isoCode": "IM",
+    "dialCode": "44",
+    "visualText": "+44",
+    "pattern": "^\\+44162\\d{7}\$",
+    "mask": "##### ######",
+    "emoji": "🇮🇲",
+    "areaCodes": [1624]
+  },
+  {
+    "countryName": "Isla de Navidad",
+    "isoCode": "CX",
+    "dialCode": "61",
+    "visualText": "+61",
+    "pattern": "^\\+61891\\d{6}\$",
+    "mask": "(##) #### ####",
+    "emoji": "🇨🇽",
+    "areaCodes": [8]
+  },
+  {
+    "countryName": "Isla Norfolk",
+    "isoCode": "NF",
+    "dialCode": "672",
+    "visualText": "+672",
+    "pattern": "^\\+672\\d{6}\$",
+    "mask": "## ####",
+    "emoji": "🇳🇫",
+    "areaCodes": []
+  },
+  {
+    "countryName": "Islas Aland",
+    "isoCode": "AX",
+    "dialCode": "358",
+    "visualText": "+358",
+    "pattern": "^\\+358181\\d{6}\$",
+    "mask": "### #######",
+    "emoji": "🇦🇽",
+    "areaCodes": [18]
+  },
+  {
+    "countryName": "Islas Caimán",
+    "isoCode": "KY",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1345\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇰🇾",
+    "areaCodes": [345]
+  },
+  {
+    "countryName": "Islas Cocos",
+    "isoCode": "CC",
+    "dialCode": "61",
+    "visualText": "+61",
+    "pattern": "^\\+61891\\d{6}\$",
+    "mask": "(##) #### ####",
+    "emoji": "🇨🇨",
+    "areaCodes": [8]
+  },
+  {
+    "countryName": "Islas Cook",
+    "isoCode": "CK",
+    "dialCode": "682",
+    "visualText": "+682",
+    "pattern": "^\\+682\\d{5}\$",
+    "mask": "## ###",
+    "emoji": "🇨🇰",
+    "areaCodes": []
+  },
+  {
+    "countryName": "Islas Feroe",
+    "isoCode": "FO",
+    "dialCode": "298",
+    "visualText": "+298",
+    "pattern": "^\\+298\\d{6}\$",
+    "mask": "######",
+    "emoji": "🇫🇴",
+    "areaCodes": []
+  },
+  {
+    "countryName": "Islas Malvinas",
+    "isoCode": "FK",
+    "dialCode": "500",
+    "visualText": "+500",
+    "pattern": "^\\+500\\d{5}\$",
+    "mask": "#####",
+    "emoji": "🇫🇰",
+    "areaCodes": []
+  },
+  {
+    "countryName": "Islas Marianas del Norte",
+    "isoCode": "MP",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1670\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇲🇵",
+    "areaCodes": [670]
+  },
+  {
+    "countryName": "Islas Turcas y Caicos",
+    "isoCode": "TC",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1649\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇹🇨",
+    "areaCodes": [649]
+  },
+  {
+    "countryName": "Islas Vírgenes Británicas",
+    "isoCode": "VG",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1284\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇻🇬",
+    "areaCodes": [284]
+  },
+  {
+    "countryName": "Islas Vírgenes de EE. UU.",
+    "isoCode": "VI",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1340\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇻🇮",
+    "areaCodes": [340]
+  },
+  {
     "countryName": "Israel",
     "isoCode": "IL",
     "dialCode": "972",
     "visualText": "+972",
-    "pattern": "^\\+972\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+972\\d{8}\$",
+    "mask": "##-###-####",
     "emoji": "🇮🇱",
     "areaCodes": [2, 3, 4, 8, 9]
   },
@@ -15742,8 +15982,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "IT",
     "dialCode": "39",
     "visualText": "+39",
-    "pattern": "^\\+39\\d{9,10}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+39021\\d{7}\$",
+    "mask": "## #### ####",
     "emoji": "🇮🇹",
     "areaCodes": [
       2,
@@ -15987,7 +16227,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "JM",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1876\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇯🇲",
     "areaCodes": [658, 876]
@@ -15997,8 +16237,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "JP",
     "dialCode": "81",
     "visualText": "+81",
-    "pattern": "^\\+81\\d{10}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+81\\d{9}\$",
+    "mask": "##-####-####",
     "emoji": "🇯🇵",
     "areaCodes": [
       3,
@@ -16400,12 +16640,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Jersey",
+    "isoCode": "JE",
+    "dialCode": "44",
+    "visualText": "+44",
+    "pattern": "^\\+44153\\d{7}\$",
+    "mask": "##### ######",
+    "emoji": "🇯🇪",
+    "areaCodes": [1534]
+  },
+  {
     "countryName": "Jordan",
     "isoCode": "JO",
     "dialCode": "962",
     "visualText": "+962",
-    "pattern": "^\\+962\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+962\\d{8}\$",
+    "mask": "(##) ### ####",
     "emoji": "🇯🇴",
     "areaCodes": [2, 3, 5, 6, 8]
   },
@@ -16414,8 +16664,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "KZ",
     "dialCode": "7",
     "visualText": "+7",
-    "pattern": "^\\+7\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+7712\\d{7}\$",
+    "mask": "# (#####) # ## ##",
     "emoji": "🇰🇿",
     "areaCodes": [
       716,
@@ -16482,8 +16732,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "KE",
     "dialCode": "254",
     "visualText": "+254",
-    "pattern": "^\\+254\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+254\\d{9}\$",
+    "mask": "### #######",
     "emoji": "🇰🇪",
     "areaCodes": [
       20,
@@ -16520,18 +16770,28 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "KI",
     "dialCode": "686",
     "visualText": "+686",
-    "pattern": "^\\+686\\d{7}\$",
-    "mask": " ### ####",
+    "pattern": "^\\+686\\d{5}\$",
+    "mask": "#####",
     "emoji": "🇰🇮",
     "areaCodes": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  },
+  {
+    "countryName": "Kosovo",
+    "isoCode": "XK",
+    "dialCode": "383",
+    "visualText": "+383",
+    "pattern": "^\\+383\\d{8}\$",
+    "mask": "### ### ###",
+    "emoji": "🇽🇰",
+    "areaCodes": [28, 29, 38, 39]
   },
   {
     "countryName": "Kuwait",
     "isoCode": "KW",
     "dialCode": "965",
     "visualText": "+965",
-    "pattern": "^\\+965\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+965\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇰🇼",
     "areaCodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   },
@@ -16541,7 +16801,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "996",
     "visualText": "+996",
     "pattern": "^\\+996\\d{9}\$",
-    "mask": "(###) ###-####",
+    "mask": "#### ### ###",
     "emoji": "🇰🇬",
     "areaCodes": [
       312,
@@ -16689,22 +16949,12 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
-    "countryName": "Kosovo",
-    "isoCode": "XK",
-    "dialCode": "383",
-    "visualText": "+383",
-    "pattern": "^\\+383\\d{8}\$",
-    "mask": " ## ### ###",
-    "emoji": "🇽🇰",
-    "areaCodes": [28, 29, 38, 39]
-  },
-  {
     "countryName": "Laos",
     "isoCode": "LA",
     "dialCode": "856",
     "visualText": "+856",
-    "pattern": "^\\+856\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+856\\d{8}\$",
+    "mask": "### ### ###",
     "emoji": "🇱🇦",
     "areaCodes": [21, 23, 31, 34, 41, 51, 54, 61, 64, 71, 74, 81, 84, 86, 88]
   },
@@ -16713,8 +16963,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "LV",
     "dialCode": "371",
     "visualText": "+371",
-    "pattern": "^\\+371\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+371\\d{8}\$",
+    "mask": "## ### ###",
     "emoji": "🇱🇻",
     "areaCodes": [
       2,
@@ -16742,8 +16992,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "LB",
     "dialCode": "961",
     "visualText": "+961",
-    "pattern": "^\\+961\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+961\\d{7}\$",
+    "mask": "## ### ###",
     "emoji": "🇱🇧",
     "areaCodes": [1, 4, 5, 6, 7, 8, 9]
   },
@@ -16752,8 +17002,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "LS",
     "dialCode": "266",
     "visualText": "+266",
-    "pattern": "^\\+266\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+266\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇱🇸",
     "areaCodes": [
       2,
@@ -16786,8 +17036,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "LR",
     "dialCode": "231",
     "visualText": "+231",
-    "pattern": "^\\+231\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+231\\d{8}\$",
+    "mask": "### ### ###",
     "emoji": "🇱🇷",
     "areaCodes": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
   },
@@ -16796,8 +17046,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "LY",
     "dialCode": "218",
     "visualText": "+218",
-    "pattern": "^\\+218\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+218\\d{9}\$",
+    "mask": "###-#######",
     "emoji": "🇱🇾",
     "areaCodes": [
       20,
@@ -16847,7 +17097,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "423",
     "visualText": "+423",
     "pattern": "^\\+423\\d{7}\$",
-    "mask": " ### ### #",
+    "mask": "### ## ##",
     "emoji": "🇱🇮",
     "areaCodes": [
       201,
@@ -16898,7 +17148,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "370",
     "visualText": "+370",
     "pattern": "^\\+370\\d{8}\$",
-    "mask": " ### #####",
+    "mask": "(#-###) #####",
     "emoji": "🇱🇹",
     "areaCodes": [
       5,
@@ -16967,8 +17217,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "LU",
     "dialCode": "352",
     "visualText": "+352",
-    "pattern": "^\\+352\\d{6,9}\$",
-    "mask": " ### ### ###",
+    "pattern": "^\\+352\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇱🇺",
     "areaCodes": [
       6,
@@ -17002,8 +17252,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MG",
     "dialCode": "261",
     "visualText": "+261",
-    "pattern": "^\\+261\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+261\\d{9}\$",
+    "mask": "### ## ### ##",
     "emoji": "🇲🇬",
     "areaCodes": [20]
   },
@@ -17012,8 +17262,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MW",
     "dialCode": "265",
     "visualText": "+265",
-    "pattern": "^\\+265\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+265\\d{7}\$",
+    "mask": "## ### ###",
     "emoji": "🇲🇼",
     "areaCodes": [1]
   },
@@ -17022,8 +17272,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MY",
     "dialCode": "60",
     "visualText": "+60",
-    "pattern": "^\\+60\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+60\\d{9}\$",
+    "mask": "##-#### ####",
     "emoji": "🇲🇾",
     "areaCodes": [3]
   },
@@ -17032,8 +17282,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MV",
     "dialCode": "960",
     "visualText": "+960",
-    "pattern": "^\\+960\\d{7,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+960\\d{7}\$",
+    "mask": "###-####",
     "emoji": "🇲🇻",
     "areaCodes": [
       2,
@@ -17061,8 +17311,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "ML",
     "dialCode": "223",
     "visualText": "+223",
-    "pattern": "^\\+223\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+223\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇲🇱",
     "areaCodes": [
       20,
@@ -17152,8 +17402,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MT",
     "dialCode": "356",
     "visualText": "+356",
-    "pattern": "^\\+356\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+356\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇲🇹",
     "areaCodes": [21, 22, 23, 24, 25, 26, 27, 28, 29, 77, 99]
   },
@@ -17163,17 +17413,27 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "692",
     "visualText": "+692",
     "pattern": "^\\+692\\d{7}\$",
-    "mask": " ### ### #",
+    "mask": "###-####",
     "emoji": "🇲🇭",
     "areaCodes": [247, 528, 625]
+  },
+  {
+    "countryName": "Martinica",
+    "isoCode": "MQ",
+    "dialCode": "596",
+    "visualText": "+596",
+    "pattern": "^\\+596\\d{9}\$",
+    "mask": "#### ## ## ##",
+    "emoji": "🇲🇶",
+    "areaCodes": [596, 806, 807, 808, 809, 976]
   },
   {
     "countryName": "Mauritania",
     "isoCode": "MR",
     "dialCode": "222",
     "visualText": "+222",
-    "pattern": "^\\+222\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+222\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇲🇷",
     "areaCodes": [
       22,
@@ -17209,8 +17469,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MU",
     "dialCode": "230",
     "visualText": "+230",
-    "pattern": "^\\+230\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+230\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇲🇺",
     "areaCodes": [
       5,
@@ -17237,8 +17497,18 @@ List<Map<String, dynamic>> mapSupportedCountries = [
       36,
       37,
       38,
-      39,
+      39
     ]
+  },
+  {
+    "countryName": "Mayotte",
+    "isoCode": "YT",
+    "dialCode": "262",
+    "visualText": "+262",
+    "pattern": "^\\+262269\\d{6}\$",
+    "mask": "#### ## ## ##",
+    "emoji": "🇾🇹",
+    "areaCodes": [269]
   },
   {
     "countryName": "Mexico",
@@ -17246,7 +17516,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "52",
     "visualText": "+52",
     "pattern": "^\\+52\\d{10}\$",
-    "mask": "(###) ###-####",
+    "mask": "### ### ####",
     "emoji": "🇲🇽",
     "areaCodes": [
       33,
@@ -17303,7 +17573,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "691",
     "visualText": "+691",
     "pattern": "^\\+691\\d{7}\$",
-    "mask": " ### ### #",
+    "mask": "### ####",
     "emoji": "🇫🇲",
     "areaCodes": [
       320,
@@ -17373,8 +17643,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MD",
     "dialCode": "373",
     "visualText": "+373",
-    "pattern": "^\\+373\\d{8,12}\$",
-    "mask": " ### ## ###",
+    "pattern": "^\\+373\\d{8}\$",
+    "mask": "### ### ###",
     "emoji": "🇲🇩",
     "areaCodes": [
       22,
@@ -17478,7 +17748,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "377",
     "visualText": "+377",
     "pattern": "^\\+377\\d{8}\$",
-    "mask": " ## ## ## ##",
+    "mask": "## ## ## ##",
     "emoji": "🇲🇨",
     "areaCodes": [87, 92, 93, 94, 97, 98, 99]
   },
@@ -17487,8 +17757,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MN",
     "dialCode": "976",
     "visualText": "+976",
-    "pattern": "^\\+976\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+976\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇲🇳",
     "areaCodes": [
       11,
@@ -17872,17 +18142,27 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "382",
     "visualText": "+382",
     "pattern": "^\\+382\\d{8}\$",
-    "mask": " ## ### ###",
+    "mask": "### ### ###",
     "emoji": "🇲🇪",
     "areaCodes": [20, 30, 31, 32, 33, 40, 41, 50, 51, 52]
+  },
+  {
+    "countryName": "Montserrat",
+    "isoCode": "MS",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1664\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇲🇸",
+    "areaCodes": [664]
   },
   {
     "countryName": "Morocco",
     "isoCode": "MA",
     "dialCode": "212",
     "visualText": "+212",
-    "pattern": "^\\+212\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+212520\\d{6}\$",
+    "mask": "## ## ## ## ##",
     "emoji": "🇲🇦",
     "areaCodes": [5]
   },
@@ -17891,8 +18171,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MZ",
     "dialCode": "258",
     "visualText": "+258",
-    "pattern": "^\\+258\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+258\\d{8}\$",
+    "mask": "## ### ###",
     "emoji": "🇲🇿",
     "areaCodes": [
       21,
@@ -17927,8 +18207,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MM",
     "dialCode": "95",
     "visualText": "+95",
-    "pattern": "^\\+95\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+95\\d{7}\$",
+    "mask": "## ### ###",
     "emoji": "🇲🇲",
     "areaCodes": [
       1,
@@ -17975,8 +18255,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "NA",
     "dialCode": "264",
     "visualText": "+264",
-    "pattern": "^\\+264\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+264\\d{8}\$",
+    "mask": "### ### ###",
     "emoji": "🇳🇦",
     "areaCodes": [61, 62, 63, 64, 65, 66, 67]
   },
@@ -17986,7 +18266,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "674",
     "visualText": "+674",
     "pattern": "^\\+674\\d{7}\$",
-    "mask": "### ### #",
+    "mask": "### ####",
     "emoji": "🇳🇷",
     "areaCodes": [
       444,
@@ -18013,8 +18293,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "NP",
     "dialCode": "977",
     "visualText": "+977",
-    "pattern": "^\\+977\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+977\\d{8}\$",
+    "mask": "##-#######",
     "emoji": "🇳🇵",
     "areaCodes": [
       1,
@@ -18081,8 +18361,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "NL",
     "dialCode": "31",
     "visualText": "+31",
-    "pattern": "^\\+31\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+31\\d{9}\$",
+    "mask": "### ### ####",
     "emoji": "🇳🇱",
     "areaCodes": [
       10,
@@ -18233,7 +18513,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "NZ",
     "dialCode": "64",
     "visualText": "+64",
-    "pattern": "^\\+64\\d{8,10}\$",
+    "pattern": "^\\+64\\d{8}\$",
     "mask": "## ### ####",
     "emoji": "🇳🇿",
     "areaCodes": [2, 3, 4, 6, 7, 9]
@@ -18244,7 +18524,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "505",
     "visualText": "+505",
     "pattern": "^\\+505\\d{8}\$",
-    "mask": " ####-####",
+    "mask": "#### ####",
     "emoji": "🇳🇮",
     "areaCodes": [
       2,
@@ -18272,7 +18552,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
       86,
       87,
       88,
-      89,
+      89
     ]
   },
   {
@@ -18280,8 +18560,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "NE",
     "dialCode": "227",
     "visualText": "+227",
-    "pattern": "^\\+227\\d{8,12}\$",
-    "mask": " #### ####",
+    "pattern": "^\\+227\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇳🇪",
     "areaCodes": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 90, 96, 97]
   },
@@ -18290,8 +18570,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "NG",
     "dialCode": "234",
     "visualText": "+234",
-    "pattern": "^\\+234\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+234\\d{10}\$",
+    "mask": "##### ## ####",
     "emoji": "🇳🇬",
     "areaCodes": [
       201,
@@ -18350,12 +18630,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Niue",
+    "isoCode": "NU",
+    "dialCode": "683",
+    "visualText": "+683",
+    "pattern": "^\\+683\\d{4}\$",
+    "mask": "####",
+    "emoji": "🇳🇺",
+    "areaCodes": []
+  },
+  {
     "countryName": "North Korea",
     "isoCode": "KP",
     "dialCode": "850",
     "visualText": "+850",
-    "pattern": "^\\+850\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+850\\d{8}\$",
+    "mask": "## ### ####",
     "emoji": "🇰🇵",
     "areaCodes": [2, 3, 4, 5, 6, 7, 85]
   },
@@ -18364,8 +18654,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "MK",
     "dialCode": "389",
     "visualText": "+389",
-    "pattern": "^\\+389\\d{8,12}\$",
-    "mask": " ## ### ####",
+    "pattern": "^\\+389\\d{8}\$",
+    "mask": "## ### ####",
     "emoji": "🇲🇰",
     "areaCodes": [2, 3, 31, 32, 33, 34, 42, 43, 44, 45, 46, 47, 48]
   },
@@ -18374,8 +18664,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "NO",
     "dialCode": "47",
     "visualText": "+47",
-    "pattern": "^\\+47\\d{8}\$",
-    "mask": " ## ### ###",
+    "pattern": "^\\+47212\\d{5}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇳🇴",
     "areaCodes": [
       21,
@@ -18420,12 +18710,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Nueva Caledonia",
+    "isoCode": "NC",
+    "dialCode": "687",
+    "visualText": "+687",
+    "pattern": "^\\+687\\d{6}\$",
+    "mask": "##.##.##",
+    "emoji": "🇳🇨",
+    "areaCodes": []
+  },
+  {
     "countryName": "Oman",
     "isoCode": "OM",
     "dialCode": "968",
     "visualText": "+968",
-    "pattern": "^\\+968\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+968\\d{8}\$",
+    "mask": "## ######",
     "emoji": "🇴🇲",
     "areaCodes": [
       24,
@@ -18452,8 +18752,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PK",
     "dialCode": "92",
     "visualText": "+92",
-    "pattern": "^\\+92\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+92\\d{10}\$",
+    "mask": "(###) ########",
     "emoji": "🇵🇰",
     "areaCodes": [
       21,
@@ -18601,7 +18901,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "680",
     "visualText": "+680",
     "pattern": "^\\+680\\d{7}\$",
-    "mask": " ### ####",
+    "mask": "### ####",
     "emoji": "🇵🇼",
     "areaCodes": [
       544,
@@ -18646,8 +18946,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PS",
     "dialCode": "970",
     "visualText": "+970",
-    "pattern": "^\\+970\\d{8,9}\$",
-    "mask": " ###-#######",
+    "pattern": "^\\+970\\d{8}\$",
+    "mask": "## ### ####",
     "emoji": "🇵🇸",
     "areaCodes": [2, 4, 8, 9]
   },
@@ -18656,8 +18956,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PA",
     "dialCode": "507",
     "visualText": "+507",
-    "pattern": "^\\+507\\d{7,8}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+507\\d{7}\$",
+    "mask": "###-####",
     "emoji": "🇵🇦",
     "areaCodes": [
       2,
@@ -18695,17 +18995,17 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PG",
     "dialCode": "675",
     "visualText": "+675",
-    "pattern": "^\\+675\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+675\\d{7}\$",
+    "mask": "### ####",
     "emoji": "🇵🇬",
     "areaCodes": [
-      03,
-      04,
-      05,
-      06,
-      07,
-      08,
-      09,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
       10,
       11,
       12,
@@ -18803,8 +19103,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PY",
     "dialCode": "595",
     "visualText": "+595",
-    "pattern": "^\\+595\\d{7,9}\$",
-    "mask": " ### ### ###",
+    "pattern": "^\\+595\\d{9}\$",
+    "mask": "(###) ### ####",
     "emoji": "🇵🇾",
     "areaCodes": [
       21,
@@ -18947,8 +19247,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PE",
     "dialCode": "51",
     "visualText": "+51",
-    "pattern": "^\\+51\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+51\\d{8}\$",
+    "mask": "(##) #######",
     "emoji": "🇵🇪",
     "areaCodes": [
       1,
@@ -18988,8 +19288,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PH",
     "dialCode": "63",
     "visualText": "+63",
-    "pattern": "^\\+63\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+63\\d{9}\$",
+    "mask": "(##) #### ####",
     "emoji": "🇵🇭",
     "areaCodes": [
       2,
@@ -19066,8 +19366,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PL",
     "dialCode": "48",
     "visualText": "+48",
-    "pattern": "^\\+48\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+48\\d{9}\$",
+    "mask": "## ### ## ##",
     "emoji": "🇵🇱",
     "areaCodes": [
       1,
@@ -19144,12 +19444,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Polinesia Francesa",
+    "isoCode": "PF",
+    "dialCode": "689",
+    "visualText": "+689",
+    "pattern": "^\\+689\\d{8}\$",
+    "mask": "## ## ## ##",
+    "emoji": "🇵🇫",
+    "areaCodes": []
+  },
+  {
     "countryName": "Portugal",
     "isoCode": "PT",
     "dialCode": "351",
     "visualText": "+351",
     "pattern": "^\\+351\\d{9}\$",
-    "mask": " ### ### ###",
+    "mask": "## ### ####",
     "emoji": "🇵🇹",
     "areaCodes": [
       21,
@@ -19184,12 +19494,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Puerto Rico",
+    "isoCode": "PR",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1787\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇵🇷",
+    "areaCodes": [787, 939]
+  },
+  {
     "countryName": "Qatar",
     "isoCode": "QA",
     "dialCode": "974",
     "visualText": "+974",
-    "pattern": "^\\+974\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+974\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇶🇦",
     "areaCodes": [
       1,
@@ -19214,12 +19534,32 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "RAE de Macao (China)",
+    "isoCode": "MO",
+    "dialCode": "853",
+    "visualText": "+853",
+    "pattern": "^\\+853\\d{8}\$",
+    "mask": "#### ####",
+    "emoji": "🇲🇴",
+    "areaCodes": []
+  },
+  {
+    "countryName": "Reunión",
+    "isoCode": "RE",
+    "dialCode": "262",
+    "visualText": "+262",
+    "pattern": "^\\+262\\d{9}\$",
+    "mask": "#### ## ## ##",
+    "emoji": "🇷🇪",
+    "areaCodes": [262, 263]
+  },
+  {
     "countryName": "Romania",
     "isoCode": "RO",
     "dialCode": "40",
     "visualText": "+40",
-    "pattern": "^\\+40\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+40\\d{9}\$",
+    "mask": "### ### ####",
     "emoji": "🇷🇴",
     "areaCodes": [
       21,
@@ -19311,8 +19651,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "RU",
     "dialCode": "7",
     "visualText": "+7",
-    "pattern": "^\\+7\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+7301\\d{7}\$",
+    "mask": "# (###) ###-##-##",
     "emoji": "🇷🇺",
     "areaCodes": [
       301,
@@ -19418,8 +19758,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "RW",
     "dialCode": "250",
     "visualText": "+250",
-    "pattern": "^\\+250\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+250\\d{9}\$",
+    "mask": "### ### ###",
     "emoji": "🇷🇼",
     "areaCodes": [
       220,
@@ -19475,11 +19815,21 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Sáhara Occidental",
+    "isoCode": "EH",
+    "dialCode": "212",
+    "visualText": "+212",
+    "pattern": "^\\+212528\\d{6}\$",
+    "mask": "## ## ## ## ##",
+    "emoji": "🇪🇭",
+    "areaCodes": [5]
+  },
+  {
     "countryName": "Saint Kitts and Nevis",
     "isoCode": "KN",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1869\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇰🇳",
     "areaCodes": [869]
@@ -19489,7 +19839,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "LC",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1758\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇱🇨",
     "areaCodes": [758]
@@ -19499,7 +19849,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "VC",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1784\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇻🇨",
     "areaCodes": [784]
@@ -19509,8 +19859,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "WS",
     "dialCode": "685",
     "visualText": "+685",
-    "pattern": "^\\+685\\d{5,7}\$",
-    "mask": " ### ####",
+    "pattern": "^\\+685\\d{5}\$",
+    "mask": "#####",
     "emoji": "🇼🇸",
     "areaCodes": [
       20,
@@ -19537,14 +19887,81 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Samoa Americana",
+    "isoCode": "AS",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1684\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🇦🇸",
+    "areaCodes": [684]
+  },
+  {
+    "countryName": "San Bartolomé",
+    "isoCode": "BL",
+    "dialCode": "590",
+    "visualText": "+590",
+    "pattern": "^\\+590\\d{9}\$",
+    "mask": "#### ## ## ##",
+    "emoji": "🌐",
+    "areaCodes": [590]
+  },
+  {
     "countryName": "San Marino",
     "isoCode": "SM",
     "dialCode": "378",
     "visualText": "+378",
-    "pattern": "^\\+378\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+378\\d{10}\$",
+    "mask": "#### ######",
     "emoji": "🇸🇲",
     "areaCodes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  },
+  {
+    "countryName": "San Martín",
+    "isoCode": "MF",
+    "dialCode": "590",
+    "visualText": "+590",
+    "pattern": "^\\+590\\d{9}\$",
+    "mask": "#### ## ## ##",
+    "emoji": "🌐",
+    "areaCodes": [590]
+  },
+  {
+    "countryName": "San Pedro y Miquelón",
+    "isoCode": "PM",
+    "dialCode": "508",
+    "visualText": "+508",
+    "pattern": "^\\+508\\d{6}\$",
+    "mask": "### ## ##",
+    "emoji": "🇵🇲",
+    "areaCodes": [
+      41,
+      42,
+      43,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "countryName": "Santa Elena",
+    "isoCode": "SH",
+    "dialCode": "290",
+    "visualText": "+290",
+    "pattern": "^\\+290221\\d{2}\$",
+    "mask": "#####",
+    "emoji": "🇸🇭",
+    "areaCodes": [2]
   },
   {
     "countryName": "Sao Tome and Principe",
@@ -19552,7 +19969,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "239",
     "visualText": "+239",
     "pattern": "^\\+239\\d{7}\$",
-    "mask": " #######",
+    "mask": "### ####",
     "emoji": "🇸🇹",
     "areaCodes": [2, 9]
   },
@@ -19561,8 +19978,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SA",
     "dialCode": "966",
     "visualText": "+966",
-    "pattern": "^\\+966\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+966\\d{9}\$",
+    "mask": "### ### ####",
     "emoji": "🇸🇦",
     "areaCodes": [11, 12, 13, 14, 16, 17]
   },
@@ -19572,7 +19989,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "221",
     "visualText": "+221",
     "pattern": "^\\+221\\d{9}\$",
-    "mask": " #########",
+    "mask": "## ### ## ##",
     "emoji": "🇸🇳",
     "areaCodes": [
       30,
@@ -19602,8 +20019,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "RS",
     "dialCode": "381",
     "visualText": "+381",
-    "pattern": "^\\+381\\d{9}\$",
-    "mask": " ### ### ###",
+    "pattern": "^\\+381\\d{8}\$",
+    "mask": "### ######",
     "emoji": "🇷🇸",
     "areaCodes": [
       10,
@@ -19648,7 +20065,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "248",
     "visualText": "+248",
     "pattern": "^\\+248\\d{7}\$",
-    "mask": " #######",
+    "mask": "# ### ###",
     "emoji": "🇸🇨",
     "areaCodes": [2, 3, 4, 5, 6, 7, 8, 9]
   },
@@ -19657,8 +20074,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SL",
     "dialCode": "232",
     "visualText": "+232",
-    "pattern": "^\\+232\\d{7}\$",
-    "mask": " #######",
+    "pattern": "^\\+232\\d{8}\$",
+    "mask": "(###) ######",
     "emoji": "🇸🇱",
     "areaCodes": [22]
   },
@@ -19667,8 +20084,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SG",
     "dialCode": "65",
     "visualText": "+65",
-    "pattern": "^\\+65\\d{8,12}\$",
-    "mask": " ####-####",
+    "pattern": "^\\+65\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇸🇬",
     "areaCodes": [
       1,
@@ -19703,12 +20120,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Sint Maarten",
+    "isoCode": "SX",
+    "dialCode": "1",
+    "visualText": "+1",
+    "pattern": "^\\+1721\\d{7}\$",
+    "mask": "(###) ###-####",
+    "emoji": "🌐",
+    "areaCodes": [721]
+  },
+  {
     "countryName": "Slovakia",
     "isoCode": "SK",
     "dialCode": "421",
     "visualText": "+421",
     "pattern": "^\\+421\\d{9}\$",
-    "mask": " ### ### ###",
+    "mask": "##/### ### ##",
     "emoji": "🇸🇰",
     "areaCodes": [
       2,
@@ -19745,8 +20172,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SI",
     "dialCode": "386",
     "visualText": "+386",
-    "pattern": "^\\+386\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+386\\d{8}\$",
+    "mask": "(##) ### ## ##",
     "emoji": "🇸🇮",
     "areaCodes": [1, 2, 3, 4, 5, 7]
   },
@@ -19755,8 +20182,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SB",
     "dialCode": "677",
     "visualText": "+677",
-    "pattern": "^\\+677\\d{5,7}\$",
-    "mask": " ### ####",
+    "pattern": "^\\+677\\d{5}\$",
+    "mask": "#####",
     "emoji": "🇸🇧",
     "areaCodes": [
       20,
@@ -19814,8 +20241,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SO",
     "dialCode": "252",
     "visualText": "+252",
-    "pattern": "^\\+252\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+252\\d{7}\$",
+    "mask": "# ######",
     "emoji": "🇸🇴",
     "areaCodes": [1, 2, 3, 4, 5]
   },
@@ -19824,8 +20251,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "ZA",
     "dialCode": "27",
     "visualText": "+27",
-    "pattern": "^\\+27\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+27\\d{9}\$",
+    "mask": "### ### ####",
     "emoji": "🇿🇦",
     "areaCodes": [
       10,
@@ -19872,8 +20299,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "KR",
     "dialCode": "82",
     "visualText": "+82",
-    "pattern": "^\\+82\\d{9,10}\$",
-    "mask": " ###-####-####",
+    "pattern": "^\\+82\\d{8}\$",
+    "mask": "##-###-####",
     "emoji": "🇰🇷",
     "areaCodes": [2]
   },
@@ -19882,8 +20309,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SS",
     "dialCode": "211",
     "visualText": "+211",
-    "pattern": "^\\+211\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+211\\d{9}\$",
+    "mask": "#### ### ###",
     "emoji": "🇸🇸",
     "areaCodes": [
       180,
@@ -19914,7 +20341,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "34",
     "visualText": "+34",
     "pattern": "^\\+34\\d{9}\$",
-    "mask": " ### ###-####",
+    "mask": "### ## ## ##",
     "emoji": "🇪🇸",
     "areaCodes": [
       91,
@@ -19950,8 +20377,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "LK",
     "dialCode": "94",
     "visualText": "+94",
-    "pattern": "^\\+94\\d{8,12}\$",
-    "mask": " ## ########",
+    "pattern": "^\\+94\\d{9}\$",
+    "mask": "#### ### ###",
     "emoji": "🇱🇰",
     "areaCodes": [
       112,
@@ -20139,8 +20566,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SD",
     "dialCode": "249",
     "visualText": "+249",
-    "pattern": "^\\+249\\d{8,12}\$",
-    "mask": " ### ### ###",
+    "pattern": "^\\+249\\d{9}\$",
+    "mask": "### ### ####",
     "emoji": "🇸🇩",
     "areaCodes": [15, 18]
   },
@@ -20149,8 +20576,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SR",
     "dialCode": "597",
     "visualText": "+597",
-    "pattern": "^\\+597\\d{6,7}\$",
-    "mask": " ### ####",
+    "pattern": "^\\+597\\d{6}\$",
+    "mask": "###-###",
     "emoji": "🇸🇷",
     "areaCodes": [
       21,
@@ -20188,12 +20615,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Svalbard y Jan Mayen",
+    "isoCode": "SJ",
+    "dialCode": "47",
+    "visualText": "+47",
+    "pattern": "^\\+47791\\d{5}\$",
+    "mask": "## ## ## ##",
+    "emoji": "🇸🇯",
+    "areaCodes": []
+  },
+  {
     "countryName": "Sweden",
     "isoCode": "SE",
     "dialCode": "46",
     "visualText": "+46",
-    "pattern": "^\\+46\\d{7,9}\$",
-    "mask": " ### ### ###",
+    "pattern": "^\\+46\\d{7}\$",
+    "mask": "##-## ## ##",
     "emoji": "🇸🇪",
     "areaCodes": [
       8,
@@ -20264,7 +20701,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "41",
     "visualText": "+41",
     "pattern": "^\\+41\\d{9}\$",
-    "mask": " ## ### ## ##",
+    "mask": "### ### ## ##",
     "emoji": "🇨🇭",
     "areaCodes": [
       21,
@@ -20294,8 +20731,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "SY",
     "dialCode": "963",
     "visualText": "+963",
-    "pattern": "^\\+963\\d{8,12}\$",
-    "mask": " ## ########",
+    "pattern": "^\\+963\\d{9}\$",
+    "mask": "### ### ####",
     "emoji": "🇸🇾",
     "areaCodes": [11, 14, 21, 31, 33]
   },
@@ -20304,8 +20741,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TW",
     "dialCode": "886",
     "visualText": "+886",
-    "pattern": "^\\+886\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+886\\d{9}\$",
+    "mask": "## #### ####",
     "emoji": "🇹🇼",
     "areaCodes": [2, 3, 4, 5, 6, 8]
   },
@@ -20314,8 +20751,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TJ",
     "dialCode": "992",
     "visualText": "+992",
-    "pattern": "^\\+992\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+992\\d{9}\$",
+    "mask": "### ## ####",
     "emoji": "🇹🇯",
     "areaCodes": [
       34,
@@ -20362,17 +20799,27 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "255",
     "visualText": "+255",
     "pattern": "^\\+255\\d{9}\$",
-    "mask": " ### ### ###",
+    "mask": "### ### ####",
     "emoji": "🇹🇿",
     "areaCodes": [22, 23, 24, 25, 26, 27, 28]
+  },
+  {
+    "countryName": "Territorio Británico del Océano Índico",
+    "isoCode": "IO",
+    "dialCode": "246",
+    "visualText": "+246",
+    "pattern": "^\\+246\\d{7}\$",
+    "mask": "### ####",
+    "emoji": "🇮🇴",
+    "areaCodes": []
   },
   {
     "countryName": "Thailand",
     "isoCode": "TH",
     "dialCode": "66",
     "visualText": "+66",
-    "pattern": "^\\+66\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+66\\d{8}\$",
+    "mask": "## ### ####",
     "emoji": "🇹🇭",
     "areaCodes": [
       2,
@@ -20409,8 +20856,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TL",
     "dialCode": "670",
     "visualText": "+670",
-    "pattern": "^\\+670\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+670\\d{7}\$",
+    "mask": "### ####",
     "emoji": "🇹🇱",
     "areaCodes": [
       20,
@@ -20469,8 +20916,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TG",
     "dialCode": "228",
     "visualText": "+228",
-    "pattern": "^\\+228\\d{8,12}\$",
-    "mask": " ## ### ####",
+    "pattern": "^\\+228\\d{8}\$",
+    "mask": "## ## ## ##",
     "emoji": "🇹🇬",
     "areaCodes": [
       20,
@@ -20536,12 +20983,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Tokelau",
+    "isoCode": "TK",
+    "dialCode": "690",
+    "visualText": "+690",
+    "pattern": "^\\+690\\d{4}\$",
+    "mask": "####",
+    "emoji": "🇹🇰",
+    "areaCodes": []
+  },
+  {
     "countryName": "Tonga",
     "isoCode": "TO",
     "dialCode": "676",
     "visualText": "+676",
-    "pattern": "^\\+676\\d{5,7}\$",
-    "mask": " ### ####",
+    "pattern": "^\\+676\\d{5}\$",
+    "mask": "##-###",
     "emoji": "🇹🇴",
     "areaCodes": [
       20,
@@ -20581,18 +21038,28 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TT",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{8,12}\$",
+    "pattern": "^\\+1868\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇹🇹",
     "areaCodes": [868]
+  },
+  {
+    "countryName": "Tristán de Acuña",
+    "isoCode": "TA",
+    "dialCode": "290",
+    "visualText": "+290",
+    "pattern": "^\\+290899\\d{1}\$",
+    "mask": "####",
+    "emoji": "🌐",
+    "areaCodes": [8]
   },
   {
     "countryName": "Tunisia",
     "isoCode": "TN",
     "dialCode": "216",
     "visualText": "+216",
-    "pattern": "^\\+216\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+216\\d{8}\$",
+    "mask": "## ### ###",
     "emoji": "🇹🇳",
     "areaCodes": [
       20,
@@ -20646,8 +21113,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TR",
     "dialCode": "90",
     "visualText": "+90",
-    "pattern": "^\\+90\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+90\\d{10}\$",
+    "mask": "(####) ### ## ##",
     "emoji": "🇹🇷",
     "areaCodes": [
       212,
@@ -20740,8 +21207,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TM",
     "dialCode": "993",
     "visualText": "+993",
-    "pattern": "^\\+993\\d{8,12}\$",
-    "mask": "(##) ###-####",
+    "pattern": "^\\+993\\d{8}\$",
+    "mask": "(# ##) ##-##-##",
     "emoji": "🇹🇲",
     "areaCodes": [
       12,
@@ -20806,8 +21273,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "TV",
     "dialCode": "688",
     "visualText": "+688",
-    "pattern": "^\\+688\\d{5,6}\$",
-    "mask": " ## #####",
+    "pattern": "^\\+688\\d{5}\$",
+    "mask": "## ###",
     "emoji": "🇹🇻",
     "areaCodes": [
       20,
@@ -20830,7 +21297,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
       96,
       97,
       98,
-      99,
+      99
     ]
   },
   {
@@ -20839,7 +21306,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "256",
     "visualText": "+256",
     "pattern": "^\\+256\\d{9}\$",
-    "mask": " ### ### ###",
+    "mask": "### #######",
     "emoji": "🇺🇬",
     "areaCodes": [
       30,
@@ -20905,8 +21372,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "UA",
     "dialCode": "380",
     "visualText": "+380",
-    "pattern": "^\\+380\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+380\\d{9}\$",
+    "mask": "##### #####",
     "emoji": "🇺🇦",
     "areaCodes": [
       44,
@@ -23064,8 +23531,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "AE",
     "dialCode": "971",
     "visualText": "+971",
-    "pattern": "^\\+971\\d{9}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+971\\d{8}\$",
+    "mask": "## ### ####",
     "emoji": "🇦🇪",
     "areaCodes": [2, 3, 4, 6, 7, 9]
   },
@@ -23074,8 +23541,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "GB",
     "dialCode": "44",
     "visualText": "+44",
-    "pattern": "^\\+44\\d{8,12}\$",
-    "mask": "(####) ###-###",
+    "pattern": "^\\+44121\\d{7}\$",
+    "mask": "#### ### ####",
     "emoji": "🇬🇧",
     "areaCodes": [
       20,
@@ -23683,7 +24150,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "US",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1\\d{10}\$",
+    "pattern": "^\\+1201\\d{7}\$",
     "mask": "(###) ###-####",
     "emoji": "🇺🇸",
     "areaCodes": [
@@ -24052,8 +24519,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "UY",
     "dialCode": "598",
     "visualText": "+598",
-    "pattern": "^\\+598\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+598\\d{8}\$",
+    "mask": "#### ####",
     "emoji": "🇺🇾",
     "areaCodes": [
       1770,
@@ -25668,7 +26135,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "998",
     "visualText": "+998",
     "pattern": "^\\+998\\d{9}\$",
-    "mask": "(###) ###-####",
+    "mask": "## ### ## ##",
     "emoji": "🇺🇿",
     "areaCodes": [
       20,
@@ -25708,8 +26175,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "VU",
     "dialCode": "678",
     "visualText": "+678",
-    "pattern": "^\\+678\\d{5,7}\$",
-    "mask": " ### ####",
+    "pattern": "^\\+678\\d{5}\$",
+    "mask": "#####",
     "emoji": "🇻🇺",
     "areaCodes": [
       0,
@@ -25797,12 +26264,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Vatican City",
+    "isoCode": "VA",
+    "dialCode": "379",
+    "visualText": "+379",
+    "pattern": "^\\+39066\\d{7}\$",
+    "mask": "## #### ####",
+    "emoji": "🇻🇦",
+    "areaCodes": [0, 6, 9]
+  },
+  {
     "countryName": "Venezuela",
     "isoCode": "VE",
     "dialCode": "58",
     "visualText": "+58",
-    "pattern": "^\\+58\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+58\\d{10}\$",
+    "mask": "####-#######",
     "emoji": "🇻🇪",
     "areaCodes": [
       212,
@@ -25875,8 +26352,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "VN",
     "dialCode": "84",
     "visualText": "+84",
-    "pattern": "^\\+84\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+84\\d{10}\$",
+    "mask": "#### #### ###",
     "emoji": "🇻🇳",
     "areaCodes": [
       24,
@@ -25945,12 +26422,22 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     ]
   },
   {
+    "countryName": "Wallis y Futuna",
+    "isoCode": "WF",
+    "dialCode": "681",
+    "visualText": "+681",
+    "pattern": "^\\+681\\d{6}\$",
+    "mask": "## ## ##",
+    "emoji": "🇼🇫",
+    "areaCodes": []
+  },
+  {
     "countryName": "Yemen",
     "isoCode": "YE",
     "dialCode": "967",
     "visualText": "+967",
-    "pattern": "^\\+967\\d{8,12}\$",
-    "mask": "(###) ###-####",
+    "pattern": "^\\+967\\d{7}\$",
+    "mask": "## ### ###",
     "emoji": "🇾🇪",
     "areaCodes": [1, 2, 3, 4, 5, 6, 7]
   },
@@ -25960,7 +26447,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "dialCode": "260",
     "visualText": "+260",
     "pattern": "^\\+260\\d{9}\$",
-    "mask": " ### ### ###",
+    "mask": "#### ### ###",
     "emoji": "🇿🇲",
     "areaCodes": [211, 212, 213, 214, 215, 216, 217, 218]
   },
@@ -25969,8 +26456,8 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "ZW",
     "dialCode": "263",
     "visualText": "+263",
-    "pattern": "^\\+263\\d{9}\$",
-    "mask": " ### ### ###",
+    "pattern": "^\\+263\\d{7}\$",
+    "mask": "### #####",
     "emoji": "🇿🇼",
     "areaCodes": [
       4,
@@ -26004,502 +26491,6 @@ List<Map<String, dynamic>> mapSupportedCountries = [
       688,
       5483
     ]
-  },
-  {
-    "countryName": "Greenland",
-    "isoCode": "GL",
-    "dialCode": "299",
-    "visualText": "+299",
-    "pattern": "^\\+299\\d{6}\$",
-    "mask": " ## ## ##",
-    "emoji": "🇬🇱",
-    "areaCodes": [2, 3, 4, 5, 6, 8, 9]
-  },
-  {
-    "countryName": "Vatican City",
-    "isoCode": "VA",
-    "dialCode": "379",
-    "visualText": "+379",
-    "pattern": "^\\+379\\d{6,9}\$",
-    "mask": " ### ###",
-    "emoji": "🇻🇦",
-    "areaCodes": [0, 6, 9]
-  },
-  {
-    "countryName": "Isla de la Ascensión",
-    "isoCode": "AC",
-    "dialCode": "247",
-    "visualText": "+247",
-    "pattern": "^\\+247\\d{7,10}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🌐",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Samoa Americana",
-    "isoCode": "AS",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇦🇸",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Aruba",
-    "isoCode": "AW",
-    "dialCode": "297",
-    "visualText": "+297",
-    "pattern": "^\\+297\\d{9,12}\$",
-    "mask": "### ####",
-    "emoji": "🇦🇼",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Islas Aland",
-    "isoCode": "AX",
-    "dialCode": "358",
-    "visualText": "+358",
-    "pattern": "^\\+358\\d{11,14}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇦🇽",
-    "areaCodes": [18]
-  },
-  {
-    "countryName": "San Bartolomé",
-    "isoCode": "BL",
-    "dialCode": "590",
-    "visualText": "+590",
-    "pattern": "^\\+590\\d{11,14}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🌐",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Bermudas",
-    "isoCode": "BM",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇧🇲",
-    "areaCodes": [441]
-  },
-  {
-    "countryName": "Caribe neerlandés",
-    "isoCode": "BQ",
-    "dialCode": "599",
-    "visualText": "+599",
-    "pattern": "^\\+599\\d{9,12}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🌐",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Islas Cocos",
-    "isoCode": "CC",
-    "dialCode": "61",
-    "visualText": "+61",
-    "pattern": "^\\+61\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇨🇨",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Côte d’Ivoire",
-    "isoCode": "CI",
-    "dialCode": "225",
-    "visualText": "+225",
-    "pattern": "^\\+225\\d{12,15}\$",
-    "mask": "## ## # #####",
-    "emoji": "🇨🇮",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Islas Cook",
-    "isoCode": "CK",
-    "dialCode": "682",
-    "visualText": "+682",
-    "pattern": "^\\+682\\d{7,10}\$",
-    "mask": "## ###",
-    "emoji": "🇨🇰",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Curazao",
-    "isoCode": "CW",
-    "dialCode": "599",
-    "visualText": "+599",
-    "pattern": "^\\+599\\d{10,13}\$",
-    "mask": "# ### ####",
-    "emoji": "🌐",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Isla de Navidad",
-    "isoCode": "CX",
-    "dialCode": "61",
-    "visualText": "+61",
-    "pattern": "^\\+61\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇨🇽",
-    "areaCodes": [8]
-  },
-  {
-    "countryName": "Sáhara Occidental",
-    "isoCode": "EH",
-    "dialCode": "212",
-    "visualText": "+212",
-    "pattern": "^\\+212\\d{11,14}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇪🇭",
-    "areaCodes": [5]
-  },
-  {
-    "countryName": "Islas Malvinas",
-    "isoCode": "FK",
-    "dialCode": "500",
-    "visualText": "+500",
-    "pattern": "^\\+500\\d{7,10}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇫🇰",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Islas Feroe",
-    "isoCode": "FO",
-    "dialCode": "298",
-    "visualText": "+298",
-    "pattern": "^\\+298\\d{8,11}\$",
-    "mask": "######",
-    "emoji": "🇫🇴",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Guayana Francesa",
-    "isoCode": "GF",
-    "dialCode": "594",
-    "visualText": "+594",
-    "pattern": "^\\+594\\d{11,14}\$",
-    "mask": "#### ## ## ##",
-    "emoji": "🇬🇫",
-    "areaCodes": [594]
-  },
-  {
-    "countryName": "Guernesey",
-    "isoCode": "GG",
-    "dialCode": "44",
-    "visualText": "+44",
-    "pattern": "^\\+44\\d{11,14}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇬🇬",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Gibraltar",
-    "isoCode": "GI",
-    "dialCode": "350",
-    "visualText": "+350",
-    "pattern": "^\\+350\\d{10,13}\$",
-    "mask": "### #####",
-    "emoji": "🇬🇮",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Guadalupe",
-    "isoCode": "GP",
-    "dialCode": "590",
-    "visualText": "+590",
-    "pattern": "^\\+590\\d{11,14}\$",
-    "mask": "#### ## ## ##",
-    "emoji": "🇬🇵",
-    "areaCodes": [590]
-  },
-  {
-    "countryName": "Guam",
-    "isoCode": "GU",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇬🇺",
-    "areaCodes": [671]
-  },
-  {
-    "countryName": "Isla de Man",
-    "isoCode": "IM",
-    "dialCode": "44",
-    "visualText": "+44",
-    "pattern": "^\\+44\\d{11,14}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇮🇲",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Territorio Británico del Océano Índico",
-    "isoCode": "IO",
-    "dialCode": "246",
-    "visualText": "+246",
-    "pattern": "^\\+246\\d{9,12}\$",
-    "mask": "### ####",
-    "emoji": "🇮🇴",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Jersey",
-    "isoCode": "JE",
-    "dialCode": "44",
-    "visualText": "+44",
-    "pattern": "^\\+44\\d{11,14}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇯🇪",
-    "areaCodes": [1534]
-  },
-  {
-    "countryName": "Islas Caimán",
-    "isoCode": "KY",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇰🇾",
-    "areaCodes": []
-  },
-  {
-    "countryName": "San Martín",
-    "isoCode": "MF",
-    "dialCode": "590",
-    "visualText": "+590",
-    "pattern": "^\\+590\\d{11,14}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🌐",
-    "areaCodes": []
-  },
-  {
-    "countryName": "RAE de Macao (China)",
-    "isoCode": "MO",
-    "dialCode": "853",
-    "visualText": "+853",
-    "pattern": "^\\+853\\d{10,13}\$",
-    "mask": "#### ####",
-    "emoji": "🇲🇴",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Islas Marianas del Norte",
-    "isoCode": "MP",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇲🇵",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Martinica",
-    "isoCode": "MQ",
-    "dialCode": "596",
-    "visualText": "+596",
-    "pattern": "^\\+596\\d{11,14}\$",
-    "mask": "#### ## ## ##",
-    "emoji": "🇲🇶",
-    "areaCodes": [596, 806, 807, 808, 809, 976]
-  },
-  {
-    "countryName": "Montserrat",
-    "isoCode": "MS",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇲🇸",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Nueva Caledonia",
-    "isoCode": "NC",
-    "dialCode": "687",
-    "visualText": "+687",
-    "pattern": "^\\+687\\d{8,11}\$",
-    "mask": "##.##.##",
-    "emoji": "🇳🇨",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Isla Norfolk",
-    "isoCode": "NF",
-    "dialCode": "672",
-    "visualText": "+672",
-    "pattern": "^\\+672\\d{8,11}\$",
-    "mask": "## ####",
-    "emoji": "🇳🇫",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Niue",
-    "isoCode": "NU",
-    "dialCode": "683",
-    "visualText": "+683",
-    "pattern": "^\\+683\\d{6,9}\$",
-    "mask": "####",
-    "emoji": "🇳🇺",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Polinesia Francesa",
-    "isoCode": "PF",
-    "dialCode": "689",
-    "visualText": "+689",
-    "pattern": "^\\+689\\d{10,13}\$",
-    "mask": "## ## ## ##",
-    "emoji": "🇵🇫",
-    "areaCodes": []
-  },
-  {
-    "countryName": "San Pedro y Miquelón",
-    "isoCode": "PM",
-    "dialCode": "508",
-    "visualText": "+508",
-    "pattern": "^\\+508\\d{8,11}\$",
-    "mask": "### ## ##",
-    "emoji": "🇵🇲",
-    "areaCodes": [
-      41,
-      42,
-      43,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      57,
-      58,
-      59
-    ]
-  },
-  {
-    "countryName": "Puerto Rico",
-    "isoCode": "PR",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇵🇷",
-    "areaCodes": [787, 939]
-  },
-  {
-    "countryName": "Reunión",
-    "isoCode": "RE",
-    "dialCode": "262",
-    "visualText": "+262",
-    "pattern": "^\\+262\\d{11,14}\$",
-    "mask": "#### ## ## ##",
-    "emoji": "🇷🇪",
-    "areaCodes": [262, 263]
-  },
-  {
-    "countryName": "Santa Elena",
-    "isoCode": "SH",
-    "dialCode": "290",
-    "visualText": "+290",
-    "pattern": "^\\+290\\d{7,10}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇸🇭",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Svalbard y Jan Mayen",
-    "isoCode": "SJ",
-    "dialCode": "47",
-    "visualText": "+47",
-    "pattern": "^\\+47\\d{9,12}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇸🇯",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Sint Maarten",
-    "isoCode": "SX",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🌐",
-    "areaCodes": [721]
-  },
-  {
-    "countryName": "Tristán de Acuña",
-    "isoCode": "TA",
-    "dialCode": "290",
-    "visualText": "+290",
-    "pattern": "^\\+290\\d{6,9}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🌐",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Islas Turcas y Caicos",
-    "isoCode": "TC",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇹🇨",
-    "areaCodes": [649]
-  },
-  {
-    "countryName": "Tokelau",
-    "isoCode": "TK",
-    "dialCode": "690",
-    "visualText": "+690",
-    "pattern": "^\\+690\\d{6,9}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇹🇰",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Islas Vírgenes Británicas",
-    "isoCode": "VG",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇻🇬",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Islas Vírgenes de EE. UU.",
-    "isoCode": "VI",
-    "dialCode": "1",
-    "visualText": "+1",
-    "pattern": "^\\+1\\d{10,13}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇻🇮",
-    "areaCodes": [340]
-  },
-  {
-    "countryName": "Wallis y Futuna",
-    "isoCode": "WF",
-    "dialCode": "681",
-    "visualText": "+681",
-    "pattern": "^\\+681\\d{8,11}\$",
-    "mask": "## ## ##",
-    "emoji": "🇼🇫",
-    "areaCodes": []
-  },
-  {
-    "countryName": "Mayotte",
-    "isoCode": "YT",
-    "dialCode": "262",
-    "visualText": "+262",
-    "pattern": "^\\+262\\d{11,14}\$",
-    "mask": "(###) ###-####",
-    "emoji": "🇾🇹",
-    "areaCodes": [269]
   }
 ];
+
