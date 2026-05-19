@@ -100,3 +100,9 @@
 - Add Countries
 - Fix Minors bugs
 
+## 2.1.4
+- add Regions
+
+## 2.1.5
+- add Phone_Country_Input widget
+

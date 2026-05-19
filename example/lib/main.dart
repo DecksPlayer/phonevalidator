@@ -83,8 +83,13 @@ class _MyHomePageState extends State<MyHomePage> {
             PhoneSummaryView(
               phoneValidator: phoneValidatorEs,
               fullPhoneNumber: '34612345678',),
-            PhoneAutoDetectView(phoneValidator: phoneValidatorEn, fullPhoneNumber: '',)
-
+            PhoneAutoDetectView(phoneValidator: phoneValidatorEn, fullPhoneNumber: '',),
+            const Divider(),
+            const Text('PhoneCountryInput (Pre-fixed to Argentina):'),
+            PhoneCountryInput(
+              phoneValidator: phoneValidatorEs,
+              countryIsoCode: 'AR',
+            ),
           ],
 
         ),

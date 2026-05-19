@@ -297,6 +297,7 @@ Source of truth: `lib/src/assets/supported_countries.dart`.
 | PhoneSummaryView |     A read-only widget that displays a fully formatted phone number, including the country code. Useful for showing validated numbers in a summary or review screen.       | 
 | PhoneInputSelectorView |   An interactive widget that allows users to select a country from a dropdown and enter a phone number. Includes input formatting and real-time validation based on the selected country's phone rules.      | 
 | PhoneAutoDetectView | An intelligent phone input widget that automatically detects the country based on the dial code entered. It formats the number accordingly and provides real-time validation feedback.|
+| PhoneCountryInput | An interactive widget with a pre-fixed country. It formats the number according to the resolved country's rules and automatically cleans any typed/pasted dial code prefix.|
 
 ###  Export List
 <details>
@@ -345,6 +346,13 @@ Source of truth: `lib/src/assets/supported_countries.dart`.
 
 * path :`package:cellphone_validator/src/view/phone_text_view/phone_summary_view.dart`    
 * **Description:**  Widget that displays a phone number with formatting.  
+</details>
+
+<details>
+<summary>phone_country_input</summary>
+
+* path :`package:cellphone_validator/src/view/phone_country_input/phone_country_input.dart`    
+* **Description:**  Widget that provides phone input for a pre-fixed country with auto-clean prefix logic.  
 </details>
 
 ## How to Use
@@ -407,6 +415,17 @@ PhoneSummaryView(phoneValidator: phoneValidator, fullPhoneNumber: phoneValidator
  * **/
  
 PhoneAutoDetectView(phoneValidator: phoneValidator.value, fullPhoneNumber: ''),
+```
+
+```dart
+/**
+ *  How to use PhoneCountryInput
+ * **/
+ 
+PhoneCountryInput(
+  phoneValidator: phoneValidator,
+  countryIsoCode: 'AR', // pre-fixed to Argentina
+),
 ```
 
 * How to check if some value is true or false
