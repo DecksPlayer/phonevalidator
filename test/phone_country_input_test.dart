@@ -65,4 +65,101 @@ void main() {
     // Check validation
     expect(phoneValidator.isValidPhoneNotifier.value, true);
   });
+
+  testWidgets('PhoneCountryInput initializes with initialPhoneNumber containing prefix', (WidgetTester tester) async {
+    final phoneValidator = PhoneValidator(lang: 'en');
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: PhoneCountryInput(
+            phoneValidator: phoneValidator,
+            countryIsoCode: 'AF',
+            initialPhoneNumber: '+93205555555',
+          ),
+        ),
+      ),
+    );
+
+    await tester.pumpAndSettle();
+
+    final TextField textField = tester.widget(find.byType(TextField));
+    // The textfield should clean the prefix and format initially
+    expect(textField.controller!.text, '205 555 555');
+    
+    // Check validation
+    expect(phoneValidator.isValidPhoneNotifier.value, true);
+  });
+
+  testWidgets('PhoneCountryInput handles dynamic updates of initialPhoneNumber and countryIsoCode', (WidgetTester tester) async {
+    final phoneValidator = PhoneValidator(lang: 'en');
+    String? currentInitialPhone = '+93205555555';
+    String currentIsoCode = 'AF';
+
+    // State management for testing didUpdateWidget
+    await tester.pumpWidget(
+      StatefulBuilder(
+        builder: (context, setState) {
+          return MaterialApp(
+            home: Scaffold(
+              body: Column(
+                children: [
+                  PhoneCountryInput(
+                    phoneValidator: phoneValidator,
+                    countryIsoCode: currentIsoCode,
+                    initialPhoneNumber: currentInitialPhone,
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      setState(() {
+                        currentInitialPhone = null;
+                      });
+                    },
+                    key: const Key('clear_phone_btn'),
+                    child: const Text('Clear Phone'),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      setState(() {
+                        currentIsoCode = 'AR'; // Argentina (dial code 54)
+                      });
+                    },
+                    key: const Key('change_country_btn'),
+                    child: const Text('Change Country'),
+                  ),
+                ],
+              ),
+            ),
+          );
+        },
+      ),
+    );
+
+    await tester.pumpAndSettle();
+
+    final TextField textField = tester.widget(find.byType(TextField));
+    expect(textField.controller!.text, '205 555 555');
+    expect(phoneValidator.isValidPhoneNotifier.value, true);
+
+    // 1. Clear initialPhoneNumber dynamically (set to null)
+    await tester.tap(find.byKey(const Key('clear_phone_btn')));
+    await tester.pumpAndSettle();
+
+    expect(textField.controller!.text, '');
+    expect(phoneValidator.isValidPhoneNotifier.value, false);
+
+    // 2. User enters a local number
+    await tester.enterText(find.byType(TextField), '205555555'); // 9 digits for AF
+    await tester.pumpAndSettle();
+    expect(textField.controller!.text, '205 555 555');
+    expect(phoneValidator.isValidPhoneNotifier.value, true);
+
+    // 3. Change country Iso code to AR (Argentina dial code 54, mask '### ####-####')
+    await tester.tap(find.byKey(const Key('change_country_btn')));
+    await tester.pumpAndSettle();
+
+    // The text field should re-format the digits '205555555' using the AR mask
+    // Mask for AR is: "### ####-####". '205555555' is 9 digits, formatted as '205 5555-55'
+    expect(textField.controller!.text, '205 5555-55');
+  });
 }

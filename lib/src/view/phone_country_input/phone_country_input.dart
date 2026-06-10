@@ -59,6 +59,9 @@ class PhoneCountryInput extends StatefulWidget {
   /// The pre-fixed country ISO code (e.g. 'AR', 'US'). Used to resolve the country from [CellPhoneValidator.countries] if [country] is null.
   final String? countryIsoCode;
 
+  /// The initial phone number to populate the text field. Can include the country prefix.
+  final String? initialPhoneNumber;
+
   /// Creates a [PhoneCountryInput] widget.
   ///
   /// Either [country] or [countryIsoCode] must be non-null.
@@ -67,6 +70,7 @@ class PhoneCountryInput extends StatefulWidget {
     required this.phoneValidator,
     this.country,
     this.countryIsoCode,
+    this.initialPhoneNumber,
   }) : assert(country != null || countryIsoCode != null, 'Either country or countryIsoCode must be provided');
 
   @override
@@ -82,6 +86,7 @@ class _PhoneCountryInputState extends State<PhoneCountryInput> {
   void initState() {
     super.initState();
     _resolveAndSetCountry();
+    _initializePhoneNumber();
   }
 
   void _resolveAndSetCountry() {
@@ -98,14 +103,59 @@ class _PhoneCountryInputState extends State<PhoneCountryInput> {
     widget.phoneValidator.setCountry(_resolvedCountry);
   }
 
+  void _initializePhoneNumber() {
+    if (widget.initialPhoneNumber != null && widget.initialPhoneNumber!.isNotEmpty) {
+      String cleanText = widget.initialPhoneNumber!;
+      final String dial = _resolvedCountry.dialCode;
+
+      if (cleanText.startsWith('+')) {
+        final String digitsOnly = cleanText.replaceAll(RegExp(r'[^\d]'), '');
+        if (digitsOnly.startsWith(dial)) {
+          cleanText = digitsOnly.substring(dial.length);
+        }
+      } else {
+        final String digitsOnly = cleanText.replaceAll(RegExp(r'[^\d]'), '');
+        if (digitsOnly.length >= dial.length && digitsOnly.startsWith(dial)) {
+          cleanText = digitsOnly.substring(dial.length);
+        }
+      }
+
+      // Format initial text manually using MaskedTextInputFormatter
+      final formatter = MaskedTextInputFormatter(mask: _resolvedCountry.mask);
+      final formattedVal = formatter.formatEditUpdate(
+        TextEditingValue.empty,
+        TextEditingValue(text: cleanText),
+      );
+
+      _phoneEditingController.text = formattedVal.text;
+      widget.phoneValidator.checkPhoneByCountry(formattedVal.text, _resolvedCountry);
+    } else {
+      _phoneEditingController.clear();
+      widget.phoneValidator.checkPhoneByCountry('', _resolvedCountry);
+    }
+  }
+
   @override
   void didUpdateWidget(covariant PhoneCountryInput oldWidget) {
     super.didUpdateWidget(oldWidget);
+    bool countryChanged = false;
     if (widget.phoneValidator != oldWidget.phoneValidator ||
         widget.country != oldWidget.country ||
         widget.countryIsoCode != oldWidget.countryIsoCode) {
       _resolveAndSetCountry();
-      _onChanged(_phoneEditingController.text);
+      countryChanged = true;
+    }
+
+    if (widget.initialPhoneNumber != oldWidget.initialPhoneNumber) {
+      _initializePhoneNumber();
+    } else if (countryChanged) {
+      final formatter = MaskedTextInputFormatter(mask: _resolvedCountry.mask);
+      final formattedVal = formatter.formatEditUpdate(
+        TextEditingValue.empty,
+        TextEditingValue(text: _phoneEditingController.text.replaceAll(RegExp(r'[^\d]'), '')),
+      );
+      _phoneEditingController.text = formattedVal.text;
+      _onChanged(formattedVal.text);
     }
   }
 

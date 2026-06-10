@@ -425,6 +425,7 @@ PhoneAutoDetectView(phoneValidator: phoneValidator.value, fullPhoneNumber: ''),
 PhoneCountryInput(
   phoneValidator: phoneValidator,
   countryIsoCode: 'AR', // pre-fixed to Argentina
+  initialPhoneNumber: '1123456789', // optional initial phone number
 ),
 ```
 

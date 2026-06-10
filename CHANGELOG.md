@@ -106,3 +106,7 @@
 ## 2.1.5
 - add Phone_Country_Input widget
 
+## 2.1.6
+- Fix initial phone number parsing and formatting in `PhoneCountryInput`
+- Handle optional/null initial phone number transitions safely
+- Update documentation and instructions
