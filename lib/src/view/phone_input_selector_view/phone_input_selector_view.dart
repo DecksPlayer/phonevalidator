@@ -91,34 +91,176 @@ const Map<String, Map<RegionFilter, String>> _regionLabelsByLang = {
 };
 
 const Set<String> _europeIsoCodes = {
-  'AD', 'AL', 'AT', 'AX', 'BA', 'BE', 'BG', 'BY', 'CH', 'CY', 'CZ', 'DE',
-  'DK', 'EE', 'ES', 'FI', 'FO', 'FR', 'GB', 'GG', 'GI', 'GR', 'HR', 'HU',
-  'IE', 'IM', 'IS', 'IT', 'JE', 'LI', 'LT', 'LU', 'LV', 'MC', 'MD', 'ME',
-  'MK', 'MT', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'RU', 'SE', 'SI', 'SJ',
-  'SK', 'SM', 'UA', 'VA', 'XK',
+  'AD',
+  'AL',
+  'AT',
+  'AX',
+  'BA',
+  'BE',
+  'BG',
+  'BY',
+  'CH',
+  'CY',
+  'CZ',
+  'DE',
+  'DK',
+  'EE',
+  'ES',
+  'FI',
+  'FO',
+  'FR',
+  'GB',
+  'GG',
+  'GI',
+  'GR',
+  'HR',
+  'HU',
+  'IE',
+  'IM',
+  'IS',
+  'IT',
+  'JE',
+  'LI',
+  'LT',
+  'LU',
+  'LV',
+  'MC',
+  'MD',
+  'ME',
+  'MK',
+  'MT',
+  'NL',
+  'NO',
+  'PL',
+  'PT',
+  'RO',
+  'RS',
+  'RU',
+  'SE',
+  'SI',
+  'SJ',
+  'SK',
+  'SM',
+  'UA',
+  'VA',
+  'XK',
 };
 
 const Set<String> _asiaIsoCodes = {
-  'AE', 'AF', 'AM', 'AZ', 'BD', 'BH', 'BN', 'BT', 'CN', 'GE', 'HK', 'ID',
-  'IL', 'IN', 'IQ', 'IR', 'JO', 'JP', 'KG', 'KH', 'KP', 'KR', 'KW', 'KZ',
-  'LA', 'LB', 'LK', 'MM', 'MN', 'MO', 'MV', 'MY', 'NP', 'OM', 'PH', 'PK',
-  'PS', 'QA', 'SA', 'SG', 'SY', 'TH', 'TJ', 'TL', 'TM', 'TR', 'TW', 'UZ',
-  'VN', 'YE',
+  'AE',
+  'AF',
+  'AM',
+  'AZ',
+  'BD',
+  'BH',
+  'BN',
+  'BT',
+  'CN',
+  'GE',
+  'HK',
+  'ID',
+  'IL',
+  'IN',
+  'IQ',
+  'IR',
+  'JO',
+  'JP',
+  'KG',
+  'KH',
+  'KP',
+  'KR',
+  'KW',
+  'KZ',
+  'LA',
+  'LB',
+  'LK',
+  'MM',
+  'MN',
+  'MO',
+  'MV',
+  'MY',
+  'NP',
+  'OM',
+  'PH',
+  'PK',
+  'PS',
+  'QA',
+  'SA',
+  'SG',
+  'SY',
+  'TH',
+  'TJ',
+  'TL',
+  'TM',
+  'TR',
+  'TW',
+  'UZ',
+  'VN',
+  'YE',
 };
 
 const Set<String> _southAmericaIsoCodes = {
-  'AR', 'BO', 'BR', 'CL', 'CO', 'EC', 'FK', 'GF', 'GY', 'PE', 'PY', 'SR',
-  'UY', 'VE',
+  'AR',
+  'BO',
+  'BR',
+  'CL',
+  'CO',
+  'EC',
+  'FK',
+  'GF',
+  'GY',
+  'PE',
+  'PY',
+  'SR',
+  'UY',
+  'VE',
 };
 
 const Set<String> _centralAmericaIsoCodes = {
-  'BZ', 'CR', 'GT', 'HN', 'MX', 'NI', 'PA', 'SV',
+  'BZ',
+  'CR',
+  'GT',
+  'HN',
+  'MX',
+  'NI',
+  'PA',
+  'SV',
 };
 
 const Set<String> _northAmericaIsoCodes = {
-  'AG', 'AI', 'AW', 'BB', 'BL', 'BM', 'BQ', 'BS', 'CA', 'CU', 'CW', 'DM',
-  'DO', 'GD', 'GL', 'GP', 'HT', 'JM', 'KN', 'KY', 'LC', 'MF', 'MQ', 'MS',
-  'PM', 'PR', 'SX', 'TC', 'TT', 'US', 'VC', 'VG', 'VI',
+  'AG',
+  'AI',
+  'AW',
+  'BB',
+  'BL',
+  'BM',
+  'BQ',
+  'BS',
+  'CA',
+  'CU',
+  'CW',
+  'DM',
+  'DO',
+  'GD',
+  'GL',
+  'GP',
+  'HT',
+  'JM',
+  'KN',
+  'KY',
+  'LC',
+  'MF',
+  'MQ',
+  'MS',
+  'PM',
+  'PR',
+  'SX',
+  'TC',
+  'TT',
+  'US',
+  'VC',
+  'VG',
+  'VI',
 };
 
 const Map<RegionFilter, Set<String>> _regionIsoMap = {
@@ -128,7 +270,6 @@ const Map<RegionFilter, Set<String>> _regionIsoMap = {
   RegionFilter.centralAmerica: _centralAmericaIsoCodes,
   RegionFilter.northAmerica: _northAmericaIsoCodes,
 };
-
 
 /// [PhoneInputSelectorView] is a StatefulWidget that provides a UI for phone number validation.
 ///
@@ -159,7 +300,9 @@ class _PhoneInputSelectorView extends State<PhoneInputSelectorView> {
       return _countries;
     }
     final regionCodes = _regionIsoMap[_selectedRegion] ?? <String>{};
-    return _countries.where((country) => regionCodes.contains(country.isoCode)).toList();
+    return _countries
+        .where((country) => regionCodes.contains(country.isoCode))
+        .toList();
   }
 
   String _regionLabel(RegionFilter region) {
@@ -237,36 +380,35 @@ class _PhoneInputSelectorView extends State<PhoneInputSelectorView> {
     }
     return Padding(
         padding: const EdgeInsets.all(10),
-        child: Column(
-          children: [
-            Row(
+        child: ListTile(
+            title: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Flexible(
                     flex: 2,
                     child: SizedBox(height: 50, child: getCountryDropdown())),
                 Flexible(
-                    flex: 4,
+                    flex: 5,
                     child: Padding(
-                        padding:
-                        const EdgeInsets.only(left: 15, right: 15, bottom: 15),
+                        padding: const EdgeInsets.only(
+                            left: 15, right: 15, bottom: 15),
                         child: phoneTextField(widget.phoneValidator))),
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 15),
-                  child: filterToggleButton(),
-                ),
               ],
             ),
-            if (_regionFilterEnabled)
-              Padding(
-                padding: const EdgeInsets.only(top: 2),
-                child: Align(
-                  alignment: Alignment.centerRight,
-                  child: SizedBox(width: 220, child: regionDropdown()),
-                ),
-              ),
-          ],
-        ));
+            subtitle: ListTile(
+                title: Visibility(
+                    visible: _regionFilterEnabled,
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 2),
+                      child: Align(
+                        alignment: Alignment.centerRight,
+                        child: SizedBox(width: 220, child: regionDropdown()),
+                      ),
+                    )),
+                trailing: Padding(
+                  padding: const EdgeInsets.only(bottom: 15),
+                  child: filterToggleButton(),
+                ))));
   }
 
   /// Handles the selection of a country from the dropdown.
@@ -292,23 +434,20 @@ class _PhoneInputSelectorView extends State<PhoneInputSelectorView> {
         : [];
   }
 
-
-
-  void insertNumber(String text){
+  void insertNumber(String text) {
     widget.phoneValidator.checkPhone(text);
   }
-
-
 
   Widget getCountryDropdown() {
     final filtered = _filteredCountries;
     Country? selectedCountry = widget.phoneValidator.country;
     if (selectedCountry != null &&
-        !filtered.any((country) => country.isoCode == selectedCountry?.isoCode)) {
+        !filtered
+            .any((country) => country.isoCode == selectedCountry?.isoCode)) {
       selectedCountry = null;
     }
 
-   return DropdownButton<Country>(
+    return DropdownButton<Country>(
       isExpanded: true,
       value: selectedCountry,
       onChanged: filtered.isEmpty
@@ -319,7 +458,8 @@ class _PhoneInputSelectorView extends State<PhoneInputSelectorView> {
       items: filtered.map((Country country) {
         return DropdownMenuItem<Country>(
           value: country,
-          child: Text(country.getDefaultView(), overflow: TextOverflow.ellipsis),
+          child:
+              Text(country.getDefaultView(), overflow: TextOverflow.ellipsis),
         );
       }).toList(),
     );
@@ -347,7 +487,9 @@ class _PhoneInputSelectorView extends State<PhoneInputSelectorView> {
 
   Widget filterToggleButton() {
     return IconButton(
-      tooltip: _regionFilterEnabled ? 'Disable region filter' : 'Enable region filter',
+      tooltip: _regionFilterEnabled
+          ? 'Disable region filter'
+          : 'Enable region filter',
       icon: Icon(
         Icons.public,
         color: _regionFilterEnabled
@@ -366,20 +508,22 @@ class _PhoneInputSelectorView extends State<PhoneInputSelectorView> {
     );
   }
 
-  TextField phoneTextField(PhoneValidator phoneValidator){
-   return TextField(
+  TextField phoneTextField(PhoneValidator phoneValidator) {
+    return TextField(
       decoration: InputDecoration(
-        hintText: getPhovalidatorText(phoneValidator.country, 'mask',phoneValidator.lang),
-        labelText: getPhovalidatorText(phoneValidator.country, 'countryName', phoneValidator.lang),
-        prefix: Text(getPhovalidatorText(phoneValidator.country, 'visualText',phoneValidator.lang)),
-        suffix: CheckAnimation(isValidPhoneNotifier:phoneValidator.isValidPhoneNotifier),
+        hintText: getPhovalidatorText(
+            phoneValidator.country, 'mask', phoneValidator.lang),
+        labelText: getPhovalidatorText(
+            phoneValidator.country, 'countryName', phoneValidator.lang),
+        prefix: Text(getPhovalidatorText(
+            phoneValidator.country, 'visualText', phoneValidator.lang)),
+        suffix: CheckAnimation(
+            isValidPhoneNotifier: phoneValidator.isValidPhoneNotifier),
       ),
       keyboardType: TextInputType.phone,
       controller: _phoneEditingController,
       inputFormatters: getInputFormater(),
-      onChanged: insertNumber,);
+      onChanged: insertNumber,
+    );
   }
-
-
-
 }
