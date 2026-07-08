@@ -399,7 +399,12 @@ Create a PhoneValidator to manage phone validation and state.
 /**
  *  How to use PhoneInputSelectorView
  * **/
-PhoneInputSelectorView(phoneValidator: phoneValidator),
+PhoneInputSelectorView(
+  phoneValidator: phoneValidator,
+  dropDownColor: Colors.deepPurple, // Optional: Dropdown background color
+  dropdownTextColor: Colors.white,   // Optional: Dropdown text color
+  dropdownItemColor: Colors.purple,  // Optional: Dropdown list item background color
+),
 ```
 
 ```dart

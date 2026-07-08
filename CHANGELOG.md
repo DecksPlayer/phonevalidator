@@ -1,3 +1,7 @@
+## 2.1.7
+- Add customization options `dropDownColor`, `dropdownTextColor`, and `dropdownItemColor` to `PhoneInputSelectorView`.
+- Improve flag and dropdown styling options.
+
 ## 1.0.0
 
 - Country Selector DropDown Widget
