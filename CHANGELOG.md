@@ -117,3 +117,16 @@
 
 ## 2.1.8
 - Fix some Countries RegEx patterns
+
+## 2.1.9
+- Update Countries Support
+- Add autocomplete number in AutodetectImput
+
+## 2.1.10
+- Hotfix AutodetectInput bug in edit mode
+
+## 2.1.11
+- Minor bug fix in PhoneAutoDetectView
+
+## 2.1.12
+- Hotfix in PhoneAutoDetectView

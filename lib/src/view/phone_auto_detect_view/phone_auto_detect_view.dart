@@ -22,7 +22,8 @@ class PhoneAutoDetectView extends StatefulWidget {
   /// Creates a [PhoneAutoDetectView] widget.
   ///
   /// Requires a [phoneValidator] for validation logic and a [fullPhoneNumber] as the initial value.
-  const PhoneAutoDetectView({super.key, required this.phoneValidator, required this.fullPhoneNumber});
+  const PhoneAutoDetectView(
+      {super.key, required this.phoneValidator, required this.fullPhoneNumber});
 
   @override
   State<PhoneAutoDetectView> createState() => _PhoneAutoDetectView();
@@ -37,6 +38,39 @@ class _PhoneAutoDetectView extends State<PhoneAutoDetectView> {
   @override
   void initState() {
     super.initState();
+    _initializePhoneNumber();
+  }
+
+  void _initializePhoneNumber() {
+    if (widget.fullPhoneNumber.isNotEmpty) {
+      _country.value = widget.phoneValidator
+          .getCountryByPhone(countries, widget.fullPhoneNumber);
+      if (_country.value != null) {
+        final normalized = widget.fullPhoneNumber.replaceAll(RegExp(r'[^\d]'), '');
+        final phoneWithoutDialCode = normalized.substring(_country.value!.dialCode.length);
+        
+        final formatter = MaskedTextInputFormatter(mask: _country.value!.mask);
+        final formattedText = formatter.formatEditUpdate(
+          TextEditingValue.empty,
+          TextEditingValue(text: phoneWithoutDialCode),
+        ).text;
+
+        _phoneEditingController.text = formattedText;
+        widget.phoneValidator
+            .checkPhoneByCountry(_phoneEditingController.text, _country.value);
+      }
+    } else {
+      _country.value = null;
+      _phoneEditingController.clear();
+    }
+  }
+
+  @override
+  void didUpdateWidget(covariant PhoneAutoDetectView oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (widget.fullPhoneNumber != oldWidget.fullPhoneNumber) {
+      _initializePhoneNumber();
+    }
   }
 
   @override
@@ -61,15 +95,26 @@ class _PhoneAutoDetectView extends State<PhoneAutoDetectView> {
     if (_country.value == null || text.isEmpty) {
       _country.value = widget.phoneValidator.getCountryByPhone(countries, text);
       if (_country.value != null) {
-        String aux = _phoneEditingController.value.text;
-        aux = aux.replaceFirst(_country.value!.dialCode, '');
-        _phoneEditingController.text = aux;
+        final cleanText = _phoneEditingController.value.text.replaceAll(RegExp(r'[^\d]'), '');
+        String aux = cleanText;
+        if (cleanText.startsWith(_country.value!.dialCode)) {
+          aux = cleanText.substring(_country.value!.dialCode.length);
+        }
+        
+        final formatter = MaskedTextInputFormatter(mask: _country.value!.mask);
+        final formattedText = formatter.formatEditUpdate(
+          TextEditingValue.empty,
+          TextEditingValue(text: aux),
+        ).text;
+
+        _phoneEditingController.text = formattedText;
         _phoneEditingController.selection = TextSelection.fromPosition(
-          TextPosition(offset: aux.length),
+          TextPosition(offset: formattedText.length),
         );
       }
     } else {
-      widget.phoneValidator.checkPhoneByCountry(_phoneEditingController.text, _country.value);
+      widget.phoneValidator
+          .checkPhoneByCountry(_phoneEditingController.text, _country.value);
     }
   }
 
@@ -80,7 +125,8 @@ class _PhoneAutoDetectView extends State<PhoneAutoDetectView> {
       child: ValueListenableBuilder<bool>(
         valueListenable: widget.phoneValidator.isValidPhoneNotifier,
         builder: (context, isValid, _) {
-          Country? country = widget.phoneValidator.getCountryByPhone(countries, _phoneEditingController.value.text);
+          Country? country = widget.phoneValidator
+              .getCountryByPhone(countries, _phoneEditingController.value.text);
           if (country != null) {
             widget.phoneValidator.setCountry(country);
           }

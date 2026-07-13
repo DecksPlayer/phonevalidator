@@ -103,6 +103,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 phoneValidator: phoneValidatorEn,
                 fullPhoneNumber: '',
               ),
+              PhoneAutoDetectView(
+                phoneValidator: phoneValidatorEn,
+                fullPhoneNumber: '+34612345678',
+              ),
               const Divider(),
               const Text('PhoneCountryInput (Pre-fixed to Argentina):'),
               PhoneCountryInput(
