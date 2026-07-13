@@ -114,3 +114,6 @@
 - Fix initial phone number parsing and formatting in `PhoneCountryInput`
 - Handle optional/null initial phone number transitions safely
 - Update documentation and instructions
+
+## 2.1.8
+- Fix some Countries RegEx patterns

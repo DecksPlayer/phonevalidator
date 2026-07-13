@@ -27,15 +27,15 @@ void main() {
     await tester.enterText(find.byType(TextField), '2055555555');
     await tester.pumpAndSettle();
 
-    // Verify it formats with the mask: "205 555 5555"
+    // Verify it formats with the mask: "20 555 5555"
     final TextField textField = tester.widget(find.byType(TextField));
-    expect(textField.controller!.text, '205 555 5555');
+    expect(textField.controller!.text, '20 555 5555');
 
     // Verify phone validation works (Afghanistan requires 9 digits after dial code, let's check pattern: r'^\+93\d{9}$')
     // Wait, 2055555555 is 10 digits. Let's enter 9 digits: '205555555'
     await tester.enterText(find.byType(TextField), '205555555');
     await tester.pumpAndSettle();
-    expect(textField.controller!.text, '205 555 555');
+    expect(textField.controller!.text, '20 555 5555');
     expect(phoneValidator.isValidPhoneNotifier.value, true);
     expect(phoneValidator.phone, '+93205555555');
   });
@@ -59,8 +59,8 @@ void main() {
     await tester.pumpAndSettle();
 
     final TextField textField = tester.widget(find.byType(TextField));
-    // The textfield should clean the prefix and format: "205 555 555"
-    expect(textField.controller!.text, '205 555 555');
+    // The textfield should clean the prefix and format: "20 555 5555"
+    expect(textField.controller!.text, '20 555 5555');
     
     // Check validation
     expect(phoneValidator.isValidPhoneNotifier.value, true);
@@ -85,7 +85,7 @@ void main() {
 
     final TextField textField = tester.widget(find.byType(TextField));
     // The textfield should clean the prefix and format initially
-    expect(textField.controller!.text, '205 555 555');
+    expect(textField.controller!.text, '20 555 5555');
     
     // Check validation
     expect(phoneValidator.isValidPhoneNotifier.value, true);
@@ -138,7 +138,7 @@ void main() {
     await tester.pumpAndSettle();
 
     final TextField textField = tester.widget(find.byType(TextField));
-    expect(textField.controller!.text, '205 555 555');
+    expect(textField.controller!.text, '20 555 5555');
     expect(phoneValidator.isValidPhoneNotifier.value, true);
 
     // 1. Clear initialPhoneNumber dynamically (set to null)
@@ -151,7 +151,7 @@ void main() {
     // 2. User enters a local number
     await tester.enterText(find.byType(TextField), '205555555'); // 9 digits for AF
     await tester.pumpAndSettle();
-    expect(textField.controller!.text, '205 555 555');
+    expect(textField.controller!.text, '20 555 5555');
     expect(phoneValidator.isValidPhoneNotifier.value, true);
 
     // 3. Change country Iso code to AR (Argentina dial code 54, mask '### ####-####')
@@ -159,7 +159,7 @@ void main() {
     await tester.pumpAndSettle();
 
     // The text field should re-format the digits '205555555' using the AR mask
-    // Mask for AR is: "### ####-####". '205555555' is 9 digits, formatted as '205 5555-55'
-    expect(textField.controller!.text, '205 5555-55');
+    // Mask for AR is: "# ## #### ####". '205555555' is 9 digits, formatted as '2 05 5555 55'
+    expect(textField.controller!.text, '2 05 5555 55');
   });
 }

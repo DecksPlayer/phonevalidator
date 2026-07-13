@@ -1,0 +1,4902 @@
+[
+  {
+    "iso": "AF",
+    "name": "Afghanistan",
+    "dialCode": {
+      "existing": "93",
+      "new": "93",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+93\\d{9}$",
+      "new": "^\\+93\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "AL",
+    "name": "Albania",
+    "dialCode": {
+      "existing": "355",
+      "new": "355",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+355\\d{8}$",
+      "new": "^\\+355\\d{6,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "DZ",
+    "name": "Algeria",
+    "dialCode": {
+      "existing": "213",
+      "new": "213",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+213\\d{8}$",
+      "new": "^\\+213\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "AD",
+    "name": "Andorra",
+    "dialCode": {
+      "existing": "376",
+      "new": "376",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ###",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+376\\d{6}$",
+      "new": "^\\+376\\d{6,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "AO",
+    "name": "Angola",
+    "dialCode": {
+      "existing": "244",
+      "new": "244",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "### ### ###",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+244\\d{9}$",
+      "new": "^\\+244\\d{9}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "AI",
+    "name": "Anguilla",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1264\\d{7}$",
+      "new": "^\\+1264\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "AG",
+    "name": "Antigua and Barbuda",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1268\\d{7}$",
+      "new": "^\\+1268\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "AR",
+    "name": "Argentina",
+    "dialCode": {
+      "existing": "54",
+      "new": "54",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####-####",
+      "new": "### 15-###-####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+54\\d{10,11}$",
+      "new": "^\\+54\\d{10,11}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "AM",
+    "name": "Armenia",
+    "dialCode": {
+      "existing": "374",
+      "new": "374",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ######",
+      "new": "## ######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+374\\d{8}$",
+      "new": "^\\+374\\d{8}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "AW",
+    "name": "Aruba",
+    "dialCode": {
+      "existing": "297",
+      "new": "297",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+297\\d{7}$",
+      "new": "^\\+297\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "AU",
+    "name": "Australia",
+    "dialCode": {
+      "existing": "61",
+      "new": "61",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) #### ####",
+      "new": "#### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+61212\\d{6}$",
+      "new": "^\\+61\\d{5,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "AT",
+    "name": "Austria",
+    "dialCode": {
+      "existing": "43",
+      "new": "43",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## #########",
+      "new": "## #### #######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+43\\d{10}$",
+      "new": "^\\+43\\d{4,13}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "AZ",
+    "name": "Azerbaijan",
+    "dialCode": {
+      "existing": "994",
+      "new": "994",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ### ## ##",
+      "new": "## ### ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+994\\d{9}$",
+      "new": "^\\+994\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "BS",
+    "name": "Bahamas",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1242\\d{7}$",
+      "new": "^\\+1242\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "BH",
+    "name": "Bahrain",
+    "dialCode": {
+      "existing": "973",
+      "new": "973",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "#### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+973\\d{8}$",
+      "new": "^\\+973\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "BD",
+    "name": "Bangladesh",
+    "dialCode": {
+      "existing": "880",
+      "new": "880",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##-#######",
+      "new": "#-########",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+880\\d{8}$",
+      "new": "^\\+880\\d{6,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BB",
+    "name": "Barbados",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1246\\d{7}$",
+      "new": "^\\+1246\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "BY",
+    "name": "Belarus",
+    "dialCode": {
+      "existing": "375",
+      "new": "375",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# #### ##-##-##",
+      "new": "### #### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+375\\d{9}$",
+      "new": "^\\+375\\d{6,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BE",
+    "name": "Belgium",
+    "dialCode": {
+      "existing": "32",
+      "new": "32",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+32\\d{8}$",
+      "new": "^\\+32\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BZ",
+    "name": "Belize",
+    "dialCode": {
+      "existing": "501",
+      "new": "501",
+      "differs": false
+    },
+    "mask": {
+      "existing": "###-####",
+      "new": "#-###-####-###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+501\\d{7}$",
+      "new": "^\\+501\\d{7,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BJ",
+    "name": "Benin",
+    "dialCode": {
+      "existing": "229",
+      "new": "229",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ## ##",
+      "new": "## ## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+229\\d{10}$",
+      "new": "^\\+229\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BM",
+    "name": "Bermudas",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1441\\d{7}$",
+      "new": "^\\+1441\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "BT",
+    "name": "Bhutan",
+    "dialCode": {
+      "existing": "975",
+      "new": "975",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# ### ###",
+      "new": "## ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+975\\d{7}$",
+      "new": "^\\+975\\d{7,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BO",
+    "name": "Bolivia",
+    "dialCode": {
+      "existing": "591",
+      "new": "591",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# #######",
+      "new": "### ## ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+591\\d{8}$",
+      "new": "^\\+591\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BA",
+    "name": "Bosnia and Herzegovina",
+    "dialCode": {
+      "existing": "387",
+      "new": "387",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ###-###",
+      "new": "## ## ## ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+387\\d{8}$",
+      "new": "^\\+387\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BW",
+    "name": "Botswana",
+    "dialCode": {
+      "existing": "267",
+      "new": "267",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### #### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+267\\d{7}$",
+      "new": "^\\+267\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BR",
+    "name": "Brazil",
+    "dialCode": {
+      "existing": "55",
+      "new": "55",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) ####-####",
+      "new": "## #####-####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+55\\d{10,11}$",
+      "new": "^\\+55\\d{8,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BN",
+    "name": "Brunei",
+    "dialCode": {
+      "existing": "673",
+      "new": "673",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+673\\d{7}$",
+      "new": "^\\+673\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "BG",
+    "name": "Bulgaria",
+    "dialCode": {
+      "existing": "359",
+      "new": "359",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+359\\d{7}$",
+      "new": "^\\+359\\d{6,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "BF",
+    "name": "Burkina Faso",
+    "dialCode": {
+      "existing": "226",
+      "new": "226",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+226\\d{8}$",
+      "new": "^\\+226\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "BI",
+    "name": "Burundi",
+    "dialCode": {
+      "existing": "257",
+      "new": "257",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+257\\d{8}$",
+      "new": "^\\+257\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "KH",
+    "name": "Cambodia",
+    "dialCode": {
+      "existing": "855",
+      "new": "855",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "#### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+855\\d{8}$",
+      "new": "^\\+855\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CM",
+    "name": "Cameroon",
+    "dialCode": {
+      "existing": "237",
+      "new": "237",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# ## ## ## ##",
+      "new": "# ## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+237\\d{9}$",
+      "new": "^\\+237\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CA",
+    "name": "Canada",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1506\\d{7}$",
+      "new": "^\\+1\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CV",
+    "name": "Cape Verde",
+    "dialCode": {
+      "existing": "238",
+      "new": "238",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ##",
+      "new": "### ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+238\\d{7}$",
+      "new": "^\\+238\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "BQ",
+    "name": "Caribe neerlandés",
+    "dialCode": {
+      "existing": "599",
+      "new": "599",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "# ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+599715\\d{4}$",
+      "new": "^\\+599\\d{7}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CF",
+    "name": "Central African Republic",
+    "dialCode": {
+      "existing": "236",
+      "new": "236",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+236\\d{8}$",
+      "new": "^\\+236\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "TD",
+    "name": "Chad",
+    "dialCode": {
+      "existing": "235",
+      "new": "235",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+235\\d{8}$",
+      "new": "^\\+235\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "CL",
+    "name": "Chile",
+    "dialCode": {
+      "existing": "56",
+      "new": "56",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "### ### ## ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+56\\d{9}$",
+      "new": "^\\+56\\d{9,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CN",
+    "name": "China",
+    "dialCode": {
+      "existing": "86",
+      "new": "86",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #### ####",
+      "new": "## ### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+86\\d{10}$",
+      "new": "^\\+86\\d{7,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CO",
+    "name": "Colombia",
+    "dialCode": {
+      "existing": "57",
+      "new": "57",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) #######",
+      "new": "#-###-#######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+57\\d{10}$",
+      "new": "^\\+57\\d{8,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KM",
+    "name": "Comoros",
+    "dialCode": {
+      "existing": "269",
+      "new": "269",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ##",
+      "new": "### ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+269\\d{7}$",
+      "new": "^\\+269\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "CG",
+    "name": "Congo",
+    "dialCode": {
+      "existing": "242",
+      "new": "242",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "## ### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+242\\d{9}$",
+      "new": "^\\+242\\d{9}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "CD",
+    "name": "Congo - Kinshasa",
+    "dialCode": {
+      "existing": "243",
+      "new": "243",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #####",
+      "new": "## ## ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+243\\d{7}$",
+      "new": "^\\+243\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CR",
+    "name": "Costa Rica",
+    "dialCode": {
+      "existing": "506",
+      "new": "506",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "###-###-####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+506\\d{8}$",
+      "new": "^\\+506\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CI",
+    "name": "Côte d’Ivoire",
+    "dialCode": {
+      "existing": "225",
+      "new": "225",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## # #####",
+      "new": "## ## ## ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+225\\d{10}$",
+      "new": "^\\+225\\d{10}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "HR",
+    "name": "Croatia",
+    "dialCode": {
+      "existing": "385",
+      "new": "385",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## #### ###",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+385\\d{8}$",
+      "new": "^\\+385\\d{7,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CU",
+    "name": "Cuba",
+    "dialCode": {
+      "existing": "53",
+      "new": "53",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) #######",
+      "new": "### #######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+53\\d{8}$",
+      "new": "^\\+53\\d{6,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CW",
+    "name": "Curazao",
+    "dialCode": {
+      "existing": "599",
+      "new": "599",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# ### ####",
+      "new": "# ### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+599943\\d{5}$",
+      "new": "^\\+599\\d{7,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CY",
+    "name": "Cyprus",
+    "dialCode": {
+      "existing": "357",
+      "new": "357",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ######",
+      "new": "## ######",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+357\\d{8}$",
+      "new": "^\\+357\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "CZ",
+    "name": "Czech Republic",
+    "dialCode": {
+      "existing": "420",
+      "new": "420",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "### ### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+420\\d{9}$",
+      "new": "^\\+420\\d{9,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "DK",
+    "name": "Denmark",
+    "dialCode": {
+      "existing": "45",
+      "new": "45",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+45\\d{8}$",
+      "new": "^\\+45\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "DJ",
+    "name": "Djibouti",
+    "dialCode": {
+      "existing": "253",
+      "new": "253",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+253\\d{8}$",
+      "new": "^\\+253\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "DM",
+    "name": "Dominica",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1767\\d{7}$",
+      "new": "^\\+1767\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "DO",
+    "name": "Dominican Republic",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1809\\d{7}$",
+      "new": "^\\+18001|8[024]9\\d{-2}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "EC",
+    "name": "Ecuador",
+    "dialCode": {
+      "existing": "593",
+      "new": "593",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) ###-####",
+      "new": "#### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+593\\d{8,9}$",
+      "new": "^\\+593\\d{8,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "EG",
+    "name": "Egypt",
+    "dialCode": {
+      "existing": "20",
+      "new": "20",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ########",
+      "new": "## ########",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+20\\d{9}$",
+      "new": "^\\+20\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SV",
+    "name": "El Salvador",
+    "dialCode": {
+      "existing": "503",
+      "new": "503",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "### #### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+503\\d{8}$",
+      "new": "^\\+503\\d{7,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GQ",
+    "name": "Equatorial Guinea",
+    "dialCode": {
+      "existing": "240",
+      "new": "240",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "### ######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+240\\d{9}$",
+      "new": "^\\+240\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "ER",
+    "name": "Eritrea",
+    "dialCode": {
+      "existing": "291",
+      "new": "291",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "# ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+291\\d{7}$",
+      "new": "^\\+291\\d{7}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "EE",
+    "name": "Estonia",
+    "dialCode": {
+      "existing": "372",
+      "new": "372",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "#### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+372\\d{7}$",
+      "new": "^\\+372\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SZ",
+    "name": "Eswatini",
+    "dialCode": {
+      "existing": "268",
+      "new": "268",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "##### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+268\\d{8}$",
+      "new": "^\\+268\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "ET",
+    "name": "Ethiopia",
+    "dialCode": {
+      "existing": "251",
+      "new": "251",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+251\\d{9}$",
+      "new": "^\\+251\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "FJ",
+    "name": "Fiji",
+    "dialCode": {
+      "existing": "679",
+      "new": "679",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "#### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+679\\d{7}$",
+      "new": "^\\+679\\d{7,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "FI",
+    "name": "Finland",
+    "dialCode": {
+      "existing": "358",
+      "new": "358",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #######",
+      "new": "# #########",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+358131\\d{6}$",
+      "new": "^\\+358\\d{5,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "FR",
+    "name": "France",
+    "dialCode": {
+      "existing": "33",
+      "new": "33",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ## ##",
+      "new": "# ## ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+33\\d{9}$",
+      "new": "^\\+33\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "GA",
+    "name": "Gabon",
+    "dialCode": {
+      "existing": "241",
+      "new": "241",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+241\\d{8}$",
+      "new": "^\\+241\\d{7,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GM",
+    "name": "Gambia",
+    "dialCode": {
+      "existing": "220",
+      "new": "220",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+220\\d{7}$",
+      "new": "^\\+220\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "GE",
+    "name": "Georgia",
+    "dialCode": {
+      "existing": "995",
+      "new": "995",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+995\\d{9}$",
+      "new": "^\\+995\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "DE",
+    "name": "Germany",
+    "dialCode": {
+      "existing": "49",
+      "new": "49",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ######",
+      "new": "### ## ########",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+49\\d{8}$",
+      "new": "^\\+49\\d{4,15}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GH",
+    "name": "Ghana",
+    "dialCode": {
+      "existing": "233",
+      "new": "233",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+233\\d{9}$",
+      "new": "^\\+233\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GI",
+    "name": "Gibraltar",
+    "dialCode": {
+      "existing": "350",
+      "new": "350",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #####",
+      "new": "### #####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+350\\d{8}$",
+      "new": "^\\+350\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "GR",
+    "name": "Greece",
+    "dialCode": {
+      "existing": "30",
+      "new": "30",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## #### ####",
+      "new": "### #### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+30\\d{10}$",
+      "new": "^\\+30\\d{10,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GL",
+    "name": "Greenland",
+    "dialCode": {
+      "existing": "299",
+      "new": "299",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ##",
+      "new": "## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+299\\d{6}$",
+      "new": "^\\+299\\d{6}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "GD",
+    "name": "Grenada",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1473\\d{7}$",
+      "new": "^\\+1473\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "GP",
+    "name": "Guadalupe",
+    "dialCode": {
+      "existing": "590",
+      "new": "590",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+590\\d{9}$",
+      "new": "^\\+590\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "GU",
+    "name": "Guam",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1671\\d{7}$",
+      "new": "^\\+1671\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "GT",
+    "name": "Guatemala",
+    "dialCode": {
+      "existing": "502",
+      "new": "502",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "#### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+502\\d{8}$",
+      "new": "^\\+502\\d{8,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GF",
+    "name": "Guayana Francesa",
+    "dialCode": {
+      "existing": "594",
+      "new": "594",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+594\\d{9}$",
+      "new": "^\\+594\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "GG",
+    "name": "Guernesey",
+    "dialCode": {
+      "existing": "44",
+      "new": "44",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##### ######",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+44148\\d{7}$",
+      "new": "^\\+44\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GN",
+    "name": "Guinea",
+    "dialCode": {
+      "existing": "224",
+      "new": "224",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+224\\d{8}$",
+      "new": "^\\+224\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GW",
+    "name": "Guinea-Bissau",
+    "dialCode": {
+      "existing": "245",
+      "new": "245",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "### ### ###",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+245\\d{9}$",
+      "new": "^\\+245\\d{7,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GY",
+    "name": "Guyana",
+    "dialCode": {
+      "existing": "592",
+      "new": "592",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+592\\d{7}$",
+      "new": "^\\+592\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "HT",
+    "name": "Haiti",
+    "dialCode": {
+      "existing": "509",
+      "new": "509",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ####",
+      "new": "## ## ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+509\\d{8}$",
+      "new": "^\\+509\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "HN",
+    "name": "Honduras",
+    "dialCode": {
+      "existing": "504",
+      "new": "504",
+      "differs": false
+    },
+    "mask": {
+      "existing": "####-####",
+      "new": "####-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+504\\d{8}$",
+      "new": "^\\+504\\d{8,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "HK",
+    "name": "Hong Kong",
+    "dialCode": {
+      "existing": "852",
+      "new": "852",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "### ## ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+852\\d{8}$",
+      "new": "^\\+852\\d{5,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "HU",
+    "name": "Hungary",
+    "dialCode": {
+      "existing": "36",
+      "new": "36",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(## #) ### ####",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+36\\d{8}$",
+      "new": "^\\+36\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "IS",
+    "name": "Iceland",
+    "dialCode": {
+      "existing": "354",
+      "new": "354",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+354\\d{7}$",
+      "new": "^\\+354\\d{7,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "IN",
+    "name": "India",
+    "dialCode": {
+      "existing": "91",
+      "new": "91",
+      "differs": false
+    },
+    "mask": {
+      "existing": "###### #####",
+      "new": "#### ### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+91\\d{10}$",
+      "new": "^\\+91\\d{8,13}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "ID",
+    "name": "Indonesia",
+    "dialCode": {
+      "existing": "62",
+      "new": "62",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) #######",
+      "new": "###-####-#####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+62\\d{9}$",
+      "new": "^\\+62\\d{7,17}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "IR",
+    "name": "Iran",
+    "dialCode": {
+      "existing": "98",
+      "new": "98",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #### ####",
+      "new": "## #### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+98\\d{10}$",
+      "new": "^\\+98\\d{4,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "IQ",
+    "name": "Iraq",
+    "dialCode": {
+      "existing": "964",
+      "new": "964",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+964\\d{8}$",
+      "new": "^\\+964\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "IE",
+    "name": "Ireland",
+    "dialCode": {
+      "existing": "353",
+      "new": "353",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) #####",
+      "new": "## # ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+353\\d{7}$",
+      "new": "^\\+353\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "AC",
+    "name": "Isla de la Ascensión",
+    "dialCode": {
+      "existing": "247",
+      "new": "247",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#####",
+      "new": "######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+247\\d{5}$",
+      "new": "^\\+247\\d{5,6}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "IM",
+    "name": "Isla de Man",
+    "dialCode": {
+      "existing": "44",
+      "new": "44",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##### ######",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+44162\\d{7}$",
+      "new": "^\\+44\\d{10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CX",
+    "name": "Isla de Navidad",
+    "dialCode": {
+      "existing": "61",
+      "new": "61",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) #### ####",
+      "new": "#### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+61891\\d{6}$",
+      "new": "^\\+61\\d{6,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "NF",
+    "name": "Isla Norfolk",
+    "dialCode": {
+      "existing": "672",
+      "new": "672",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ####",
+      "new": "# #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+672\\d{6}$",
+      "new": "^\\+672\\d{6}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "AX",
+    "name": "Islas Aland",
+    "dialCode": {
+      "existing": "358",
+      "new": "358",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #######",
+      "new": "# #########",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+358181\\d{6}$",
+      "new": "^\\+358\\d{5,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KY",
+    "name": "Islas Caimán",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1345\\d{7}$",
+      "new": "^\\+1345\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "CC",
+    "name": "Islas Cocos",
+    "dialCode": {
+      "existing": "61",
+      "new": "61",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) #### ####",
+      "new": "#### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+61891\\d{6}$",
+      "new": "^\\+61\\d{6,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CK",
+    "name": "Islas Cook",
+    "dialCode": {
+      "existing": "682",
+      "new": "682",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ###",
+      "new": "## ###",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+682\\d{5}$",
+      "new": "^\\+682\\d{5}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "FO",
+    "name": "Islas Feroe",
+    "dialCode": {
+      "existing": "298",
+      "new": "298",
+      "differs": false
+    },
+    "mask": {
+      "existing": "######",
+      "new": "######",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+298\\d{6}$",
+      "new": "^\\+298\\d{6}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "FK",
+    "name": "Islas Malvinas",
+    "dialCode": {
+      "existing": "500",
+      "new": "500",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#####",
+      "new": "#####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+500\\d{5}$",
+      "new": "^\\+500\\d{5}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "MP",
+    "name": "Islas Marianas del Norte",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1670\\d{7}$",
+      "new": "^\\+1670\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "TC",
+    "name": "Islas Turcas y Caicos",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1649\\d{7}$",
+      "new": "^\\+1649\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "VG",
+    "name": "Islas Vírgenes Británicas",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1284\\d{7}$",
+      "new": "^\\+1284\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "VI",
+    "name": "Islas Vírgenes de EE. UU.",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1340\\d{7}$",
+      "new": "^\\+1340\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "IL",
+    "name": "Israel",
+    "dialCode": {
+      "existing": "972",
+      "new": "972",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##-###-####",
+      "new": "###-## ###-####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+972\\d{8}$",
+      "new": "^\\+972\\d{7,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "IT",
+    "name": "Italy",
+    "dialCode": {
+      "existing": "39",
+      "new": "39",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## #### ####",
+      "new": "### #### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+39021\\d{7}$",
+      "new": "^\\+39\\d{6,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "JM",
+    "name": "Jamaica",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1876\\d{7}$",
+      "new": "^\\+1658|876\\d{3}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "JP",
+    "name": "Japan",
+    "dialCode": {
+      "existing": "81",
+      "new": "81",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##-####-####",
+      "new": "##-####-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+81\\d{9}$",
+      "new": "^\\+81\\d{8,17}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "JE",
+    "name": "Jersey",
+    "dialCode": {
+      "existing": "44",
+      "new": "44",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##### ######",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+44153\\d{7}$",
+      "new": "^\\+44\\d{10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "JO",
+    "name": "Jordan",
+    "dialCode": {
+      "existing": "962",
+      "new": "962",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) ### ####",
+      "new": "# #### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+962\\d{8}$",
+      "new": "^\\+962\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KZ",
+    "name": "Kazakhstan",
+    "dialCode": {
+      "existing": "7",
+      "new": "7",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# (#####) # ## ##",
+      "new": "#### #### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+7712\\d{7}$",
+      "new": "^\\+7\\d{10,14}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KE",
+    "name": "Kenya",
+    "dialCode": {
+      "existing": "254",
+      "new": "254",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #######",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+254\\d{9}$",
+      "new": "^\\+254\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KI",
+    "name": "Kiribati",
+    "dialCode": {
+      "existing": "686",
+      "new": "686",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#####",
+      "new": "########",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+686\\d{5}$",
+      "new": "^\\+686\\d{5,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "XK",
+    "name": "Kosovo",
+    "dialCode": {
+      "existing": "383",
+      "new": "383",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "## ##########",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+383\\d{8}$",
+      "new": "^\\+383\\d{8,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KW",
+    "name": "Kuwait",
+    "dialCode": {
+      "existing": "965",
+      "new": "965",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+965\\d{8}$",
+      "new": "^\\+965\\d{7,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KG",
+    "name": "Kyrgyzstan",
+    "dialCode": {
+      "existing": "996",
+      "new": "996",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ### ###",
+      "new": "### ### # ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+996\\d{9}$",
+      "new": "^\\+996\\d{9,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "LA",
+    "name": "Laos",
+    "dialCode": {
+      "existing": "856",
+      "new": "856",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "## ## ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+856\\d{8}$",
+      "new": "^\\+856\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "LV",
+    "name": "Latvia",
+    "dialCode": {
+      "existing": "371",
+      "new": "371",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "## ### ###",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+371\\d{8}$",
+      "new": "^\\+371\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "LB",
+    "name": "Lebanon",
+    "dialCode": {
+      "existing": "961",
+      "new": "961",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "## ### ###",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+961\\d{7}$",
+      "new": "^\\+961\\d{7,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "LS",
+    "name": "Lesotho",
+    "dialCode": {
+      "existing": "266",
+      "new": "266",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "#### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+266\\d{8}$",
+      "new": "^\\+266\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "LR",
+    "name": "Liberia",
+    "dialCode": {
+      "existing": "231",
+      "new": "231",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+231\\d{8}$",
+      "new": "^\\+231\\d{7,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "LY",
+    "name": "Libya",
+    "dialCode": {
+      "existing": "218",
+      "new": "218",
+      "differs": false
+    },
+    "mask": {
+      "existing": "###-#######",
+      "new": "##-#######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+218\\d{9}$",
+      "new": "^\\+218\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "LI",
+    "name": "Liechtenstein",
+    "dialCode": {
+      "existing": "423",
+      "new": "423",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ##",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+423\\d{7}$",
+      "new": "^\\+423\\d{7,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "LT",
+    "name": "Lithuania",
+    "dialCode": {
+      "existing": "370",
+      "new": "370",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(#-###) #####",
+      "new": "### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+370\\d{8}$",
+      "new": "^\\+370\\d{8}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "LU",
+    "name": "Luxembourg",
+    "dialCode": {
+      "existing": "352",
+      "new": "352",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+352\\d{8}$",
+      "new": "^\\+352\\d{4,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MG",
+    "name": "Madagascar",
+    "dialCode": {
+      "existing": "261",
+      "new": "261",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ### ##",
+      "new": "## ## ### ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+261\\d{9}$",
+      "new": "^\\+261\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "MW",
+    "name": "Malawi",
+    "dialCode": {
+      "existing": "265",
+      "new": "265",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+265\\d{7}$",
+      "new": "^\\+265\\d{7,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MY",
+    "name": "Malaysia",
+    "dialCode": {
+      "existing": "60",
+      "new": "60",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##-#### ####",
+      "new": "##-#### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+60\\d{9}$",
+      "new": "^\\+60\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MV",
+    "name": "Maldives",
+    "dialCode": {
+      "existing": "960",
+      "new": "960",
+      "differs": false
+    },
+    "mask": {
+      "existing": "###-####",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+960\\d{7}$",
+      "new": "^\\+960\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "ML",
+    "name": "Mali",
+    "dialCode": {
+      "existing": "223",
+      "new": "223",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+223\\d{8}$",
+      "new": "^\\+223\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "MT",
+    "name": "Malta",
+    "dialCode": {
+      "existing": "356",
+      "new": "356",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "#### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+356\\d{8}$",
+      "new": "^\\+356\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "MH",
+    "name": "Marshall Islands",
+    "dialCode": {
+      "existing": "692",
+      "new": "692",
+      "differs": false
+    },
+    "mask": {
+      "existing": "###-####",
+      "new": "###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+692\\d{7}$",
+      "new": "^\\+692\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "MQ",
+    "name": "Martinica",
+    "dialCode": {
+      "existing": "596",
+      "new": "596",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+596\\d{9}$",
+      "new": "^\\+596\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "MR",
+    "name": "Mauritania",
+    "dialCode": {
+      "existing": "222",
+      "new": "222",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+222\\d{8}$",
+      "new": "^\\+222\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "MU",
+    "name": "Mauritius",
+    "dialCode": {
+      "existing": "230",
+      "new": "230",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "##### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+230\\d{8}$",
+      "new": "^\\+230\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "YT",
+    "name": "Mayotte",
+    "dialCode": {
+      "existing": "262",
+      "new": "262",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+262269\\d{6}$",
+      "new": "^\\+262\\d{9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MX",
+    "name": "Mexico",
+    "dialCode": {
+      "existing": "52",
+      "new": "52",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "### ### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+52\\d{10,11}$",
+      "new": "^\\+52\\d{10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "FM",
+    "name": "Micronesia",
+    "dialCode": {
+      "existing": "691",
+      "new": "691",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+691\\d{7}$",
+      "new": "^\\+691\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "MD",
+    "name": "Moldova",
+    "dialCode": {
+      "existing": "373",
+      "new": "373",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "### ## ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+373\\d{8}$",
+      "new": "^\\+373\\d{8}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "MC",
+    "name": "Monaco",
+    "dialCode": {
+      "existing": "377",
+      "new": "377",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "# ## ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+377\\d{8}$",
+      "new": "^\\+377\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MN",
+    "name": "Mongolia",
+    "dialCode": {
+      "existing": "976",
+      "new": "976",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "##### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+976\\d{8}$",
+      "new": "^\\+976\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "ME",
+    "name": "Montenegro",
+    "dialCode": {
+      "existing": "382",
+      "new": "382",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+382\\d{8}$",
+      "new": "^\\+382\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MS",
+    "name": "Montserrat",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1664\\d{7}$",
+      "new": "^\\+1664\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "MA",
+    "name": "Morocco",
+    "dialCode": {
+      "existing": "212",
+      "new": "212",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ## ##",
+      "new": "# ## ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+212520\\d{6}$",
+      "new": "^\\+212\\d{9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MZ",
+    "name": "Mozambique",
+    "dialCode": {
+      "existing": "258",
+      "new": "258",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+258\\d{8}$",
+      "new": "^\\+258\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MM",
+    "name": "Myanmar",
+    "dialCode": {
+      "existing": "95",
+      "new": "95",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "# ##### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+95\\d{7}$",
+      "new": "^\\+95\\d{6,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "NA",
+    "name": "Namibia",
+    "dialCode": {
+      "existing": "264",
+      "new": "264",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+264\\d{8}$",
+      "new": "^\\+264\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "NR",
+    "name": "Nauru",
+    "dialCode": {
+      "existing": "674",
+      "new": "674",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+674\\d{7}$",
+      "new": "^\\+674\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "NP",
+    "name": "Nepal",
+    "dialCode": {
+      "existing": "977",
+      "new": "977",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##-#######",
+      "new": "###-#######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+977\\d{8}$",
+      "new": "^\\+977\\d{8,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "NL",
+    "name": "Netherlands",
+    "dialCode": {
+      "existing": "31",
+      "new": "31",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "### ### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+31\\d{9}$",
+      "new": "^\\+31\\d{5,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "NZ",
+    "name": "New Zealand",
+    "dialCode": {
+      "existing": "64",
+      "new": "64",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "## ### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+64\\d{8}$",
+      "new": "^\\+64\\d{5,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "NI",
+    "name": "Nicaragua",
+    "dialCode": {
+      "existing": "505",
+      "new": "505",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "#### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+505\\d{8}$",
+      "new": "^\\+505\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "NE",
+    "name": "Niger",
+    "dialCode": {
+      "existing": "227",
+      "new": "227",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+227\\d{8}$",
+      "new": "^\\+227\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "NG",
+    "name": "Nigeria",
+    "dialCode": {
+      "existing": "234",
+      "new": "234",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##### ## ####",
+      "new": "### ##### ######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+234\\d{10}$",
+      "new": "^\\+234\\d{10,14}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "NU",
+    "name": "Niue",
+    "dialCode": {
+      "existing": "683",
+      "new": "683",
+      "differs": false
+    },
+    "mask": {
+      "existing": "####",
+      "new": "### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+683\\d{4}$",
+      "new": "^\\+683\\d{4,7}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KP",
+    "name": "North Korea",
+    "dialCode": {
+      "existing": "850",
+      "new": "850",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+850\\d{8}$",
+      "new": "^\\+850\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MK",
+    "name": "North Macedonia",
+    "dialCode": {
+      "existing": "389",
+      "new": "389",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "### # ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+389\\d{8}$",
+      "new": "^\\+389\\d{8}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "NO",
+    "name": "Norway",
+    "dialCode": {
+      "existing": "47",
+      "new": "47",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+47212\\d{5}$",
+      "new": "^\\+47\\d{5,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "NC",
+    "name": "Nueva Caledonia",
+    "dialCode": {
+      "existing": "687",
+      "new": "687",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##.##.##",
+      "new": "##.##.##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+687\\d{6}$",
+      "new": "^\\+687\\d{6}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "OM",
+    "name": "Oman",
+    "dialCode": {
+      "existing": "968",
+      "new": "968",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ######",
+      "new": "#### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+968\\d{8}$",
+      "new": "^\\+968\\d{7,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PK",
+    "name": "Pakistan",
+    "dialCode": {
+      "existing": "92",
+      "new": "92",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ########",
+      "new": "### ### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+92\\d{10}$",
+      "new": "^\\+92\\d{8,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PW",
+    "name": "Palau",
+    "dialCode": {
+      "existing": "680",
+      "new": "680",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+680\\d{7}$",
+      "new": "^\\+680\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "PS",
+    "name": "Palestine",
+    "dialCode": {
+      "existing": "970",
+      "new": "970",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "#### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+970\\d{8}$",
+      "new": "^\\+970\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PA",
+    "name": "Panama",
+    "dialCode": {
+      "existing": "507",
+      "new": "507",
+      "differs": false
+    },
+    "mask": {
+      "existing": "###-####",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+507\\d{7,8}$",
+      "new": "^\\+507\\d{7,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PG",
+    "name": "Papua New Guinea",
+    "dialCode": {
+      "existing": "675",
+      "new": "675",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "#### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+675\\d{7}$",
+      "new": "^\\+675\\d{7,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PY",
+    "name": "Paraguay",
+    "dialCode": {
+      "existing": "595",
+      "new": "595",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ### ####",
+      "new": "#### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+595\\d{9}$",
+      "new": "^\\+595\\d{6,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PE",
+    "name": "Peru",
+    "dialCode": {
+      "existing": "51",
+      "new": "51",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) #######",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+51\\d{8,9}$",
+      "new": "^\\+51\\d{8,9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "PH",
+    "name": "Philippines",
+    "dialCode": {
+      "existing": "63",
+      "new": "63",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) #### ####",
+      "new": "#### ## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+63\\d{9}$",
+      "new": "^\\+63\\d{6,13}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PL",
+    "name": "Poland",
+    "dialCode": {
+      "existing": "48",
+      "new": "48",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ## ##",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+48\\d{9}$",
+      "new": "^\\+48\\d{6,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PF",
+    "name": "Polinesia Francesa",
+    "dialCode": {
+      "existing": "689",
+      "new": "689",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+689\\d{8}$",
+      "new": "^\\+689\\d{6,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "PT",
+    "name": "Portugal",
+    "dialCode": {
+      "existing": "351",
+      "new": "351",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+351\\d{9}$",
+      "new": "^\\+351\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "PR",
+    "name": "Puerto Rico",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1787\\d{7}$",
+      "new": "^\\+1787|939\\d{3}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "QA",
+    "name": "Qatar",
+    "dialCode": {
+      "existing": "974",
+      "new": "974",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "#### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+974\\d{8}$",
+      "new": "^\\+974\\d{7,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MO",
+    "name": "RAE de Macao (China)",
+    "dialCode": {
+      "existing": "853",
+      "new": "853",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "#### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+853\\d{8}$",
+      "new": "^\\+853\\d{7,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "RE",
+    "name": "Reunión",
+    "dialCode": {
+      "existing": "262",
+      "new": "262",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+262\\d{9}$",
+      "new": "^\\+262\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "RO",
+    "name": "Romania",
+    "dialCode": {
+      "existing": "40",
+      "new": "40",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+40\\d{9}$",
+      "new": "^\\+40\\d{6,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "RU",
+    "name": "Russia",
+    "dialCode": {
+      "existing": "7",
+      "new": "7",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# (###) ###-##-##",
+      "new": "#### #### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+7301\\d{7}$",
+      "new": "^\\+7\\d{10,14}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "RW",
+    "name": "Rwanda",
+    "dialCode": {
+      "existing": "250",
+      "new": "250",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ###",
+      "new": "### ### ###",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+250\\d{9}$",
+      "new": "^\\+250\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "EH",
+    "name": "Sáhara Occidental",
+    "dialCode": {
+      "existing": "212",
+      "new": "212",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ## ##",
+      "new": "# ## ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+212528\\d{6}$",
+      "new": "^\\+212\\d{9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KN",
+    "name": "Saint Kitts and Nevis",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1869\\d{7}$",
+      "new": "^\\+1869\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "LC",
+    "name": "Saint Lucia",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1758\\d{7}$",
+      "new": "^\\+1758\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1784\\d{7}$",
+      "new": "^\\+1784\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "WS",
+    "name": "Samoa",
+    "dialCode": {
+      "existing": "685",
+      "new": "685",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#####",
+      "new": "## #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+685\\d{5}$",
+      "new": "^\\+685\\d{5,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "AS",
+    "name": "Samoa Americana",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1684\\d{7}$",
+      "new": "^\\+1684\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "BL",
+    "name": "San Bartolomé",
+    "dialCode": {
+      "existing": "590",
+      "new": "590",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+590\\d{9}$",
+      "new": "^\\+590\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "SM",
+    "name": "San Marino",
+    "dialCode": {
+      "existing": "378",
+      "new": "378",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ######",
+      "new": "#### ######",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+378\\d{10}$",
+      "new": "^\\+378\\d{8,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "MF",
+    "name": "San Martín",
+    "dialCode": {
+      "existing": "590",
+      "new": "590",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+590\\d{9}$",
+      "new": "^\\+590\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "PM",
+    "name": "San Pedro y Miquelón",
+    "dialCode": {
+      "existing": "508",
+      "new": "508",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+508\\d{6}$",
+      "new": "^\\+508\\d{6,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SH",
+    "name": "Santa Elena",
+    "dialCode": {
+      "existing": "290",
+      "new": "290",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#####",
+      "new": "#####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+290221\\d{2}$",
+      "new": "^\\+290\\d{4,5}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "ST",
+    "name": "Sao Tome and Principe",
+    "dialCode": {
+      "existing": "239",
+      "new": "239",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+239\\d{7}$",
+      "new": "^\\+239\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "SA",
+    "name": "Saudi Arabia",
+    "dialCode": {
+      "existing": "966",
+      "new": "966",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "### ### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+966\\d{9}$",
+      "new": "^\\+966\\d{9,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SN",
+    "name": "Senegal",
+    "dialCode": {
+      "existing": "221",
+      "new": "221",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ## ##",
+      "new": "## ### ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+221\\d{9}$",
+      "new": "^\\+221\\d{9}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "RS",
+    "name": "Serbia",
+    "dialCode": {
+      "existing": "381",
+      "new": "381",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ######",
+      "new": "## ##########",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+381\\d{8}$",
+      "new": "^\\+381\\d{6,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SC",
+    "name": "Seychelles",
+    "dialCode": {
+      "existing": "248",
+      "new": "248",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# ### ###",
+      "new": "# ### ###",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+248\\d{7}$",
+      "new": "^\\+248\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "SL",
+    "name": "Sierra Leone",
+    "dialCode": {
+      "existing": "232",
+      "new": "232",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ######",
+      "new": "## ######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+232\\d{8}$",
+      "new": "^\\+232\\d{8}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "SG",
+    "name": "Singapore",
+    "dialCode": {
+      "existing": "65",
+      "new": "65",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "#### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+65\\d{8}$",
+      "new": "^\\+65\\d{8,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SX",
+    "name": "Sint Maarten",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1721\\d{7}$",
+      "new": "^\\+1721\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "SK",
+    "name": "Slovakia",
+    "dialCode": {
+      "existing": "421",
+      "new": "421",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##/### ### ##",
+      "new": "## ### ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+421\\d{9}$",
+      "new": "^\\+421\\d{6,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SI",
+    "name": "Slovenia",
+    "dialCode": {
+      "existing": "386",
+      "new": "386",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(##) ### ## ##",
+      "new": "# ### ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+386\\d{8}$",
+      "new": "^\\+386\\d{5,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SB",
+    "name": "Solomon Islands",
+    "dialCode": {
+      "existing": "677",
+      "new": "677",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#####",
+      "new": "## #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+677\\d{5}$",
+      "new": "^\\+677\\d{5,7}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SO",
+    "name": "Somalia",
+    "dialCode": {
+      "existing": "252",
+      "new": "252",
+      "differs": false
+    },
+    "mask": {
+      "existing": "# ######",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+252\\d{7}$",
+      "new": "^\\+252\\d{6,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "ZA",
+    "name": "South Africa",
+    "dialCode": {
+      "existing": "27",
+      "new": "27",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "### ### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+27\\d{9}$",
+      "new": "^\\+27\\d{5,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "KR",
+    "name": "South Korea",
+    "dialCode": {
+      "existing": "82",
+      "new": "82",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##-###-####",
+      "new": "##-#####-####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+82\\d{8}$",
+      "new": "^\\+82\\d{5,14}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SS",
+    "name": "South Sudan",
+    "dialCode": {
+      "existing": "211",
+      "new": "211",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ### ###",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+211\\d{9}$",
+      "new": "^\\+211\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "ES",
+    "name": "Spain",
+    "dialCode": {
+      "existing": "34",
+      "new": "34",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ## ##",
+      "new": "### ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+34\\d{9}$",
+      "new": "^\\+34\\d{9}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "LK",
+    "name": "Sri Lanka",
+    "dialCode": {
+      "existing": "94",
+      "new": "94",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ### ###",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+94\\d{9}$",
+      "new": "^\\+94\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "SD",
+    "name": "Sudan",
+    "dialCode": {
+      "existing": "249",
+      "new": "249",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+249\\d{9}$",
+      "new": "^\\+249\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "SR",
+    "name": "Suriname",
+    "dialCode": {
+      "existing": "597",
+      "new": "597",
+      "differs": false
+    },
+    "mask": {
+      "existing": "###-###",
+      "new": "###-####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+597\\d{6}$",
+      "new": "^\\+597\\d{6,7}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SJ",
+    "name": "Svalbard y Jan Mayen",
+    "dialCode": {
+      "existing": "47",
+      "new": "47",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+47791\\d{5}$",
+      "new": "^\\+47\\d{5,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SE",
+    "name": "Sweden",
+    "dialCode": {
+      "existing": "46",
+      "new": "46",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##-## ## ##",
+      "new": "###-## ### ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+46\\d{7}$",
+      "new": "^\\+46\\d{6,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "CH",
+    "name": "Switzerland",
+    "dialCode": {
+      "existing": "41",
+      "new": "41",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ## ##",
+      "new": "### ## ### ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+41\\d{9}$",
+      "new": "^\\+41\\d{9,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "SY",
+    "name": "Syria",
+    "dialCode": {
+      "existing": "963",
+      "new": "963",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+963\\d{9}$",
+      "new": "^\\+963\\d{8,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "TW",
+    "name": "Taiwan",
+    "dialCode": {
+      "existing": "886",
+      "new": "886",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## #### ####",
+      "new": "## #### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+886\\d{9}$",
+      "new": "^\\+886\\d{7,11}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "TJ",
+    "name": "Tajikistan",
+    "dialCode": {
+      "existing": "992",
+      "new": "992",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ## ####",
+      "new": "## ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+992\\d{9}$",
+      "new": "^\\+992\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "TZ",
+    "name": "Tanzania",
+    "dialCode": {
+      "existing": "255",
+      "new": "255",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ### ####",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+255\\d{9}$",
+      "new": "^\\+255\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "IO",
+    "name": "Territorio Británico del Océano Índico",
+    "dialCode": {
+      "existing": "246",
+      "new": "246",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+246\\d{7}$",
+      "new": "^\\+246\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "TH",
+    "name": "Thailand",
+    "dialCode": {
+      "existing": "66",
+      "new": "66",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "#### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+66\\d{8}$",
+      "new": "^\\+66\\d{8,13}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "TL",
+    "name": "Timor-Leste",
+    "dialCode": {
+      "existing": "670",
+      "new": "670",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### ####",
+      "new": "#### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+670\\d{7}$",
+      "new": "^\\+670\\d{7,8}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "TG",
+    "name": "Togo",
+    "dialCode": {
+      "existing": "228",
+      "new": "228",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ## ##",
+      "new": "## ## ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+228\\d{8}$",
+      "new": "^\\+228\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "TK",
+    "name": "Tokelau",
+    "dialCode": {
+      "existing": "690",
+      "new": "690",
+      "differs": false
+    },
+    "mask": {
+      "existing": "####",
+      "new": "#######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+690\\d{4}$",
+      "new": "^\\+690\\d{4,7}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "TO",
+    "name": "Tonga",
+    "dialCode": {
+      "existing": "676",
+      "new": "676",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##-###",
+      "new": "### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+676\\d{5}$",
+      "new": "^\\+676\\d{5,7}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "TT",
+    "name": "Trinidad and Tobago",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1868\\d{7}$",
+      "new": "^\\+1868\\d{7}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "TA",
+    "name": "Tristán de Acuña",
+    "dialCode": {
+      "existing": "290",
+      "new": "290",
+      "differs": false
+    },
+    "mask": {
+      "existing": "####",
+      "new": "####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+290899\\d{1}$",
+      "new": "^\\+290\\d{4}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "TN",
+    "name": "Tunisia",
+    "dialCode": {
+      "existing": "216",
+      "new": "216",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "## ### ###",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+216\\d{8}$",
+      "new": "^\\+216\\d{8}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "TR",
+    "name": "Turkey",
+    "dialCode": {
+      "existing": "90",
+      "new": "90",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(####) ### ## ##",
+      "new": "### ### #######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+90\\d{10}$",
+      "new": "^\\+90\\d{7,13}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "TM",
+    "name": "Turkmenistan",
+    "dialCode": {
+      "existing": "993",
+      "new": "993",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(# ##) ##-##-##",
+      "new": "## ######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+993\\d{8}$",
+      "new": "^\\+993\\d{8}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "TV",
+    "name": "Tuvalu",
+    "dialCode": {
+      "existing": "688",
+      "new": "688",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ###",
+      "new": "## #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+688\\d{5}$",
+      "new": "^\\+688\\d{5,7}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "UG",
+    "name": "Uganda",
+    "dialCode": {
+      "existing": "256",
+      "new": "256",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #######",
+      "new": "## #######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+256\\d{9}$",
+      "new": "^\\+256\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "UA",
+    "name": "Ukraine",
+    "dialCode": {
+      "existing": "380",
+      "new": "380",
+      "differs": false
+    },
+    "mask": {
+      "existing": "##### #####",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+380\\d{9}$",
+      "new": "^\\+380\\d{9,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "AE",
+    "name": "United Arab Emirates",
+    "dialCode": {
+      "existing": "971",
+      "new": "971",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ####",
+      "new": "## ### ####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+971\\d{8}$",
+      "new": "^\\+971\\d{5,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "GB",
+    "name": "United Kingdom",
+    "dialCode": {
+      "existing": "44",
+      "new": "44",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ### ####",
+      "new": "### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+44121\\d{7}$",
+      "new": "^\\+44\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "US",
+    "name": "United States",
+    "dialCode": {
+      "existing": "1",
+      "new": "1",
+      "differs": false
+    },
+    "mask": {
+      "existing": "(###) ###-####",
+      "new": "(###) ###-####",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+1201\\d{7}$",
+      "new": "^\\+1\\d{10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "UY",
+    "name": "Uruguay",
+    "dialCode": {
+      "existing": "598",
+      "new": "598",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ####",
+      "new": "### ### ### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+598\\d{8}$",
+      "new": "^\\+598\\d{4,13}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "UZ",
+    "name": "Uzbekistan",
+    "dialCode": {
+      "existing": "998",
+      "new": "998",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ## ##",
+      "new": "## ### ## ##",
+      "differs": false
+    },
+    "pattern": {
+      "existing": "^\\+998\\d{9}$",
+      "new": "^\\+998\\d{9}$",
+      "differs": false
+    },
+    "differs": false
+  },
+  {
+    "iso": "VU",
+    "name": "Vanuatu",
+    "dialCode": {
+      "existing": "678",
+      "new": "678",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#####",
+      "new": "### ####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+678\\d{5}$",
+      "new": "^\\+678\\d{5,7}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "VA",
+    "name": "Vatican City",
+    "dialCode": {
+      "existing": "379",
+      "new": "39",
+      "differs": true
+    },
+    "mask": {
+      "existing": "## #### ####",
+      "new": "### #### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+39066\\d{7}$",
+      "new": "^\\+39\\d{6,12}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "VE",
+    "name": "Venezuela",
+    "dialCode": {
+      "existing": "58",
+      "new": "58",
+      "differs": false
+    },
+    "mask": {
+      "existing": "####-#######",
+      "new": "###-#######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+58\\d{10}$",
+      "new": "^\\+58\\d{10}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "VN",
+    "name": "Vietnam",
+    "dialCode": {
+      "existing": "84",
+      "new": "84",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### #### ###",
+      "new": "### #### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+84\\d{10}$",
+      "new": "^\\+84\\d{7,10}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "WF",
+    "name": "Wallis y Futuna",
+    "dialCode": {
+      "existing": "681",
+      "new": "681",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ## ##",
+      "new": "### ## ## ##",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+681\\d{6}$",
+      "new": "^\\+681\\d{6,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "YE",
+    "name": "Yemen",
+    "dialCode": {
+      "existing": "967",
+      "new": "967",
+      "differs": false
+    },
+    "mask": {
+      "existing": "## ### ###",
+      "new": "### ### ###",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+967\\d{7}$",
+      "new": "^\\+967\\d{7,9}$",
+      "differs": true
+    },
+    "differs": true
+  },
+  {
+    "iso": "ZM",
+    "name": "Zambia",
+    "dialCode": {
+      "existing": "260",
+      "new": "260",
+      "differs": false
+    },
+    "mask": {
+      "existing": "#### ### ###",
+      "new": "## #######",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+260\\d{9}$",
+      "new": "^\\+260\\d{9}$",
+      "differs": false
+    },
+    "differs": true
+  },
+  {
+    "iso": "ZW",
+    "name": "Zimbabwe",
+    "dialCode": {
+      "existing": "263",
+      "new": "263",
+      "differs": false
+    },
+    "mask": {
+      "existing": "### #####",
+      "new": "#### #####",
+      "differs": true
+    },
+    "pattern": {
+      "existing": "^\\+263\\d{7}$",
+      "new": "^\\+263\\d{5,10}$",
+      "differs": true
+    },
+    "differs": true
+  }
+]

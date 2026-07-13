@@ -242,7 +242,7 @@ final List<Map<String, dynamic>> testNumbers = [
   {'phone': '59817705555', 'isoCode': 'UY', 'countryName': 'Uruguay', 'dialCode': '598'},
   {'phone': '998205555555', 'isoCode': 'UZ', 'countryName': 'Uzbekistan', 'dialCode': '998'},
   {'phone': '67805555', 'isoCode': 'VU', 'countryName': 'Vanuatu', 'dialCode': '678'},
-  {'phone': '3790555555555', 'isoCode': 'VA', 'countryName': 'Vatican City', 'dialCode': '379'},
+  {'phone': '390669823456', 'isoCode': 'VA', 'countryName': 'Vatican City', 'dialCode': '39'},
   {'phone': '5821255555555', 'isoCode': 'VE', 'countryName': 'Venezuela', 'dialCode': '58'},
   {'phone': '8424555555555', 'isoCode': 'VN', 'countryName': 'Vietnam', 'dialCode': '84'},
   {'phone': '681555555', 'isoCode': 'WF', 'countryName': 'Wallis y Futuna', 'dialCode': '681'},
@@ -420,4 +420,237 @@ void main() {
       expect(canonicalIsValid || canonicalMatchesRegex, true);
     });
   }
+
+  group('Switzerland Specific Tests', () {
+    test('detects Swiss mobile number without +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "41791234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'CH');
+      expect(country.countryName, 'Switzerland');
+    });
+
+    test('detects Swiss mobile number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+41791234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'CH');
+      expect(country.countryName, 'Switzerland');
+    });
+
+    test('detects Swiss landline/geographic number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+41215555555");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'CH');
+    });
+
+    test('validates Swiss mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'CH');
+      bool isValid = phoneValidator.checkPhonePattern("791234567", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Colombia Specific Tests', () {
+    test('detects Colombian mobile number without +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "573105555555");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'CO');
+      expect(country.countryName, 'Colombia');
+    });
+
+    test('detects Colombian mobile number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+573105555555");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'CO');
+      expect(country.countryName, 'Colombia');
+    });
+
+    test('validates Colombian mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'CO');
+      bool isValid = phoneValidator.checkPhonePattern("3105555555", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Bolivia Specific Tests', () {
+    test('detects Bolivian mobile number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+59160012345");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'BO');
+    });
+
+    test('validates Bolivian mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'BO');
+      bool isValid = phoneValidator.checkPhonePattern("60012345", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Ecuador Specific Tests', () {
+    test('detects Ecuadorian mobile number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+593991234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'EC');
+    });
+
+    test('validates Ecuadorian mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'EC');
+      bool isValid = phoneValidator.checkPhonePattern("991234567", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Peru Specific Tests', () {
+    test('detects Peruvian mobile number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+51912345678");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'PE');
+    });
+
+    test('validates Peruvian mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'PE');
+      bool isValid = phoneValidator.checkPhonePattern("912345678", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Venezuela Specific Tests', () {
+    test('detects Venezuelan mobile number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+584121234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'VE');
+    });
+
+    test('validates Venezuelan mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'VE');
+      bool isValid = phoneValidator.checkPhonePattern("4121234567", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Uruguay Specific Tests', () {
+    test('detects Uruguayan mobile number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+59899123456");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'UY');
+    });
+
+    test('validates Uruguayan mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'UY');
+      bool isValid = phoneValidator.checkPhonePattern("99123456", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Argentina Specific Tests (International)', () {
+    test('detects Argentine mobile number with 9 prefix', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+5491155555555");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'AR');
+    });
+
+    test('validates Argentine mobile number with 9 prefix correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'AR');
+      bool isValid = phoneValidator.checkPhonePattern("91155555555", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Brazil Specific Tests (International)', () {
+    test('detects Brazilian mobile number with +', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+5511988888888");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'BR');
+    });
+
+    test('validates Brazilian mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'BR');
+      bool isValid = phoneValidator.checkPhonePattern("11988888888", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Spain Specific Tests (International)', () {
+    test('detects Spanish mobile number starting with 68', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+34681234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'ES');
+    });
+
+    test('validates Spanish mobile number starting with 68 correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'ES');
+      bool isValid = phoneValidator.checkPhonePattern("681234567", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Paraguay Specific Tests (International)', () {
+    test('detects Paraguayan mobile number starting with 9', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+595981123456");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'PY');
+    });
+
+    test('validates Paraguayan mobile number starting with 9 correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'PY');
+      bool isValid = phoneValidator.checkPhonePattern("981123456", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Panama Specific Tests (International)', () {
+    test('detects Panama mobile number starting with 6', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+50761234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'PA');
+    });
+
+    test('validates Panama mobile number starting with 6 correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'PA');
+      bool isValid = phoneValidator.checkPhonePattern("61234567", country);
+      expect(isValid, true);
+    });
+  });
+
+  group('Mexico Specific Tests (International)', () {
+    test('detects Mexico mobile number with Monterrey area code (81)', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+528112345678");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'MX');
+    });
+
+    test('validates Mexico mobile number with Monterrey area code (81) correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'MX');
+      bool isValid = phoneValidator.checkPhonePattern("8112345678", country);
+      expect(isValid, true);
+    });
+  });
 }

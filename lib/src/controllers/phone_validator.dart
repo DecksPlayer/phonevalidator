@@ -93,7 +93,7 @@ class PhoneValidator{
 
 
   Country? getCountryByPhone(List<Country> countries,String fullPhoneNumber){
-    String normalized = fullPhoneNumber.replaceAll(RegExp(r'[^\d+]'), '');
+    String normalized = fullPhoneNumber.replaceAll(RegExp(r'[^\d]'), '');
     countries.sort((a, b) => b.dialCode.length.compareTo(a.dialCode.length));
     for (final country in countries) {
       if (normalized.startsWith(country.dialCode)) {
