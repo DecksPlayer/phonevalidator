@@ -653,4 +653,78 @@ void main() {
       expect(isValid, true);
     });
   });
+
+  group('Lithuania Specific Tests', () {
+    test('detects Lithuanian mobile number starting with 6', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+37061234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'LT');
+    });
+
+    test('validates Lithuanian mobile number starting with 6 correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'LT');
+      bool isValid = phoneValidator.checkPhonePattern("61234567", country);
+      expect(isValid, true);
+    });
+
+    test('detects Lithuanian corporate number starting with 700', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+37070012345");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'LT');
+    });
+  });
+
+  group('Nigeria Specific Tests', () {
+    test('detects Nigerian mobile number starting with 807', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+2348071234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'NG');
+    });
+
+    test('detects Nigerian mobile number starting with 703', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+2347031234567");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'NG');
+    });
+
+    test('validates Nigerian mobile number correctly', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'NG');
+      bool isValid = phoneValidator.checkPhonePattern("8071234567", country);
+      expect(isValid, true);
+    });
+
+    test('detects Nigerian landline number starting with 201', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+2342012345678");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'NG');
+    });
+
+    test('detects Nigerian landline number starting with new area code 2061', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      Country? country = phoneValidator.getCountryByPhone(countries, "+2342061123456");
+      expect(country, isNotNull);
+      expect(country!.isoCode, 'NG');
+    });
+
+    test('validates shorter Nigerian landline number correctly (8 digits)', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'NG');
+      bool isValid = phoneValidator.checkPhonePattern("20112345", country);
+      expect(isValid, true);
+    });
+
+    test('validates shorter Nigerian landline number correctly (9 digits)', () {
+      final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
+      final country = countries.firstWhere((c) => c.isoCode == 'NG');
+      bool isValid = phoneValidator.checkPhonePattern("203012345", country);
+      expect(isValid, true);
+    });
+  });
 }

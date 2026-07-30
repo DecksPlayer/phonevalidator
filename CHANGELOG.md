@@ -130,3 +130,6 @@
 
 ## 2.1.12
 - Hotfix in PhoneAutoDetectView
+
+## 2.1.13
+- Hotfix South Africa Area Code bug
