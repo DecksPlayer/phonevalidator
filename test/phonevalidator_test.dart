@@ -99,11 +99,11 @@ final List<Map<String, dynamic>> testNumbers = [
   {'phone': '35322555555', 'isoCode': 'IE', 'countryName': 'Ireland', 'dialCode': '353'},
   {'phone': '24755555', 'isoCode': 'AC', 'countryName': 'Isla de la Ascensión', 'dialCode': '247'},
   {'phone': '4416245555555', 'isoCode': 'IM', 'countryName': 'Isla de Man', 'dialCode': '44'},
-  {'phone': '618555555555', 'isoCode': 'CX', 'countryName': 'Isla de Navidad', 'dialCode': '61'},
+  {'phone': '61891640000', 'isoCode': 'CX', 'countryName': 'Isla de Navidad', 'dialCode': '61'},
   {'phone': '672555555', 'isoCode': 'NF', 'countryName': 'Isla Norfolk', 'dialCode': '672'},
   {'phone': '3581855555555', 'isoCode': 'AX', 'countryName': 'Islas Aland', 'dialCode': '358'},
   {'phone': '13455555555', 'isoCode': 'KY', 'countryName': 'Islas Caimán', 'dialCode': '1'},
-  {'phone': '618555555555', 'isoCode': 'CC', 'countryName': 'Islas Cocos', 'dialCode': '61'},
+  {'phone': '61891620000', 'isoCode': 'CC', 'countryName': 'Islas Cocos', 'dialCode': '61'},
   {'phone': '68255555', 'isoCode': 'CK', 'countryName': 'Islas Cook', 'dialCode': '682'},
   {'phone': '298555555', 'isoCode': 'FO', 'countryName': 'Islas Feroe', 'dialCode': '298'},
   {'phone': '50055555', 'isoCode': 'FK', 'countryName': 'Islas Malvinas', 'dialCode': '500'},
@@ -112,7 +112,7 @@ final List<Map<String, dynamic>> testNumbers = [
   {'phone': '12845555555', 'isoCode': 'VG', 'countryName': 'Islas Vírgenes Británicas', 'dialCode': '1'},
   {'phone': '13405555555', 'isoCode': 'VI', 'countryName': 'Islas Vírgenes de EE. UU.', 'dialCode': '1'},
   {'phone': '972255555555', 'isoCode': 'IL', 'countryName': 'Israel', 'dialCode': '972'},
-  {'phone': '392555555555', 'isoCode': 'IT', 'countryName': 'Italy', 'dialCode': '39'},
+  {'phone': '390212345678', 'isoCode': 'IT', 'countryName': 'Italy', 'dialCode': '39'},
   {'phone': '16585555555', 'isoCode': 'JM', 'countryName': 'Jamaica', 'dialCode': '1'},
   {'phone': '813555555555', 'isoCode': 'JP', 'countryName': 'Japan', 'dialCode': '81'},
   {'phone': '4415345555555', 'isoCode': 'JE', 'countryName': 'Jersey', 'dialCode': '44'},
@@ -185,15 +185,16 @@ final List<Map<String, dynamic>> testNumbers = [
   {'phone': '402155555555', 'isoCode': 'RO', 'countryName': 'Romania', 'dialCode': '40'},
   {'phone': '730155555555', 'isoCode': 'RU', 'countryName': 'Russia', 'dialCode': '7'},
   {'phone': '250220555555', 'isoCode': 'RW', 'countryName': 'Rwanda', 'dialCode': '250'},
-  {'phone': '2125555555555', 'isoCode': 'EH', 'countryName': 'Sáhara Occidental', 'dialCode': '212'},
+  // Western Sahara numbers fall within Morocco's ranges; libphonenumber resolves them to MA.
+  {'phone': '212528800000', 'isoCode': 'MA', 'countryName': 'Morocco', 'dialCode': '212'},
   {'phone': '18695555555', 'isoCode': 'KN', 'countryName': 'Saint Kitts and Nevis', 'dialCode': '1'},
   {'phone': '17585555555', 'isoCode': 'LC', 'countryName': 'Saint Lucia', 'dialCode': '1'},
   {'phone': '17845555555', 'isoCode': 'VC', 'countryName': 'Saint Vincent and the Grenadines', 'dialCode': '1'},
   {'phone': '68520555', 'isoCode': 'WS', 'countryName': 'Samoa', 'dialCode': '685'},
   {'phone': '16845555555', 'isoCode': 'AS', 'countryName': 'Samoa Americana', 'dialCode': '1'},
-  {'phone': '5905905555555', 'isoCode': 'BL', 'countryName': 'San Bartolomé', 'dialCode': '590'},
+  {'phone': '590590270000', 'isoCode': 'BL', 'countryName': 'San Bartolomé', 'dialCode': '590'},
   {'phone': '3780555555555', 'isoCode': 'SM', 'countryName': 'San Marino', 'dialCode': '378'},
-  {'phone': '5905905555555', 'isoCode': 'MF', 'countryName': 'San Martín', 'dialCode': '590'},
+  {'phone': '590590000000', 'isoCode': 'MF', 'countryName': 'San Martín', 'dialCode': '590'},
   {'phone': '5084155555', 'isoCode': 'PM', 'countryName': 'San Pedro y Miquelón', 'dialCode': '508'},
   {'phone': '29025555', 'isoCode': 'SH', 'countryName': 'Santa Elena', 'dialCode': '290'},
   {'phone': '2392555555', 'isoCode': 'ST', 'countryName': 'Sao Tome and Principe', 'dialCode': '239'},
@@ -215,7 +216,7 @@ final List<Map<String, dynamic>> testNumbers = [
   {'phone': '941125555555', 'isoCode': 'LK', 'countryName': 'Sri Lanka', 'dialCode': '94'},
   {'phone': '2491555555555', 'isoCode': 'SD', 'countryName': 'Sudan', 'dialCode': '249'},
   {'phone': '597215555', 'isoCode': 'SR', 'countryName': 'Suriname', 'dialCode': '597'},
-  {'phone': '4755555555', 'isoCode': 'SJ', 'countryName': 'Svalbard y Jan Mayen', 'dialCode': '47'},
+  {'phone': '4779000000', 'isoCode': 'SJ', 'countryName': 'Svalbard y Jan Mayen', 'dialCode': '47'},
   {'phone': '4685555555', 'isoCode': 'SE', 'countryName': 'Sweden', 'dialCode': '46'},
   {'phone': '412155555555', 'isoCode': 'CH', 'countryName': 'Switzerland', 'dialCode': '41'},
   {'phone': '9631155555555', 'isoCode': 'SY', 'countryName': 'Syria', 'dialCode': '963'},
@@ -336,13 +337,14 @@ Set<String> _possibleIsoCodesForNumber(
   String fullNumber,
   PhoneValidator validator,
 ) {
-  final Set<String> result = <String>{};
   final String normalized = fullNumber.replaceAll(RegExp(r'[^\d+]'), '');
+  final group =
+      countries.where((c) => normalized.startsWith(c.dialCode)).toList();
+  // A dial code used by a single country identifies it on its own.
+  if (group.length == 1) return {group.first.isoCode};
 
-  for (final country in countries) {
-    if (!normalized.startsWith(country.dialCode)) {
-      continue;
-    }
+  final Set<String> result = <String>{};
+  for (final country in group) {
     final String local = normalized.substring(country.dialCode.length);
     if (validator.checkAreaCode(country, local)) {
       result.add(country.isoCode);
@@ -713,17 +715,19 @@ void main() {
       expect(country!.isoCode, 'NG');
     });
 
-    test('validates shorter Nigerian landline number correctly (8 digits)', () {
+    // Nigeria moved landlines to 10 digits; libphonenumber no longer accepts
+    // the old 8/9-digit format.
+    test('rejects old short Nigerian landline numbers (8 and 9 digits)', () {
       final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
       final country = countries.firstWhere((c) => c.isoCode == 'NG');
-      bool isValid = phoneValidator.checkPhonePattern("20112345", country);
-      expect(isValid, true);
+      expect(phoneValidator.checkPhonePattern("20112345", country), false);
+      expect(phoneValidator.checkPhonePattern("203012345", country), false);
     });
 
-    test('validates shorter Nigerian landline number correctly (9 digits)', () {
+    test('validates 10-digit Nigerian landline number', () {
       final PhoneValidator phoneValidator = PhoneValidator(lang: "en");
       final country = countries.firstWhere((c) => c.isoCode == 'NG');
-      bool isValid = phoneValidator.checkPhonePattern("203012345", country);
+      bool isValid = phoneValidator.checkPhonePattern("2012345678", country);
       expect(isValid, true);
     });
   });

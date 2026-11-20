@@ -4669,7 +4669,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "DO",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+18001|8[024]9\\d{-2}\$",
+    "pattern": "^\\+1\\d{10}\$",
     "mask": "(###) ###-####",
     "emoji": "🇩🇴",
     "areaCodes": [809, 829, 849]
@@ -16335,7 +16335,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "JM",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1658|876\\d{3}\$",
+    "pattern": "^\\+1\\d{10}\$",
     "mask": "(###) ###-####",
     "emoji": "🇯🇲",
     "areaCodes": [658, 876]
@@ -19553,7 +19553,7 @@ List<Map<String, dynamic>> mapSupportedCountries = [
     "isoCode": "PR",
     "dialCode": "1",
     "visualText": "+1",
-    "pattern": "^\\+1787|939\\d{3}\$",
+    "pattern": "^\\+1\\d{10}\$",
     "mask": "(###) ###-####",
     "emoji": "🇵🇷",
     "areaCodes": [787, 939]

@@ -57,6 +57,12 @@ class _MyHomePageState extends State<MyHomePage> {
   PhoneValidator phoneValidatorEs = PhoneValidator(lang: 'es');
   PhoneValidator phoneValidatorUr = PhoneValidator(lang: 'ur');
 
+  // Each PhoneSmartDetectView gets its own validator so validity states
+  // don't interfere with the other widgets.
+  PhoneValidator smartValidator = PhoneValidator(lang: 'es');
+  PhoneValidator smartValidatorInitial = PhoneValidator(lang: 'es');
+  PhoneDetectionResult? detected;
+
   @override
   void initState() {
     // TODO: implement initState
@@ -74,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           actions: [languageDropdown()],
         ),
-        body: Center(
+        body: SingleChildScrollView(
           child: Column(
             children: [
               FractionallySizedBox(
@@ -106,6 +112,40 @@ class _MyHomePageState extends State<MyHomePage> {
               PhoneAutoDetectView(
                 phoneValidator: phoneValidatorEn,
                 fullPhoneNumber: '+34612345678',
+              ),
+              const Divider(),
+              const Text('PhoneSmartDetectView (no country needed):'),
+              const Text(
+                'Type a national number: 3516458468, 0351 645 8468, 1155554444',
+                style: TextStyle(fontSize: 12, color: Colors.grey),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25),
+                child: PhoneSmartDetectView(
+                  phoneValidator: smartValidator,
+                  preferredCountries: const ['AR'],
+                  onChanged: (result) => setState(() => detected = result),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8),
+                child: Text(
+                  detected == null
+                      ? 'No country detected yet'
+                      : '${detected!.country.emoji} ${detected!.country.countryName}'
+                          ' · ${detected!.nationalNumber}'
+                          '${detected!.areaCode != null ? ' · area ${detected!.areaCode}' : ''}'
+                          ' · ${detected!.isValid ? 'valid' : 'incomplete'}',
+                ),
+              ),
+              const Text('PhoneSmartDetectView with initial value (3516458468):'),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25),
+                child: PhoneSmartDetectView(
+                  phoneValidator: smartValidatorInitial,
+                  initialPhoneNumber: '3516458468',
+                  preferredCountries: const ['AR'],
+                ),
               ),
               const Divider(),
               const Text('PhoneCountryInput (Pre-fixed to Argentina):'),

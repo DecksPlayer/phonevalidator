@@ -10,17 +10,38 @@ class Country{
   final String dialCode;
   /// A visual representation of the country, often including the dial code and ISO code.
   final String visualText;
-  /// A regular expression pattern used to validate phone numbers for this country.
+  /// A coarse regular expression (mostly length) for the full number,
+  /// e.g. `^\+54\d{10,11}$`. Strict validation uses [fixedLinePattern] and
+  /// [mobilePattern] when available.
   final String pattern;
   /// A mask pattern used for formatting phone numbers in this country.
   final String mask;
   /// The emoji flag representing the country.
   final String emoji;
-  /// A list of area codes for the country.
+  /// Area codes as integers, kept for backward compatibility.
+  ///
+  /// An `int` can't keep a leading zero, so codes such as `"02"` (Milan) or
+  /// `"0549"` (San Marino) appear here as `2` and `549`. Prefer
+  /// [areaCodePrefixes], which is what the validator uses.
   final List<int> areaCodes;
+  /// Prefixes of the national number that identify valid numbers: landline
+  /// area codes and mobile prefixes (e.g. "351", "9351" and "11" for
+  /// Argentina). Strings, so leading zeros are kept (e.g. "02" for Milan).
+  ///
+  /// When not given, it is built from [areaCodes].
+  final List<String> areaCodePrefixes;
+  /// Official libphonenumber regex for fixed-line national numbers (without
+  /// dial code or trunk prefix). Empty if unknown.
+  final String fixedLinePattern;
+  /// Official libphonenumber regex for mobile national numbers. Empty if
+  /// unknown.
+  final String mobilePattern;
 
   /// Creates a [Country] object.
-  /// All parameters are required.
+  ///
+  /// Pass [areaCodes] (integers, as in previous versions) or
+  /// [areaCodePrefixes] (strings, keeps leading zeros); the other one is
+  /// derived from it.
   Country({
     required this.countryName,
     required this.isoCode,
@@ -29,8 +50,17 @@ class Country{
     required this.pattern,
     required this.mask,
     required this.emoji,
-    required this.areaCodes,
-  });
+    List<int>? areaCodes,
+    List<String>? areaCodePrefixes,
+    this.fixedLinePattern = '',
+    this.mobilePattern = '',
+  })  : areaCodePrefixes = areaCodePrefixes ??
+            [for (final code in areaCodes ?? const <int>[]) '$code'],
+        areaCodes = areaCodes ??
+            {
+              for (final code in areaCodePrefixes ?? const <String>[])
+                int.parse(code)
+            }.toList();
 
   /// Creates a [Country] object from a JSON map.
   /// Provides default values if certain keys are missing or null in the JSON.
@@ -44,8 +74,13 @@ class Country{
       mask: json['mask'] as String? ?? '',
       emoji: json['emoji'] as String? ?? '',
       areaCodes: (json['areaCodes'] as List<dynamic>?)
-              ?.map((e) => e as int)
-              .toList() ?? <int>[],
+          ?.map((e) => e is int ? e : int.parse(e.toString()))
+          .toList(),
+      areaCodePrefixes: (json['areaCodePrefixes'] as List<dynamic>?)
+          ?.map((e) => e.toString())
+          .toList(),
+      fixedLinePattern: json['fixedLinePattern'] as String? ?? '',
+      mobilePattern: json['mobilePattern'] as String? ?? '',
     );
   }
 
@@ -60,6 +95,9 @@ class Country{
       'mask': mask,
       'emoji': emoji,
       'areaCodes': areaCodes,
+      'areaCodePrefixes': areaCodePrefixes,
+      'fixedLinePattern': fixedLinePattern,
+      'mobilePattern': mobilePattern,
     };
   }
 

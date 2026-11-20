@@ -1,3 +1,13 @@
+## Unreleased
+- Add `PhoneSmartDetectView`: input for national numbers (`3516458468`, `0351 645 8468`) that detects the country from the area code, with no country selector. Shows "Invalid number" under the field while the number is not valid (customisable with `invalidText`). Numbers are validated against `preferredCountries` (defaults to the device locale); when several countries match, alternatives are shown as chips.
+- Add `PhoneValidator.detectCountries` / `detectCountry` (with optional `nationalOnly`) and the `PhoneDetectionResult` model.
+- Validation now uses Google libphonenumber's official fixed-line and mobile patterns (new `Country.fixedLinePattern` / `Country.mobilePattern`). Previously mobile numbers were rejected in 89 countries (e.g. France, Germany, UK, Australia) and partially in 56 more; Italian landlines and Dominican Republic, Jamaica and Puerto Rico numbers were also rejected.
+- Add `PhoneValidator.getNumberType` and `PhoneNumberType` (fixed line / mobile).
+- Area codes regenerated from libphonenumber, including mobile prefixes (`scripts/supported_countries/extract_libphonenumber_data.js`).
+- `getCountryByPhone` follows libphonenumber: a dial code used by one country is enough; shared dial codes (+1, +7, +44…) are resolved by area code.
+- Add `Country.areaCodePrefixes` (`List<String>`), which keeps leading zeros (e.g. `"02"` for Milan) and is used by the validator. `Country.areaCodes` stays `List<int>` and the `Country` constructor accepts either one, so existing code keeps working.
+- Nigerian 8/9-digit landlines are no longer valid (Nigeria moved to 10 digits).
+
 ## 2.1.7
 - Add customization options `dropDownColor`, `dropdownTextColor`, and `dropdownItemColor` to `PhoneInputSelectorView`.
 - Improve flag and dropdown styling options.
